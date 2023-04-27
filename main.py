@@ -1,10 +1,6 @@
-import telegram
 import json
 import random
-import time
 import requests
-
-from telegram.ext import Updater
 
 # Read the token and chat id from the JSON file
 with open('setup.json') as f:
@@ -17,30 +13,26 @@ with open('setup.json') as f:
 with open('questions.json') as f:
     questions = json.load(f)
 
-
-# Replace YOUR_QUESTION with the question you want to ask in the poll
+# Get a random question object from the questions.json file
 question_obj = random.choice(questions)
 
-# Replace YOUR_OPTIONS with a list of up to 10 options for the poll
+# Get original information before shuffling
+question = question_obj["question"]
 options = question_obj["options"]
 answer = question_obj["answer"]
-print("answer: " + str(answer))
 
-correct_option = options[answer]
-print("correct option: " + correct_option)
+# Get the correct option text at the moment based on the original answer
+option_text = options[answer]
 
+# Shuffle the options
 random.shuffle(options)
 
+# Update answer to the shuffled option index
 for index, option in enumerate(options):
-    print(str(index) + ": " + option)
-    if option == correct_option:
+    if option == option_text:
         answer = index
 
-print("answer: " + str(answer))
-correct_option = options[answer]
-print("correct option: " + correct_option)
-
-
+# Parse the options into a JSON object
 options_json = json.dumps(options)
 
 # Set up the URL for the Telegram API
@@ -49,7 +41,7 @@ url = f'https://api.telegram.org/bot{token}/sendPoll'
 # Set up the request payload
 payload = {
     'chat_id': chat_id,
-    'question': question_obj["question"],
+    'question': question,
     'options': options_json,
     'is_anonymous': True,
     'allows_multiple_answers': False,
