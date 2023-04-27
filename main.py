@@ -2,6 +2,7 @@ import telegram
 import json
 import random
 import time
+import requests
 
 from telegram.ext import Updater
 
@@ -16,24 +17,33 @@ with open('setup.json') as f:
 with open('questions.json') as f:
     questions = json.load(f)
 
-bot = telegram.Bot(token=token)
 
-#while True:
-# Choose a random question from the list
-question = random.choice(questions)
+# Replace YOUR_QUESTION with the question you want to ask in the poll
+question = 'What is your favorite color?'
 
-# Re-order the options randomly
-random.shuffle(question['options'])
+# Replace YOUR_OPTIONS with a list of up to 10 options for the poll
+options = ['Option 1', 'Option 2', 'Option 3']
+options_json = json.dumps(options)
 
-# Send the poll to the Telegram chat
-#poll = bot.send_poll(chat_id=chat_id, question=question['question'], options=question['options'], correct_option_id=question['answer'])
+# Set up the URL for the Telegram API
+url = f'https://api.telegram.org/bot{token}/sendPoll'
 
-bot.send_message(chat_id=chat_id, text="Hello from python")
+# Set up the request payload
+payload = {
+    'chat_id': chat_id,
+    'question': question,
+    'options': options_json,
+    'is_anonymous': False,
+    'allows_multiple_answers': False,
+    'type': 'quiz',
+    'correct_option_id': 0
+}
 
+# Send the request to the Telegram API
+response = requests.post(url, data=payload)
 
-print(token)
-print(chat_id)
-print("Success")
-
-# Wait for 60 seconds before sending the next poll
-time.sleep(60)
+# Check if the poll was sent successfully
+if response.status_code == 200:
+    print('Poll sent successfully.')
+else:
+    print(f'Error sending poll: {response.status_code} - {response.text}')
