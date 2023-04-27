@@ -1,0 +1,19 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Rome"],
+        "answer": 0
+    },
+
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+        "answer": 0
+    },
+
+    {
+        "question": "What is the tallest mammal?",
+        "options": ["Elephant", "Giraffe", "Rhino", "Hippopotamus"],
+        "answer": 1
+    }
+]
