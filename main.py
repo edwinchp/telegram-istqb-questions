@@ -19,10 +19,11 @@ with open('questions.json') as f:
 
 
 # Replace YOUR_QUESTION with the question you want to ask in the poll
-question = 'What is your favorite color?'
+question_obj = random.choice(questions)
 
 # Replace YOUR_OPTIONS with a list of up to 10 options for the poll
-options = ['Option 1', 'Option 2', 'Option 3']
+options = question_obj["options"]
+random.shuffle(options)
 options_json = json.dumps(options)
 
 # Set up the URL for the Telegram API
@@ -31,12 +32,12 @@ url = f'https://api.telegram.org/bot{token}/sendPoll'
 # Set up the request payload
 payload = {
     'chat_id': chat_id,
-    'question': question,
+    'question': question_obj["question"],
     'options': options_json,
     'is_anonymous': False,
     'allows_multiple_answers': False,
     'type': 'quiz',
-    'correct_option_id': 0
+    'correct_option_id': question_obj["answer"]
 }
 
 # Send the request to the Telegram API
