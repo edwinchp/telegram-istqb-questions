@@ -23,7 +23,24 @@ question_obj = random.choice(questions)
 
 # Replace YOUR_OPTIONS with a list of up to 10 options for the poll
 options = question_obj["options"]
+answer = question_obj["answer"]
+print("answer: " + str(answer))
+
+correct_option = options[answer]
+print("correct option: " + correct_option)
+
 random.shuffle(options)
+
+for index, option in enumerate(options):
+    print(str(index) + ": " + option)
+    if option == correct_option:
+        answer = index
+
+print("answer: " + str(answer))
+correct_option = options[answer]
+print("correct option: " + correct_option)
+
+
 options_json = json.dumps(options)
 
 # Set up the URL for the Telegram API
@@ -34,10 +51,10 @@ payload = {
     'chat_id': chat_id,
     'question': question_obj["question"],
     'options': options_json,
-    'is_anonymous': False,
+    'is_anonymous': True,
     'allows_multiple_answers': False,
     'type': 'quiz',
-    'correct_option_id': question_obj["answer"]
+    'correct_option_id': answer
 }
 
 # Send the request to the Telegram API
