@@ -4,7 +4,7 @@
     "options": [
       "A distinguishing characteristic of a component or system",
       "A testable aspect of a component or system identified as a basis for testing",
-      "The degree to which a software product provides functions which meet stated and implied needs when the software is used under specified conditions",
+      "The degree to which a software product provides functions which meet needs when the software is used",
       "Test cases designed to execute combinations of conditions and actions resulting from them"
     ],
     "answer": 1
@@ -13,7 +13,7 @@
   {
     "question": "Which of the following statements is a valid objective for testing?",
     "options": [
-      "The test should start as late as possible so that development had enough time to create a good product",
+      "Test should start as late as possible so that development had enough time to create a good product",
       "To validate whether the test object works as expected by the users and other stakeholders",
       "To prove that all possible defects are identified",
       "To prove that any remaining defects will not cause any failures"
@@ -24,8 +24,8 @@
   {
     "question": "Which of the following statements correctly describes the difference between testing and debugging?",
     "options": [
-      "Testing identifies the source of defects; debugging analyzes the defects and proposes prevention activities",
-      "Dynamic testing shows failures caused by defects; debugging eliminates the defects, which are the source of failures",
+      "Testing identifies the source of defects; debugging analyzes the defects and proposes prevention",
+      "Dynamic testing shows failures caused by defects; debugging eliminates defects",
       "Testing removes faults; but debugging removes defects that cause the faults",
       "Dynamic testing prevents the causes of failures; debugging removes the failures"
     ],
