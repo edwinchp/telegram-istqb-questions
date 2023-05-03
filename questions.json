@@ -9,7 +9,6 @@
     ],
     "answer": 1
   },
-
   {
     "question": "Which of the following statements is a valid objective for testing?",
     "options": [
@@ -20,7 +19,6 @@
     ],
     "answer": 1
   },
-
   {
     "question": "Which of the following statements correctly describes the difference between testing and debugging?",
     "options": [
@@ -30,5 +28,45 @@
       "Dynamic testing prevents the causes of failures; debugging removes the failures"
     ],
     "answer": 1
+  },
+  {
+    "question": "Which one of the statements below describes the most common situation for a failure discovered during testing or in production?",
+    "options": [
+      "The product crashed when the user selected an option in a dialog box",
+      "The wrong version of a compiled source code file was included in the build",
+      "The computation algorithm used the wrong input variables",
+      "The developer misinterpreted the requirement for the algorithm"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Mr. Test has been testing software applications on mobile devices for a period of 5 years. He has a wealth of experience in testing mobile applications and achieves better results in a shorter time than others. Over several months, Mr. Test did not modify the existing automated test cases and did not create any new test cases. This leads to fewer and fewer defects being found by executing the tests. What principle of testing did Mr. Test not observe?",
+    "options": [
+      "Testing depends on the environment",
+      "Exhaustive testing is not possible",
+      "Repeating of same tests will not find new defects",
+      "Defects cluster together"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "In what way can testing be part of Quality Assurance?",
+    "options": [
+      "It ensures that requirements are detailed enough",
+      "Testing reduces the risk of poor software quality",
+      "It ensures that standards in the organization are followed",
+      "It measures the quality of software in terms of number of executed test cases"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following activities is part of the main activity 'test analysis' in the test process?",
+    "options": [
+      "Identifying any required infrastructure and tools",
+      "Creating test suites from test scripts",
+      "Analyzing lessons learned for process improvement",
+      "Evaluating the test basis for testability"
+    ],
+    "answer": 3
   }
 ]
