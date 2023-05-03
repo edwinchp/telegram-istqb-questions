@@ -56,4 +56,4 @@ response = requests.post(url, data=payload)
 if response.status_code == 200:
     print('Poll sent successfully.')
 else:
-    raise Exception(f'Error sending poll: {response.status_code} - {response.text}')
+    raise Exception(f'Error sending poll: {response.status_code} - {response.text} - {question}')
