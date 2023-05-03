@@ -150,7 +150,7 @@
     "answer": 2
   },
   {
-    "question": "The following statement refers to decision coverage: “When the code contains only a single ‘if’ statement and no loops or CASE statements, and its execution is not nested within the test, any single test case we run will result in 50% decision coverage.” Which of the following statement is correct?",
+    "question": "The statement on decision coverage suggests that when there is only one 'if' statement with no loops or CASE statements, and its execution is not nested, running any single test case results in 50% decision coverage. What is the correct statement regarding this?",
     "options": [
       "The statement is true. Any single test case provides 100% statement coverage and therefore 50% decision coverage",
       "The statement is true. Any single test case would cause the outcome of the “if” statement to be either true or false",
@@ -158,5 +158,75 @@
       "The statement is false. The statement is too broad. It may be correct or not, depending on the tested software"
     ],
     "answer": 1
+  },
+  {
+    "question": "Which one of the following is the description of statement coverage?",
+    "options": [
+      "It is a metric, which is the percentage of test cases that have been executed",
+      "It is a metric, which is the percentage of statements in the source code that have been executed",
+      "It is a metric that counts the number of executed statements in the source code by passed test cases",
+      "It is a metric, that gives a true/false confirmation if all statements are covered or not"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which statement about the relationship between statement coverage and decision coverage is true?",
+    "options": [
+      "100% decision coverage also guarantees 100% statement coverage",
+      "100% statement coverage also guarantees 100% decision coverage",
+      "50% decision coverage also guarantees 50% statement coverage",
+      "Decision coverage can never reach 100%"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "For which of the following situations is exploratory testing suitable?",
+    "options": [
+      "When time pressure requires speeding up the execution of tests already specified",
+      "When the system is developed incrementally, and no test charter is available",
+      "When testers are available who have enough knowledge of similar applications and technologies",
+      "When there is prior knowledge of the system and it should undergo extensive testing"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which one of the following is NOT included in a test summary report?",
+    "options": [
+      "Defining pass/fail criteria and objectives of testing",
+      "Deviations from the test approach",
+      "Measurements of actual progress against exit criteria",
+      "Evaluation of the quality of the test object"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which one of the following is the characteristic of a metrics-based approach for test estimation?",
+    "options": [
+      "Budget which was used by a previous similar test project",
+      "Overall experience collected in interviews with test managers",
+      "Estimation of effort for test automation agreed in the test team",
+      "Average of calculations collected from business experts"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which one of the following is MOST likely to be a benefit of test execution tools?",
+    "options": [
+      "It is easy to create regression tests",
+      "It is easy to maintain version control of test assets",
+      "It is easy to design tests for security testing",
+      "It is easy to run regression tests"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which one of the following test tools is mostly suitable for developers rather than testers?",
+    "options": [
+      "Requirement management tools",
+      "Configuration management tools",
+      "Static analysis tools",
+      "Performance testing tools"
+    ],
+    "answer": 2
   }
 ]
