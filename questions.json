@@ -68,5 +68,95 @@
       "Evaluating the test basis for testability"
     ],
     "answer": 3
+  },
+  {
+    "question": "How can white-box testing be applied during user acceptance testing?",
+    "options": [
+      "To check if large volumes of data can be transferred between integrated systems",
+      "To check if all code statements and code decision paths have been executed",
+      "To check if all work process flows have been covered",
+      "To cover all web page navigations"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which one of the following is the BEST definition of an incremental development model?",
+    "options": [
+      "Defining requirements, designing and testing are done in phases where in each phase a piece is added",
+      "A phase in the development process should begin when the previous phase is complete",
+      "Testing is viewed as a separate phase which takes place after development has been completed",
+      "Testing is added to development as an increment"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following should NOT be a trigger for maintenance testing?",
+    "options": [
+      "Decision to test the maintainability of the software",
+      "Decision to test the system after migration to a new operating platform",
+      "Decision to test if archived data is possible to be retrieved",
+      "Decision to test after 'hot fixes'"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following options are roles in a formal review?",
+    "options": [
+      "Developer, Moderator, Review leader, Reviewer, Tester",
+      "Author, Moderator, Manager, Reviewer, Developer",
+      "Author, Manager, Review leader, Reviewer, Designer",
+      "Author, Moderator, Review leader, Reviewer, Scribe"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which activities are carried out within the planning of a formal review?",
+    "options": [
+      "Collection of metrics for the evaluation of the effectiveness of the review",
+      "Answer any questions the participants may have",
+      "Definition and Verification of fulfillment of entry criteria for the review",
+      "Evaluation of the review findings against the exit criteria"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the review types below is the BEST option to choose when the review must follow a formal process based on rules and checklists?",
+    "options": [
+      "Informal Review",
+      "Technical Review",
+      "Inspection",
+      "Walkthrough"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following statements about static testing are MOST true?",
+    "options": [
+      "Static testing is a cheap way to detect and remove defects",
+      "Static testing makes dynamic testing less challenging",
+      "Static testing makes it possible to find run-time problems early in the lifecycle",
+      "Static testing better for safety-critical systems; dynamic testing finds defects better."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is checklist-based testing?",
+    "options": [
+      "A test technique based on tester's knowledge of past faults or general knowledge of failures",
+      "A test technique based on an analysis of the specification of a component or system",
+      "Experience-based technique where tester uses a list of items or criteria to verify product",
+      "Testers dynamically design and execute tests based on knowledge and exploration of test item"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The following statement refers to decision coverage: “When the code contains only a single ‘if’ statement and no loops or CASE statements, and its execution is not nested within the test, any single test case we run will result in 50% decision coverage.” Which of the following statement is correct?",
+    "options": [
+      "The statement is true. Any single test case provides 100% statement coverage and therefore 50% decision coverage",
+      "The statement is true. Any single test case would cause the outcome of the “if” statement to be either true or false",
+      "The statement is false. A single test case can only guarantee 25% decision coverage in this case",
+      "The statement is false. The statement is too broad. It may be correct or not, depending on the tested software"
+    ],
+    "answer": 1
   }
 ]
