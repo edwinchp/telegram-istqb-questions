@@ -1,152 +1,255 @@
 [
   {
-    "question": "What is the capital of France?",
+    "question": "¿Qué tipo de Cloud Computing representa Amazon Elastic Compute Cloud (EC2)?",
     "options": [
-      "Paris",
-      "London",
-      "Berlin",
-      "Rome"
+      "Software como servicio (SaaS)",
+      "Infraestructura como servicio (IaaS)",
+      "Red como servicio (NaaS)",
+      "Plataforma como servicio (PaaS)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál de los siguientes planes de AWS Support proporciona acceso a sólo 7 comprobaciones básicas de las comprobaciones de mejores prácticas de AWS Trusted Advisor?",
+    "options": [
+      "Corporate",
+      "Developer",
+      "Business",
+      "Enterprise"
+    ],
+    "answer": 1
+  },
+
+  {
+
+    "question": "¿Cuál de los siguientes planes de AWS Support proporciona acceso a sólo 7 comprobaciones básicas de las comprobaciones de mejores prácticas de AWS Trusted Advisor?",
+    "options": [
+      "Corporate",
+      "Basic",
+      "Business",
+      "Enterprise"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Un equipo de ciberforenses ha detectado que se están utilizando direcciones IP propiedades de AWS para realizar ataques maliciosos. Como esto constituye un uso prohibido de los servicios de AWS ¿Cuál de las siguientes es la solución correcta para abordar este problema?",
+    "options": [
+      "Contacta con AWS Support",
+      "Escribe un correo electrónico a Jeff Bezos, el CEO de Amazon, con los detalles del cliente",
+      "Contacta con el equipo de abusos de AWS",
+      "Contacta con los moderadores del foro de desarrollo de AWS"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El firewall de aplicaciones web (WAF) de AWS ofrece protección contra los exploits web más comunes ¿en qué capa?",
+    "options": [
+      "Capa 7",
+      "Capa 4",
+      "Capa 4 y 7",
+      "Capa 3"
     ],
     "answer": 0
   },
   {
-    "question": "What is the largest planet in our solar system?",
+    "question": "¿Cuál de las siguientes entidades aplica el SO subyacente de AWS Aurora?",
     "options": [
-      "Saturn",
-      "Uranus",
-      "Neptune",
-      "Jupiter"
+      "El cliente de AWS utilizando AWS Systems Manager",
+      "El equipo de productos de AWS automáticamente",
+      "El soporte de AWS tras recibir una solicitud del cliente",
+      "El cliente de AWS mediante SSH en las instancias"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Según el modelo de responsabilidad compartida de AWS, ¿Cuál de las siguientes es una responsabilidad compartida tanto de AWS como del cliente?",
+    "options": [
+      "Garantizar la separación de datos entre varios clientes de AWS",
+      "Gestión de la configuración",
+      "Mantenimiento de la infraestructura de la Zona de Disponibilidad",
+      "Mantenimiento de la infraestructura de los servidores de almacenamiento de Amaazon S3"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una empresa ha desplegado una base de datos RDS en una única Zona de Disponibilidad. Los ingenieros quiere asegurarse que en caso de una caída de la AZ, la base de datos siga funcionando en el mismo endpoint sin ninguna intervención manual. ¿Cuál de las soluciones puede resolver esto?",
+    "options": [
+      "Configurar la base de datos e despliegue RDS Multi-AZ con conm,utación por error automática al standby",
+      "Desplegas la base de datos a través de Elastic Beanstalk",
+      "Configurar la base de datos en modo de réplica de lectura RDS con conmutación por error automática en el standby",
+      "Aprovisionar la base de datos mediante CloudFormation"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál de las siguientes es una forma recomendada de proporcionar acceso programático a los recursos de AWS?",
+    "options": [
+      "Utiliza la autenticación multifactor para acceder a los recursos de AWS de forma programada",
+      "Utilizar el ID de la clave de acceso y la clave de acceso secreta para acceder a los recursos de AWS de forma programática",
+      "Crear un nuevo usuario IAM y compartir el nombre de usuario y contraseña",
+      "Utilizar los grupos IAM para acceder a los recursos de AWS mediante programación"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una aplicación web almacena todos sus datos en buckets de Amazon S3. Un cliente ha exigido que los datos se cifren antes de enviarlos a Amazon S3. ¿Cuál de las siguientes es la técnica correcta para encriptar los datos según las necesidades del cliente?",
+    "options": [
+      "Habilitar el cifrado del lado del servidor con claves KMS almacenadas en el Servicio de Administración de Claves de AWS",
+      "El cifrado está habilitado por defecto para todos los objetos escritos en Amazon S3. No es necesaria una configuración adicional",
+      "Habilitar el cifrado del lado del cliente mediante el SDK de cifrado de AWS",
+      "Habilitar el cifrado del lado del servidor con claves gestionadas por AmAZON S3 (SSE - S3)"
     ],
     "answer": 3
   },
   {
-    "question": "What is the tallest mammal?",
+    "question": "El equipo DevOps de una empresa de comercio electrónico está tratando de depurar los problemas de rendimiento de su aplicación sin servidor construida con una arquitectura de microservicios. Como Cloud Practitioner, ¿qué servicio de AWS recomendarias para este caso de uso?",
     "options": [
-      "Elephant",
-      "Giraffe",
-      "Rhino",
-      "Hippopotamus"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the largest continent?",
-    "options": [
-      "Asia",
-      "Europe",
-      "Africa",
-      "North America"
+      "AWS X - Ray",
+      "AWS Trusted Advisor",
+      "Amazon Pinpoint",
+      "AWS CloudFormation"
     ],
     "answer": 0
   },
   {
-    "question": "What is the smallest country by land area?",
+    "question": "¿Cuál de los siguientes planes de AWS Support proporciona acceso a la formación en línea con laboratorios de autoaprendizaje?",
     "options": [
-      "Monaco",
-      "Vatican City",
-      "Nauru",
-      "San Marino"
+      "Basic",
+      "Business",
+      "Enterprise",
+      "Developer"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
-    "question": "What is the hottest planet in our solar system?",
+    "question": "¿Cuál de los siguientes servicios de AWS soporta VPC Endpoint Gateway para una conexión privada desde una VPC?",
     "options": [
-      "Venus",
-      "Mercury",
-      "Mars",
-      "Jupiter"
+      "Amazon EC2",
+      "Amazon SQS",
+      "DynamoDB",
+      "Amazon SNS"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál de los siguientes servicios de AWS soporta VPC Endpoint Gateway para una conexión privada desde una VPC?",
+    "options": [
+      "Amazon EC2",
+      "Amazon SQS",
+      "S3",
+      "Amazon SNS"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuáles son las ventajas que ofrece AWS Cloud sobre una infraestructura TI tradicional en las instalaciones?",
+    "options": [
+      "Eliminar las conjeturas sobre las necesidades de capacidad de tu infraestructura",
+      "Tomar una decisión de capacidad antes de desplegar una aplicación, para reducir los costes",
+      "Proporcionar una menor latencia a las aplicaciones manteniendo los servidores en las instalaciones",
+      "Aumenta la velocidad de los servidores listos antes de tiempo en tus centros de datos"
     ],
     "answer": 0
   },
   {
-    "question": "What is the largest animal on Earth?",
+    "question": "¿Cuáles son las ventajas que ofrece AWS Cloud sobre una infraestructura TI tradicional en las instalaciones?",
     "options": [
-      "Blue Whale",
-      "Elephant",
-      "Giraffe",
-      "Hippopotamus"
+      "Cambiar el gasto de capital por el gasto variable",
+      "Tomar una decisión de capacidad antes de desplegar una aplicación, para reducir los costes",
+      "Proporcionar una menor latencia a las aplicaciones manteniendo los servidores en las instalaciones",
+      "Aumenta la velocidad de los servidores listos antes de tiempo en tus centros de datos"
     ],
     "answer": 0
   },
   {
-    "question": "What is the capital of Spain?",
+    "question": "¿Cuál de los siguientes servicios de AWS tiene el cifrado activado por defecto?",
     "options": [
-      "Madrid",
-      "Barcelona",
-      "Seville",
-      "Valencia"
+      "CloudTrail Logs",
+      "Elastic Block Storage (EBS)",
+      "EFS",
+      "Amazon S3"
     ],
     "answer": 0
   },
   {
-    "question": "What is the smallest ocean?",
+    "question": "¿Qué servicio de AWS te ayudará a recibir alertas cuando la utilización de la reserva caiga por debajo del umbral definido?",
     "options": [
-      "Arctic Ocean",
-      "Atlantic Ocean",
-      "Indian Ocean",
-      "Southern Ocean"
+      "AWS CloudTrail",
+      "AWS Trusted Advisor",
+      "AWS Pricing Calculator",
+      "AWS Budgets"
     ],
     "answer": 3
   },
   {
-    "question": "What is the largest freshwater lake in the world?",
+    "question": "¿Cuál de las siguientes es una afirmación INCORRECTA sobre el escalado, un principio de diseño del pilar de la Fiabilidad del Marco de trabajo bien diseñado de AWS?",
     "options": [
-      "Lake Victoria",
-      "Lake Superior",
-      "Caspian Sea",
-      "Lake Baikal"
+      "El escalado vertical implica que escalas añadiendo más potencia (CPU, RAM) a tu máquina/nodo existente.",
+      "El escalado horizontal implica que escalas añadiendo más instancias a tu reserva de recursos existentes.",
+      "La tolerancia a los fallos se consigue con el escalado vertical",
+      "La tolerancia a los fallos se consigue mediante el escalado horizontal"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
-    "question": "What is the largest desert in the world?",
+    "question": "Una empresa de TI está planeado migrar de un entorno local a AWS Cloud. ¿Cuál de las siguientes áreas de gasto supondría un ahorro de costes cuando la empresa se traslade a AWS Cloud?",
     "options": [
-      "Sahara Desert",
-      "Gobi Desert",
-      "Arabian Desert",
-      "Antarctic Desert"
+      "Gasto en seguridad física del centro de datos",
+      "Gasto en licencias de aplicaciones SaaS",
+      "Salario del desarrollador",
+      "Gastos en administración de sistemas"
+    ],
+    "answer": 0
+  },
+    {
+    "question": "Una empresa de TI está planeado migrar de un entorno local a AWS Cloud. ¿Cuál de las siguientes áreas de gasto supondría un ahorro de costes cuando la empresa se traslade a AWS Cloud?",
+    "options": [
+      "Gastos en infraestructura de hardware informático",
+      "Gasto en licencias de aplicaciones SaaS",
+      "Salario del desarrollador",
+      "Gastos en administración de sistemas"
     ],
     "answer": 0
   },
   {
-    "question": "What is the currency of Japan?",
+    "question": "En comparación con los precios bajo demandaa, ¿cuál es el mayor descuento posible ofrecido para las instancias de Spot?",
     "options": [
-      "Yuan",
-      "Euro",
-      "Pound",
-      "Yen"
+      "90",
+      "50",
+      "75",
+      "10"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué politica de enrutamiento de AWS Route 53 utilizarías para enrutar el tráfico a múltiples recursos y también para elegir cuánto tráfico se enruta a cada recurso?",
+    "options": [
+      "Política de enrutamiento de latencia",
+      "Política de enrutamiento simple",
+      "Política de enrutamiento de conmutación por error",
+      "Política de enrutamiento ponderado"
     ],
     "answer": 3
   },
   {
-    "question": "What is the largest bird in the world?",
+    "question": "¿Cuál de las siguientes afirmaciones es CORRECTA respecto a las características específicas de la Zona de Disponibilidad (AZ) de los tipos de almacenamiento EBS y EFS?",
     "options": [
-      "Ostrich",
-      "Emu",
-      "Albatross",
-      "Condor"
+      "El volumen EBS puede adjuntarse a una única instancia en la misma Zona de Disponibilidad, mientras que el sistema de archivos EFS puede montarse en instancias de varias Zonas de Disponibilidad, mientras que el sistema de archivos EFS puede montarse en instancias de varias Zonas de Disponibilidad",
+      "El volumen EBS puede adjuntarse a una única instancia en la misma Zona de Disponibilidad y el sistema de archivos  EFS solo pueden montarse en instancias de la misma Zona de Disponibilidad",
+      "El volumen EBS puede adjuntarse a una o más instancias en varias Zonas de Disponibilidad y el sistemas de archivoss EFS puede montarse en instancias de la misma Zona de Disponibilidad",
+      "El volumen EBS puede adjuntarse a una o más instancias en varias Zonas de Disponibilidad y el sistemas de archivoss EFS puede montarse en instancias de varias zonas de disponibilidad"
     ],
     "answer": 0
   },
   {
-    "question": "What is the highest mountain in North America?",
+    "question": "¿Cuál de las siguientes es una ventaja de utilizar los servicios gestionados de AWS, como Amazon RDS?",
     "options": [
-      "Mount Everest",
-      "Mount Denali",
-      "Mount Kilimanjaro",
-      "Mount Kosciuszko"
+      "El cliente necesita parchar el sistema operativo subyacente",
+      "El rendimiento de la instancia RDS gestionada por AWS es mejor que el de una instancia de base de datos gestionada por el cliente",
+      "No es necesario optimizar el tipo y el tamaño de la instancia de la base de datos",
+      "El cliente necesita gestionar las copias de seguridad de la base de datos"
     ],
     "answer": 1
-  },
-  {
-    "question": "What is the largest river in Africa?",
-    "options": [
-      "Nile River",
-      "Congo River",
-      "Zambezi River",
-      "Orange River"
-    ],
-    "answer": 0
   }
 ]
