@@ -19,9 +19,7 @@
     ],
     "answer": 1
   },
-
   {
-
     "question": "¿Cuál de los siguientes planes de AWS Support proporciona acceso a sólo 7 comprobaciones básicas de las comprobaciones de mejores prácticas de AWS Trusted Advisor?",
     "options": [
       "Corporate",
@@ -31,7 +29,6 @@
     ],
     "answer": 1
   },
-
   {
     "question": "Un equipo de ciberforenses ha detectado que se están utilizando direcciones IP propiedades de AWS para realizar ataques maliciosos. Como esto constituye un uso prohibido de los servicios de AWS ¿Cuál de las siguientes es la solución correcta para abordar este problema?",
     "options": [
@@ -75,9 +72,9 @@
   {
     "question": "Una empresa ha desplegado una base de datos RDS en una única Zona de Disponibilidad. Los ingenieros quiere asegurarse que en caso de una caída de la AZ, la base de datos siga funcionando en el mismo endpoint sin ninguna intervención manual. ¿Cuál de las soluciones puede resolver esto?",
     "options": [
-      "Configurar la base de datos e despliegue RDS Multi-AZ con conm,utación por error automática al standby",
+      "Configurar la base de datos a despliegue RDS Multi-AZ con conmutación por error al standby",
       "Desplegas la base de datos a través de Elastic Beanstalk",
-      "Configurar la base de datos en modo de réplica de lectura RDS con conmutación por error automática en el standby",
+      "Configurar base de datos en réplica de lectura RDS con conmutación automática en standby",
       "Aprovisionar la base de datos mediante CloudFormation"
     ],
     "answer": 0
@@ -86,7 +83,7 @@
     "question": "¿Cuál de las siguientes es una forma recomendada de proporcionar acceso programático a los recursos de AWS?",
     "options": [
       "Utiliza la autenticación multifactor para acceder a los recursos de AWS de forma programada",
-      "Utilizar el ID de la clave de acceso y la clave de acceso secreta para acceder a los recursos de AWS de forma programática",
+      "Utilizar ID de la clave de acceso y la clave de acceso secreta para acceder a AWS programáticamente",
       "Crear un nuevo usuario IAM y compartir el nombre de usuario y contraseña",
       "Utilizar los grupos IAM para acceder a los recursos de AWS mediante programación"
     ],
@@ -95,8 +92,8 @@
   {
     "question": "Una aplicación web almacena todos sus datos en buckets de Amazon S3. Un cliente ha exigido que los datos se cifren antes de enviarlos a Amazon S3. ¿Cuál de las siguientes es la técnica correcta para encriptar los datos según las necesidades del cliente?",
     "options": [
-      "Habilitar el cifrado del lado del servidor con claves KMS almacenadas en el Servicio de Administración de Claves de AWS",
-      "El cifrado está habilitado por defecto para todos los objetos escritos en Amazon S3. No es necesaria una configuración adicional",
+      "Habilitar el cifrado del lado del servidor con claves KMS en el Servicio de Administración de Claves",
+      "El cifrado está habilitado por defecto en Amazon S3. No es necesaria una configuración adicional",
       "Habilitar el cifrado del lado del cliente mediante el SDK de cifrado de AWS",
       "Habilitar el cifrado del lado del servidor con claves gestionadas por AmAZON S3 (SSE - S3)"
     ],
@@ -185,8 +182,8 @@
   {
     "question": "¿Cuál de las siguientes es una afirmación INCORRECTA sobre el escalado, un principio de diseño del pilar de la Fiabilidad del Marco de trabajo bien diseñado de AWS?",
     "options": [
-      "El escalado vertical implica que escalas añadiendo más potencia (CPU, RAM) a tu máquina/nodo existente.",
-      "El escalado horizontal implica que escalas añadiendo más instancias a tu reserva de recursos existentes.",
+      "El escalado vertical implica que escalas añadiendo más potencia (CPU, RAM) a tu máquina/nodo existente",
+      "El escalado horizontal implica que escalas añadiendo más instancias a tu reserva de recursos existentes",
       "La tolerancia a los fallos se consigue con el escalado vertical",
       "La tolerancia a los fallos se consigue mediante el escalado horizontal"
     ],
@@ -202,7 +199,7 @@
     ],
     "answer": 0
   },
-    {
+  {
     "question": "Una empresa de TI está planeado migrar de un entorno local a AWS Cloud. ¿Cuál de las siguientes áreas de gasto supondría un ahorro de costes cuando la empresa se traslade a AWS Cloud?",
     "options": [
       "Gastos en infraestructura de hardware informático",
@@ -235,10 +232,10 @@
   {
     "question": "¿Cuál de las siguientes afirmaciones es CORRECTA respecto a las características específicas de la Zona de Disponibilidad (AZ) de los tipos de almacenamiento EBS y EFS?",
     "options": [
-      "El volumen EBS puede adjuntarse a una única instancia en la misma Zona de Disponibilidad, mientras que el sistema de archivos EFS puede montarse en instancias de varias Zonas de Disponibilidad, mientras que el sistema de archivos EFS puede montarse en instancias de varias Zonas de Disponibilidad",
-      "El volumen EBS puede adjuntarse a una única instancia en la misma Zona de Disponibilidad y el sistema de archivos  EFS solo pueden montarse en instancias de la misma Zona de Disponibilidad",
-      "El volumen EBS puede adjuntarse a una o más instancias en varias Zonas de Disponibilidad y el sistemas de archivoss EFS puede montarse en instancias de la misma Zona de Disponibilidad",
-      "El volumen EBS puede adjuntarse a una o más instancias en varias Zonas de Disponibilidad y el sistemas de archivoss EFS puede montarse en instancias de varias zonas de disponibilidad"
+      "EBS se adjunta a 1 instancia en la misma Zona de Disponibilidad; EFS se monta en varias Zonas",
+      "EBS y EFS se adjuntan a 1 instancia en la misma Zona de Disponibilidad",
+      "EBS se adjunta a 1+ instancias en varias Zonas; EFS se monta en la misma Zona",
+      "EBS se adjunta a 1+ instancias en varias Zonas; EFS se monta en varias Zonas"
     ],
     "answer": 0
   },
@@ -246,7 +243,7 @@
     "question": "¿Cuál de las siguientes es una ventaja de utilizar los servicios gestionados de AWS, como Amazon RDS?",
     "options": [
       "El cliente necesita parchar el sistema operativo subyacente",
-      "El rendimiento de la instancia RDS gestionada por AWS es mejor que el de una instancia de base de datos gestionada por el cliente",
+      "Rendimiento de RDS gestionada por AWS es mejor que base de datos del cliente",
       "No es necesario optimizar el tipo y el tamaño de la instancia de la base de datos",
       "El cliente necesita gestionar las copias de seguridad de la base de datos"
     ],
