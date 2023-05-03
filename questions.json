@@ -248,5 +248,105 @@
       "El cliente necesita gestionar las copias de seguridad de la base de datos"
     ],
     "answer": 1
+  },
+  {
+    "question": "Por qué AWS es más económico que los centros de datos tradicionales para aplicaciones con diferentes cargas de trabajo de informática?",
+    "options": [
+      "Los costos de Amazon EC2 se facturan de forma mensual",
+      "Los usuarios mantienen el acceso administrativo total a sus instancias de Amazon EC2",
+      "Las instancias de Amazon EC2 se pueden lanzar bajo demanda cuando sea necesario",
+      "Los usuarios ejecutan permanentemente instancias para manejar los aumentos de las cargas de trabajo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué producto de AWS simplificaría la migración de una base de datos a AWS?",
+    "options": [
+      "AWS Storage Gateway",
+      "AWS Database Migration Service (AWS DMS)",
+      "Amazon EC2",
+      "Amazon AppStream 2.0"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué oferta de AWS permite a los usuarios encontrar, comprar y comenzar a utilizar de forma inmediatasoluciones de software en su entorno de AWS?",
+    "options": [
+      "AWS Config",
+      "AWS OpsWorks",
+      "AWS SDK",
+      "AWS Marketplace"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué producto de redes de AWS le permiten a una empresa crear una red virtual dentro de AWS?",
+    "options": [
+      "AWS Config",
+      "Amazon Route 53",
+      "AWS Direct Connect",
+      "Amazon Virtual Private Cloud (Amazon VPC)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Cuál de las siguientes es una responsabilidad de AWS según el modelo de responsabilidad compartida de AWS?",
+    "options": [
+      "Configuración de aplicaciones de terceros",
+      "Mantenimiento del hardware físico",
+      "Protección del acceso a la aplicación y de sus datos",
+      "Administración de sistemas operativos invitados"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué componente de la infraestructura global de AWS utiliza Amazon CloudFront para garantizar una entrega con baja latencia?",
+    "options": [
+      "Regiones de AWS",
+      "Ubicaciones de borde",
+      "Zonas de disponibilidad",
+      "Virtual Private Cloud (VPC)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cómo podría agregar el administrador del sistema una capa de seguridad adicional durante el inicio de sesión a la consola de administración de AWS de un usuario?",
+    "options": [
+      "Mediante Amazon Cloud Directory",
+      "Por medio de una auditoría de los roles de AWS Identity and Access Management (IAM)",
+      "Mediante la habilitación de la autenticación multifactor",
+      "Mediante la habilitación de AWS CloudTrail"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué servicio puede identificar al usuario que realizó la llamada a la API cuando termina una instancia de Amazon EC2?",
+    "options": [
+      "AWS Trusted Advisor",
+      "AWS CloudTrail",
+      "AWS X-Ray",
+      "AWS Identity and Access Management (AWS IAM)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué servicio se utilizaría para enviar alertas basadas en alarmas de Amazon CloudWatch?",
+    "options": [
+      "Amazon Simple Notification Service (Amazon SNS)",
+      "AWS CloudTrail",
+      "AWS Trusted Advisor",
+      "Amazon Route 53"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Dónde puede encontrar información un usuario sobre las acciones prohibidas en la infraestructura de AWS?",
+    "options": [
+      "AWS Trusted Advisor",
+      "AWS Identity and Access Management (IAM)",
+      "Consola de facturación de AWS",
+      "Política de uso aceptable de AWS"
+    ],
+    "answer": 3
   }
 ]
