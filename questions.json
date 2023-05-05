@@ -7,7 +7,8 @@
       "Red como servicio (NaaS)",
       "Plataforma como servicio (PaaS)"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de los siguientes planes de AWS Support proporciona acceso a sólo 7 comprobaciones básicas de las comprobaciones de mejores prácticas de AWS Trusted Advisor?",
@@ -17,7 +18,8 @@
       "Business",
       "Enterprise"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de los siguientes planes de AWS Support proporciona acceso a sólo 7 comprobaciones básicas de las comprobaciones de mejores prácticas de AWS Trusted Advisor?",
@@ -27,7 +29,8 @@
       "Business",
       "Enterprise"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "Un equipo de ciberforenses ha detectado que se están utilizando direcciones IP propiedades de AWS para realizar ataques maliciosos. Como esto constituye un uso prohibido de los servicios de AWS ¿Cuál de las siguientes es la solución correcta para abordar este problema?",
@@ -37,7 +40,8 @@
       "Contacta con el equipo de abusos de AWS",
       "Contacta con los moderadores del foro de desarrollo de AWS"
     ],
-    "answer": 2
+    "answer": 2,
+    "explanation": ""
   },
   {
     "question": "El firewall de aplicaciones web (WAF) de AWS ofrece protección contra los exploits web más comunes ¿en qué capa?",
@@ -47,7 +51,8 @@
       "Capa 4 y 7",
       "Capa 3"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de las siguientes entidades aplica el SO subyacente de AWS Aurora?",
@@ -57,7 +62,8 @@
       "El soporte de AWS tras recibir una solicitud del cliente",
       "El cliente de AWS mediante SSH en las instancias"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "Según el modelo de responsabilidad compartida de AWS, ¿Cuál de las siguientes es una responsabilidad compartida tanto de AWS como del cliente?",
@@ -67,7 +73,8 @@
       "Mantenimiento de la infraestructura de la Zona de Disponibilidad",
       "Mantenimiento de la infraestructura de los servidores de almacenamiento de Amaazon S3"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "Una empresa ha desplegado una base de datos RDS en una única Zona de Disponibilidad. Los ingenieros quiere asegurarse que en caso de una caída de la AZ, la base de datos siga funcionando en el mismo endpoint sin ninguna intervención manual. ¿Cuál de las soluciones puede resolver esto?",
@@ -77,7 +84,8 @@
       "Configurar base de datos en réplica de lectura RDS con conmutación automática en standby",
       "Aprovisionar la base de datos mediante CloudFormation"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de las siguientes es una forma recomendada de proporcionar acceso programático a los recursos de AWS?",
@@ -87,7 +95,8 @@
       "Crear un nuevo usuario IAM y compartir el nombre de usuario y contraseña",
       "Utilizar los grupos IAM para acceder a los recursos de AWS mediante programación"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "Una aplicación web almacena todos sus datos en buckets de Amazon S3. Un cliente ha exigido que los datos se cifren antes de enviarlos a Amazon S3. ¿Cuál de las siguientes es la técnica correcta para encriptar los datos según las necesidades del cliente?",
@@ -97,7 +106,8 @@
       "Habilitar el cifrado del lado del cliente mediante el SDK de cifrado de AWS",
       "Habilitar el cifrado del lado del servidor con claves gestionadas por AmAZON S3 (SSE - S3)"
     ],
-    "answer": 3
+    "answer": 3,
+    "explanation": ""
   },
   {
     "question": "El equipo DevOps de una empresa de comercio electrónico está tratando de depurar los problemas de rendimiento de su aplicación sin servidor construida con una arquitectura de microservicios. Como Cloud Practitioner, ¿qué servicio de AWS recomendarias para este caso de uso?",
@@ -107,7 +117,8 @@
       "Amazon Pinpoint",
       "AWS CloudFormation"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de los siguientes planes de AWS Support proporciona acceso a la formación en línea con laboratorios de autoaprendizaje?",
@@ -117,7 +128,8 @@
       "Enterprise",
       "Developer"
     ],
-    "answer": 2
+    "answer": 2,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de los siguientes servicios de AWS soporta VPC Endpoint Gateway para una conexión privada desde una VPC?",
@@ -127,7 +139,8 @@
       "DynamoDB",
       "Amazon SNS"
     ],
-    "answer": 2
+    "answer": 2,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de los siguientes servicios de AWS soporta VPC Endpoint Gateway para una conexión privada desde una VPC?",
@@ -137,7 +150,8 @@
       "S3",
       "Amazon SNS"
     ],
-    "answer": 2
+    "answer": 2,
+    "explanation": ""
   },
   {
     "question": "¿Cuáles son las ventajas que ofrece AWS Cloud sobre una infraestructura TI tradicional en las instalaciones?",
@@ -147,7 +161,8 @@
       "Proporcionar una menor latencia a las aplicaciones manteniendo los servidores en las instalaciones",
       "Aumenta la velocidad de los servidores listos antes de tiempo en tus centros de datos"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "¿Cuáles son las ventajas que ofrece AWS Cloud sobre una infraestructura TI tradicional en las instalaciones?",
@@ -157,7 +172,8 @@
       "Proporcionar una menor latencia a las aplicaciones manteniendo los servidores en las instalaciones",
       "Aumenta la velocidad de los servidores listos antes de tiempo en tus centros de datos"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de los siguientes servicios de AWS tiene el cifrado activado por defecto?",
@@ -167,7 +183,8 @@
       "EFS",
       "Amazon S3"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "¿Qué servicio de AWS te ayudará a recibir alertas cuando la utilización de la reserva caiga por debajo del umbral definido?",
@@ -177,7 +194,8 @@
       "AWS Pricing Calculator",
       "AWS Budgets"
     ],
-    "answer": 3
+    "answer": 3,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de las siguientes es una afirmación INCORRECTA sobre el escalado, un principio de diseño del pilar de la Fiabilidad del Marco de trabajo bien diseñado de AWS?",
@@ -187,7 +205,8 @@
       "La tolerancia a los fallos se consigue con el escalado vertical",
       "La tolerancia a los fallos se consigue mediante el escalado horizontal"
     ],
-    "answer": 2
+    "answer": 2,
+    "explanation": ""
   },
   {
     "question": "Una empresa de TI está planeado migrar de un entorno local a AWS Cloud. ¿Cuál de las siguientes áreas de gasto supondría un ahorro de costes cuando la empresa se traslade a AWS Cloud?",
@@ -197,7 +216,8 @@
       "Salario del desarrollador",
       "Gastos en administración de sistemas"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "Una empresa de TI está planeado migrar de un entorno local a AWS Cloud. ¿Cuál de las siguientes áreas de gasto supondría un ahorro de costes cuando la empresa se traslade a AWS Cloud?",
@@ -207,7 +227,8 @@
       "Salario del desarrollador",
       "Gastos en administración de sistemas"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "En comparación con los precios bajo demandaa, ¿cuál es el mayor descuento posible ofrecido para las instancias de Spot?",
@@ -217,7 +238,8 @@
       "75",
       "10"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "¿Qué politica de enrutamiento de AWS Route 53 utilizarías para enrutar el tráfico a múltiples recursos y también para elegir cuánto tráfico se enruta a cada recurso?",
@@ -227,7 +249,8 @@
       "Política de enrutamiento de conmutación por error",
       "Política de enrutamiento ponderado"
     ],
-    "answer": 3
+    "answer": 3,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de las siguientes afirmaciones es CORRECTA respecto a las características específicas de la Zona de Disponibilidad (AZ) de los tipos de almacenamiento EBS y EFS?",
@@ -237,7 +260,8 @@
       "EBS se adjunta a 1+ instancias en varias Zonas; EFS se monta en la misma Zona",
       "EBS se adjunta a 1+ instancias en varias Zonas; EFS se monta en varias Zonas"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de las siguientes es una ventaja de utilizar los servicios gestionados de AWS, como Amazon RDS?",
@@ -247,7 +271,8 @@
       "No es necesario optimizar el tipo y el tamaño de la instancia de la base de datos",
       "El cliente necesita gestionar las copias de seguridad de la base de datos"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "Por qué AWS es más económico que los centros de datos tradicionales para aplicaciones con diferentes cargas de trabajo de informática?",
@@ -257,7 +282,8 @@
       "Las instancias de Amazon EC2 se pueden lanzar bajo demanda cuando sea necesario",
       "Los usuarios ejecutan permanentemente instancias para manejar los aumentos de las cargas de trabajo"
     ],
-    "answer": 2
+    "answer": 2,
+    "explanation": ""
   },
   {
     "question": "¿Qué producto de AWS simplificaría la migración de una base de datos a AWS?",
@@ -267,7 +293,8 @@
       "Amazon EC2",
       "Amazon AppStream 2.0"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "¿Qué oferta de AWS permite a los usuarios encontrar, comprar y comenzar a utilizar de forma inmediatasoluciones de software en su entorno de AWS?",
@@ -277,7 +304,8 @@
       "AWS SDK",
       "AWS Marketplace"
     ],
-    "answer": 3
+    "answer": 3,
+    "explanation": ""
   },
   {
     "question": "¿Qué producto de redes de AWS le permiten a una empresa crear una red virtual dentro de AWS?",
@@ -287,7 +315,8 @@
       "AWS Direct Connect",
       "Amazon Virtual Private Cloud (Amazon VPC)"
     ],
-    "answer": 3
+    "answer": 3,
+    "explanation": ""
   },
   {
     "question": "¿Cuál de las siguientes es una responsabilidad de AWS según el modelo de responsabilidad compartida de AWS?",
@@ -297,7 +326,8 @@
       "Protección del acceso a la aplicación y de sus datos",
       "Administración de sistemas operativos invitados"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "¿Qué componente de la infraestructura global de AWS utiliza Amazon CloudFront para garantizar una entrega con baja latencia?",
@@ -307,7 +337,8 @@
       "Zonas de disponibilidad",
       "Virtual Private Cloud (VPC)"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "¿Cómo podría agregar el administrador del sistema una capa de seguridad adicional durante el inicio de sesión a la consola de administración de AWS de un usuario?",
@@ -317,7 +348,8 @@
       "Mediante la habilitación de la autenticación multifactor",
       "Mediante la habilitación de AWS CloudTrail"
     ],
-    "answer": 2
+    "answer": 2,
+    "explanation": ""
   },
   {
     "question": "¿Qué servicio puede identificar al usuario que realizó la llamada a la API cuando termina una instancia de Amazon EC2?",
@@ -327,7 +359,8 @@
       "AWS X-Ray",
       "AWS Identity and Access Management (AWS IAM)"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "¿Qué servicio se utilizaría para enviar alertas basadas en alarmas de Amazon CloudWatch?",
@@ -337,7 +370,8 @@
       "AWS Trusted Advisor",
       "Amazon Route 53"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "¿Dónde puede encontrar información un usuario sobre las acciones prohibidas en la infraestructura de AWS?",
@@ -347,6 +381,7 @@
       "Consola de facturación de AWS",
       "Política de uso aceptable de AWS"
     ],
-    "answer": 3
+    "answer": 3,
+    "explanation": ""
   }
 ]
