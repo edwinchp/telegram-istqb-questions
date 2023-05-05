@@ -1,152 +1,57 @@
 [
   {
-    "question": "What is the capital of France?",
+    "question": "What is the capital city of Japan?",
     "options": [
-      "Paris",
-      "London",
-      "Berlin",
-      "Rome"
+      "Tokyo",
+      "Osaka",
+      "Kyoto",
+      "Hiroshima"
     ],
-    "answer": 0
+    "answer": 0,
+    "explanation": ""
   },
   {
-    "question": "What is the largest planet in our solar system?",
+    "question": "Who invented the telephone?",
     "options": [
-      "Saturn",
-      "Uranus",
-      "Neptune",
-      "Jupiter"
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
     ],
-    "answer": 3
+    "answer": 1,
+    "explanation": "Alexander Graham Bell invented the telephone in 1876."
   },
   {
-    "question": "What is the tallest mammal?",
+    "question": "Which country is the largest producer of coffee in the world?",
     "options": [
-      "Elephant",
-      "Giraffe",
-      "Rhino",
-      "Hippopotamus"
+      "Colombia",
+      "Brazil",
+      "Vietnam",
+      "Indonesia"
     ],
-    "answer": 1
+    "answer": 1,
+    "explanation": "Brazil is the largest producer of coffee in the world."
   },
   {
-    "question": "What is the largest continent?",
+    "question": "Who painted the Mona Lisa?",
     "options": [
-      "Asia",
-      "Europe",
-      "Africa",
-      "North America"
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Michelangelo"
     ],
-    "answer": 0
+    "answer": 2,
+    "explanation": "Leonardo da Vinci painted the Mona Lisa."
   },
   {
-    "question": "What is the smallest country by land area?",
-    "options": [
-      "Monaco",
-      "Vatican City",
-      "Nauru",
-      "San Marino"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the hottest planet in our solar system?",
+    "question": "Which planet is known as the 'Red Planet'?",
     "options": [
       "Venus",
-      "Mercury",
+      "Jupiter",
       "Mars",
-      "Jupiter"
+      "Saturn"
     ],
-    "answer": 0
-  },
-  {
-    "question": "What is the largest animal on Earth?",
-    "options": [
-      "Blue Whale",
-      "Elephant",
-      "Giraffe",
-      "Hippopotamus"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "What is the capital of Spain?",
-    "options": [
-      "Madrid",
-      "Barcelona",
-      "Seville",
-      "Valencia"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "What is the smallest ocean?",
-    "options": [
-      "Arctic Ocean",
-      "Atlantic Ocean",
-      "Indian Ocean",
-      "Southern Ocean"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "What is the largest freshwater lake in the world?",
-    "options": [
-      "Lake Victoria",
-      "Lake Superior",
-      "Caspian Sea",
-      "Lake Baikal"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the largest desert in the world?",
-    "options": [
-      "Sahara Desert",
-      "Gobi Desert",
-      "Arabian Desert",
-      "Antarctic Desert"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "What is the currency of Japan?",
-    "options": [
-      "Yuan",
-      "Euro",
-      "Pound",
-      "Yen"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "What is the largest bird in the world?",
-    "options": [
-      "Ostrich",
-      "Emu",
-      "Albatross",
-      "Condor"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "What is the highest mountain in North America?",
-    "options": [
-      "Mount Everest",
-      "Mount Denali",
-      "Mount Kilimanjaro",
-      "Mount Kosciuszko"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the largest river in Africa?",
-    "options": [
-      "Nile River",
-      "Congo River",
-      "Zambezi River",
-      "Orange River"
-    ],
-    "answer": 0
+    "answer": 2,
+    "explanation": "Mars is known as the 'Red Planet' due to its reddish appearance in the night sky."
   }
 ]
