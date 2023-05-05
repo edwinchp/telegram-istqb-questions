@@ -16,21 +16,24 @@ with open('questions.json') as f:
 # Get a random question object from the questions.json file
 question_obj = random.choice(questions)
 
-# Get original information before shuffling
-question = question_obj["question"]
+# Get original information before shuffling and trimming
+question = question_obj["question"][:300]
 options = question_obj["options"]
 answer = question_obj["answer"]
+explanation = question_obj["explanation"][:200]
 
 # Get the correct option text at the moment based on the original answer
-option_text = options[answer]
+option_text = options[answer][:100]
 
 # Shuffle the options
 random.shuffle(options)
 
 # Update answer to the shuffled option index
-for index, option in enumerate(options):
-    if option == option_text:
-        answer = index
+# And also trim all the options to 100 characters
+for i in range(len(options)):
+    options[i] = options[i][:100]
+    if options[i] == option_text:
+        answer = i
 
 # Parse the options into a JSON object
 options_json = json.dumps(options)
@@ -46,7 +49,8 @@ payload = {
     'is_anonymous': True,
     'allows_multiple_answers': False,
     'type': 'quiz',
-    'correct_option_id': answer
+    'correct_option_id': answer,
+    'explanation': explanation,
 }
 
 # Send the request to the Telegram API
