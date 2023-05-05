@@ -251,6 +251,178 @@
     ],
     "answer": 2,
     "explanation": ""
-
+  },
+  {
+    "question": "White-box testing is a good candidate to apply unit testing",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1,
+    "explanation": "In a White-box testing you have access to the internal code and structure. Knowing this, you can apply unit testing"
+  },
+  {
+    "question": "It can show failures that are caused by defects in the software",
+    "options": [
+      "Testing",
+      "Root cause",
+      "Debugging",
+      "Static testing"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Development activity that find, analyzes and fixes defects",
+    "options": [
+      "Testing",
+      "Root cause",
+      "Debugging",
+      "Static testing"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Includes all activities that direct and control an organization regarding quality",
+    "options": [
+      "Quality Control",
+      "Quality Management",
+      "Debugging",
+      "Static testing"
+    ],
+    "answer": 1,
+    "explanation": "Quality management ties together the concept of Quality Assurance and Testing"
+  },
+  {
+    "question": "It focuses on the adherence of the proper processes in order to provide confidence that level of quality will be achieved",
+    "options": [
+      "Quality Control",
+      "Quality Management",
+      "Quality Assurance",
+      "Static testing"
+    ],
+    "answer": 2,
+    "explanation": "Quality Assurance focuses on the proper execution. It also belongs to larger concept called Quality Management"
+  },
+  {
+    "question": "Involves many activities including test activities, that support the achievement of right levels of quality",
+    "options": [
+      "Quality Control",
+      "Quality Management",
+      "Quality Assurance",
+      "Static testing"
+    ],
+    "answer": 0,
+    "explanation": "Quality Control belongs to larger concept called Quality Management"
+  },
+  {
+    "question": "A person makes _____, which causes _____ in the software code, and when it is executed it causes _____ in the software ",
+    "options": [
+      "an error / a defect / a failure",
+      "an error / a failure / a defect",
+      "a defect / a defect / an error",
+      "a failure / a defect / a failure"
+    ],
+    "answer": 0,
+    "explanation": "Example: A programming error can lead to a defect in the code. If a defect is executed this may cause a failure in the application."
+  },
+  {
+    "question": "Which one of the 7 principles represents this scenario: During testing, a software application is found to crash when a certain input is entered. This defect would have gone unnoticed if not for testing.",
+    "options": [
+      "Testing shows the presence of defects, not their absence",
+      "Exhaustive testing is impossible",
+      "Early testing saves time and money",
+      "Defects cluster together",
+      "Beware of the pesticide paradox",
+      "Testing is context dependent",
+      "Absence-of-errors is a fallacy"
+    ],
+    "answer": 0,
+    "explanation": "Testing reduces the probability of undiscovered defects remaining in the software but, even if no defects are found, testing is not a proof of correctness."
+  },
+  {
+    "question": "Which one of the 7 principles represents this scenario: An e-commerce website with millions of products cannot be tested for every possible combination of inputs, so testers focus on the most important and high-risk areas, such as the checkout process.",
+    "options": [
+      "Testing shows the presence of defects, not their absence",
+      "Exhaustive testing is impossible",
+      "Early testing saves time and money",
+      "Defects cluster together",
+      "Beware of the pesticide paradox",
+      "Testing is context dependent",
+      "Absence-of-errors is a fallacy"
+    ],
+    "answer": 1,
+    "explanation": "Rather than attempting to test exhaustively, risk analysis, test techniques, and priorities should be used to focus test efforts."
+  },
+  {
+    "question": "Which one of the 7 principles represents this scenario: A defect is found in the requirements phase of a project, allowing the development team to correct it early, which is much cheaper and easier than fixing it later in the development process.",
+    "options": [
+      "Testing shows the presence of defects, not their absence",
+      "Exhaustive testing is impossible",
+      "Early testing saves time and money",
+      "Defects cluster together",
+      "Beware of the pesticide paradox",
+      "Testing is context dependent",
+      "Absence-of-errors is a fallacy"
+    ],
+    "answer": 2,
+    "explanation": "To find defects early, both static and dynamic test activities should be started as early as possible in the software development lifecycle."
+  },
+  {
+    "question": "Which one of the 7 principles represents this scenario: In a medical software application, most defects are found in the module that handles patient data, prompting testers to focus their efforts on improving the quality of that module.",
+    "options": [
+      "Testing shows the presence of defects, not their absence",
+      "Exhaustive testing is impossible",
+      "Early testing saves time and money",
+      "Defects cluster together",
+      "Beware of the pesticide paradox",
+      "Testing is context dependent",
+      "Absence-of-errors is a fallacy"
+    ],
+    "answer": 3,
+    "explanation": "A small number of modules usually contains most of the defects discovered during pre-release testing, or is responsible for most of the operational failures."
+  },
+  {
+    "question": "Which one of the 7 principles represents this scenario: Testers find that the same test cases are not finding any new defects, so they review and update the test cases to include new scenarios and inputs to keep them effective.",
+    "options": [
+      "Testing shows the presence of defects, not their absence",
+      "Exhaustive testing is impossible",
+      "Early testing saves time and money",
+      "Defects cluster together",
+      "Beware of the pesticide paradox",
+      "Testing is context dependent",
+      "Absence-of-errors is a fallacy"
+    ],
+    "answer": 4,
+    "explanation": "To detect new defects, existing tests and test data may need changing, and new tests may need to be written."
+  },
+  {
+    "question": "Which one of the 7 principles represents this scenario: The testing approach for a mobile game would be different from that of a safety-critical medical device. The former would require more exploratory testing, while the latter would require more rigorous testing and documentation.",
+    "options": [
+      "Testing shows the presence of defects, not their absence",
+      "Exhaustive testing is impossible",
+      "Early testing saves time and money",
+      "Defects cluster together",
+      "Beware of the pesticide paradox",
+      "Testing is context dependent",
+      "Absence-of-errors is a fallacy"
+    ],
+    "answer": 5,
+    "explanation": "Example: Industrial software is tested differently from an e-commerce mobile app. Also testing in Agile is done differently than testing in sequential software development."
+  },
+  {
+    "question": "Which one of the 7 principles represents this scenario: An application has gone through extensive testing and no defects have been found. However, when users start using the application, they find new defects that were not found during testing, highlighting the importance of continuous testing and monitoring",
+    "options": [
+      "Testing shows the presence of defects, not their absence",
+      "Exhaustive testing is impossible",
+      "Early testing saves time and money",
+      "Defects cluster together",
+      "Beware of the pesticide paradox",
+      "Testing is context dependent",
+      "Absence-of-errors is a fallacy"
+    ],
+    "answer": 6,
+    "explanation": "Example: testing all requirements and fixing all defects found could still produce a system that is difficult to use, that does not fulfill the users’ needs and expectations."
   }
 ]
