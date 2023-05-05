@@ -1,57 +1,256 @@
 [
   {
-    "question": "What is the capital city of Japan?",
+    "question": "Which one of the following answers describes a test condition?",
     "options": [
-      "Tokyo",
-      "Osaka",
-      "Kyoto",
-      "Hiroshima"
+      "A distinguishing characteristic of a component or system",
+      "A testable aspect of a component or system identified as a basis for testing",
+      "The degree to which a software product provides functions which meet needs when the software is used",
+      "Test cases designed to execute combinations of conditions and actions resulting from them"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following statements is a valid objective for testing?",
+    "options": [
+      "Test should start as late as possible so that development had enough time to create a good product",
+      "To validate whether the test object works as expected by the users and other stakeholders",
+      "To prove that all possible defects are identified",
+      "To prove that any remaining defects will not cause any failures"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following statements correctly describes the difference between testing and debugging?",
+    "options": [
+      "Testing identifies the source of defects; debugging analyzes the defects and proposes prevention",
+      "Dynamic testing shows failures caused by defects; debugging eliminates defects",
+      "Testing removes faults; but debugging removes defects that cause the faults",
+      "Dynamic testing prevents the causes of failures; debugging removes the failures"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Which one of the statements below describes the most common situation for a failure discovered during testing or in production?",
+    "options": [
+      "The product crashed when the user selected an option in a dialog box",
+      "The wrong version of a compiled source code file was included in the build",
+      "The computation algorithm used the wrong input variables",
+      "The developer misinterpreted the requirement for the algorithm"
     ],
     "answer": 0,
     "explanation": ""
   },
   {
-    "question": "Who invented the telephone?",
+    "question": "Mr. Test, a mobile software tester with 5 years of experience, achieved exceptional results in a short time. However, he didn't modify or create new automated test cases for months, leading to fewer defects being detected during testing. What testing principle did Mr. Test overlook?",
     "options": [
-      "Thomas Edison",
-      "Alexander Graham Bell",
-      "Nikola Tesla",
-      "Guglielmo Marconi"
-    ],
-    "answer": 1,
-    "explanation": "Alexander Graham Bell invented the telephone in 1876."
-  },
-  {
-    "question": "Which country is the largest producer of coffee in the world?",
-    "options": [
-      "Colombia",
-      "Brazil",
-      "Vietnam",
-      "Indonesia"
-    ],
-    "answer": 1,
-    "explanation": "Brazil is the largest producer of coffee in the world."
-  },
-  {
-    "question": "Who painted the Mona Lisa?",
-    "options": [
-      "Vincent van Gogh",
-      "Pablo Picasso",
-      "Leonardo da Vinci",
-      "Michelangelo"
+      "Testing depends on the environment",
+      "Exhaustive testing is not possible",
+      "Repeating of same tests will not find new defects",
+      "Defects cluster together"
     ],
     "answer": 2,
-    "explanation": "Leonardo da Vinci painted the Mona Lisa."
+    "explanation": ""
   },
   {
-    "question": "Which planet is known as the 'Red Planet'?",
+    "question": "In what way can testing be part of Quality Assurance?",
     "options": [
-      "Venus",
-      "Jupiter",
-      "Mars",
-      "Saturn"
+      "It ensures that requirements are detailed enough",
+      "Testing reduces the risk of poor software quality",
+      "It ensures that standards in the organization are followed",
+      "It measures the quality of software in terms of number of executed test cases"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following activities is part of the main activity 'test analysis' in the test process?",
+    "options": [
+      "Identifying any required infrastructure and tools",
+      "Creating test suites from test scripts",
+      "Analyzing lessons learned for process improvement",
+      "Evaluating the test basis for testability"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "How can white-box testing be applied during user acceptance testing?",
+    "options": [
+      "To check if large volumes of data can be transferred between integrated systems",
+      "To check if all code statements and code decision paths have been executed",
+      "To check if all work process flows have been covered",
+      "To cover all web page navigations"
     ],
     "answer": 2,
-    "explanation": "Mars is known as the 'Red Planet' due to its reddish appearance in the night sky."
+    "explanation": ""
+  },
+  {
+    "question": "Which one of the following is the BEST definition of an incremental development model?",
+    "options": [
+      "Defining requirements, designing and testing are done in phases where in each phase a piece is added",
+      "A phase in the development process should begin when the previous phase is complete",
+      "Testing is viewed as a separate phase which takes place after development has been completed",
+      "Testing is added to development as an increment"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following should NOT be a trigger for maintenance testing?",
+    "options": [
+      "Decision to test the maintainability of the software",
+      "Decision to test the system after migration to a new operating platform",
+      "Decision to test if archived data is possible to be retrieved",
+      "Decision to test after 'hot fixes'"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following options are roles in a formal review?",
+    "options": [
+      "Developer, Moderator, Review leader, Reviewer, Tester",
+      "Author, Moderator, Manager, Reviewer, Developer",
+      "Author, Manager, Review leader, Reviewer, Designer",
+      "Author, Moderator, Review leader, Reviewer, Scribe"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Which activities are carried out within the planning of a formal review?",
+    "options": [
+      "Collection of metrics for the evaluation of the effectiveness of the review",
+      "Answer any questions the participants may have",
+      "Definition and Verification of fulfillment of entry criteria for the review",
+      "Evaluation of the review findings against the exit criteria"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the review types below is the BEST option to choose when the review must follow a formal process based on rules and checklists?",
+    "options": [
+      "Informal Review",
+      "Technical Review",
+      "Inspection",
+      "Walkthrough"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following statements about static testing are MOST true?",
+    "options": [
+      "Static testing is a cheap way to detect and remove defects",
+      "Static testing makes dynamic testing less challenging",
+      "Static testing makes it possible to find run-time problems early in the lifecycle",
+      "Static testing better for safety-critical systems; dynamic testing finds defects better."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "What is checklist-based testing?",
+    "options": [
+      "A test technique based on tester's knowledge of past faults or general knowledge of failures",
+      "A test technique based on an analysis of the specification of a component or system",
+      "Experience-based technique where tester uses a list of items or criteria to verify product",
+      "Testers dynamically design and execute tests based on knowledge and exploration of test item"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "The statement on decision coverage suggests that when there is only one 'if' statement with no loops or CASE statements, and its execution is not nested, running any single test case results in 50% decision coverage. What is the correct statement regarding this?",
+    "options": [
+      "The statement is true. Any single test case provides 100% statement coverage and therefore 50% decision coverage",
+      "The statement is true. Any single test case would cause the outcome of the “if” statement to be either true or false",
+      "The statement is false. A single test case can only guarantee 25% decision coverage in this case",
+      "The statement is false. The statement is too broad. It may be correct or not, depending on the tested software"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Which one of the following is the description of statement coverage?",
+    "options": [
+      "It is a metric, which is the percentage of test cases that have been executed",
+      "It is a metric, which is the percentage of statements in the source code that have been executed",
+      "It is a metric that counts the number of executed statements in the source code by passed test cases",
+      "It is a metric, that gives a true/false confirmation if all statements are covered or not"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Which statement about the relationship between statement coverage and decision coverage is true?",
+    "options": [
+      "100% decision coverage also guarantees 100% statement coverage",
+      "100% statement coverage also guarantees 100% decision coverage",
+      "50% decision coverage also guarantees 50% statement coverage",
+      "Decision coverage can never reach 100%"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "For which of the following situations is exploratory testing suitable?",
+    "options": [
+      "When time pressure requires speeding up the execution of tests already specified",
+      "When the system is developed incrementally, and no test charter is available",
+      "When testers are available who have enough knowledge of similar applications and technologies",
+      "When there is prior knowledge of the system and it should undergo extensive testing"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Which one of the following is NOT included in a test summary report?",
+    "options": [
+      "Defining pass/fail criteria and objectives of testing",
+      "Deviations from the test approach",
+      "Measurements of actual progress against exit criteria",
+      "Evaluation of the quality of the test object"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Which one of the following is the characteristic of a metrics-based approach for test estimation?",
+    "options": [
+      "Budget which was used by a previous similar test project",
+      "Overall experience collected in interviews with test managers",
+      "Estimation of effort for test automation agreed in the test team",
+      "Average of calculations collected from business experts"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Which one of the following is MOST likely to be a benefit of test execution tools?",
+    "options": [
+      "It is easy to create regression tests",
+      "It is easy to maintain version control of test assets",
+      "It is easy to design tests for security testing",
+      "It is easy to run regression tests"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Which one of the following test tools is mostly suitable for developers rather than testers?",
+    "options": [
+      "Requirement management tools",
+      "Configuration management tools",
+      "Static analysis tools",
+      "Performance testing tools"
+    ],
+    "answer": 2,
+    "explanation": ""
+
   }
 ]
