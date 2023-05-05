@@ -526,5 +526,654 @@
     ],
     "answer": 0,
     "explanation": "The correct form is 'gone' because irregular verbs have a different form for past participle, and 'go' is an irregular verb."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "They were sleeping when I arrived",
+      "They was sleeping when I arrived",
+      "They have been sleeping when I arrived",
+      "They slept when I arrived"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'were sleeping' because we use past continuous to talk about actions that were in progress at a specific time in the past."
+  },
+  {
+    "question": "What is the question form of 'He likes pizza'?",
+    "options": [
+      "Does he like pizza?",
+      "He likes pizza?",
+      "Do he likes pizza?",
+      "Like he pizza?"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'Does he like pizza?' because we use the auxiliary verb 'do/does' to make questions with 'he' in simple present."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She has lived in New York for five years",
+      "She lived in New York for five years ago",
+      "She has been living in New York for five years ago",
+      "She lives in New York for five years"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'has lived' because we use present perfect to talk about actions that started in the past and continue in the present."
+  },
+  {
+    "question": "What is the past tense of the verb 'write'?",
+    "options": [
+      "Wrote",
+      "Written",
+      "Write",
+      "Writed"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'wrote' because we add -ed to the base form of the verb to make past tense for regular verbs, and 'write' is a regular verb."
+  },
+  {
+    "question": "What is the present tense of the verb 'begin'?",
+    "options": [
+      "Begins",
+      "Begin",
+      "Begun",
+      "Beginning"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'begins' because we add -s to the base form of the verb to make third person singular in simple present."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I have never been to Paris",
+      "I never went to Paris",
+      "I am never going to Paris",
+      "I had never been to Paris"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'have never been' because we use present perfect + never to talk about actions that have not happened up to now."
+  },
+  {
+    "question": "What is the comparative form of the adjective 'good'?",
+    "options": [
+      "Better",
+      "Gooder",
+      "Best",
+      "More good"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'better' because we add -er to the base form of the adjective to make comparative for most one-syllable adjectives."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She was studying when her friend called",
+      "She were studying when her friend called",
+      "She has been studying when her friend called",
+      "She studied when her friend called"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'was studying' because we use past continuous to talk about actions that were in progress at a specific time in the past."
+  },
+  {
+    "question": "What is the question form of 'They are watching TV'?",
+    "options": [
+      "Are they watching TV?",
+      "They are watching TV?",
+      "Do they watch TV?",
+      "Watching they TV?"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'Are they watching TV?' because we use the auxiliary verb 'be' to make questions in present continuous."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I will call you later",
+      "I am calling you later",
+      "I call you later",
+      "I called you later"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'will call' because we use future simple to talk about actions that will happen in the future."
+  },
+  {
+    "question": "What is the past tense of the verb 'buy'?",
+    "options": [
+      "Bought",
+      "Buyed",
+      "Buy",
+      "Bey"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'bought' because we add -ght to the base form of the verb to make past tense for most one-syllable verbs ending in a consonant + y."
+  },
+  {
+    "question": "What is the present continuous form of the verb 'read'?",
+    "options": [
+      "Reading",
+      "Reads",
+      "Readed",
+      "Reding"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'reading' because we use the present participle form of the verb (base form + -ing) to make present continuous."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She had already left when I arrived",
+      "She already left when I arrived",
+      "She has already left when I arrived",
+      "She leave when I arrived"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'had already left' because we use past perfect to talk about actions that happened before another past action."
+  },
+  {
+    "question": "What is the superlative form of the adjective 'happy'?",
+    "options": [
+      "Happiest",
+      "Happyer",
+      "Most happy",
+      "Happier"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'happiest' because we add -est to the base form of the adjective to make superlative for most one-syllable adjectives."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He doesn't like coffee",
+      "He don't like coffee",
+      "He not likes coffee",
+      "He not like coffee"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'doesn't like' because we use the auxiliary verb 'do' to make negatives and questions in present simple for third person singular."
+  },
+  {
+    "question": "What is the past participle of the verb 'run'?",
+    "options": [
+      "Run",
+      "Ran",
+      "Runned",
+      "Runned"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'run' because the past participle of irregular verbs do not follow a specific pattern and need to be memorized."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I have already eaten breakfast",
+      "I already ate breakfast",
+      "I eat breakfast already",
+      "I had already eaten breakfast"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'have already eaten' because we use present perfect to talk about past actions that are still relevant or have an impact on the present."
+  },
+  {
+    "question": "What is the comparative form of the adjective 'big'?",
+    "options": [
+      "Bigger",
+      "Biggest",
+      "More big",
+      "Biger"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'bigger' because we add -er to the base form of the adjective to make comparative for most one-syllable adjectives."
+  },
+  {
+    "question": "What is the correct form of the verb 'to be' in present simple for third person singular?",
+    "options": [
+      "Is",
+      "Are",
+      "Am",
+      "Be"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'is' because we use 'is' with he, she, and it in present simple."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I go to school every day",
+      "I goes to school every day",
+      "I go to schools every day",
+      "I going to school every day"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'I go to school every day' because we use the base form of the verb in present simple for I, you, we, and they."
+  },
+  {
+    "question": "What is the opposite of 'hot'?",
+    "options": [
+      "Cold",
+      "Warm",
+      "Cool",
+      "Freezing"
+    ],
+    "answer": 0,
+    "explanation": "The opposite of 'hot' is 'cold'."
+  },
+  {
+    "question": "What is the plural form of the word 'book'?",
+    "options": [
+      "Books",
+      "Bookes",
+      "Booke",
+      "Bookies"
+    ],
+    "answer": 0,
+    "explanation": "The plural form of the word 'book' is 'books'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She plays guitar every day",
+      "She play guitar every day",
+      "She played guitar every day",
+      "She playing guitar every day"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'She plays guitar every day' because we use the base form of the verb plus -s in present simple for he, she, and it."
+  },
+  {
+    "question": "What is the superlative form of the adjective 'big'?",
+    "options": [
+      "Bigger",
+      "Biggest",
+      "More big",
+      "Biglier"
+    ],
+    "answer": 1,
+    "explanation": "The superlative form of the adjective 'big' is 'biggest'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "They are my parents",
+      "They is my parents",
+      "They am my parents",
+      "They be my parents"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'They are my parents' because we use 'are' with they and we in present simple."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He has a new car",
+      "He have a new car",
+      "He had a new car",
+      "He haves a new car"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'He has a new car' because we use 'has' with he, she, and it in present perfect."
+  },
+  {
+    "question": "What is the past tense of the verb 'to swim'?",
+    "options": [
+      "Swam",
+      "Swum",
+      "Swimmed",
+      "Swimming"
+    ],
+    "answer": 0,
+    "explanation": "The past tense of the verb 'to swim' is 'swam'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "We are watching a movie",
+      "We is watching a movie",
+      "We am watching a movie",
+      "We be watching a movie"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'We are watching a movie' because we use 'are' with we and they in present continuous."
+  },
+  {
+    "question": "What is the plural form of the word 'child'?",
+    "options": [
+      "Children",
+      "Childs",
+      "Childes",
+      "Childies"
+    ],
+    "answer": 0,
+    "explanation": "The plural form of the word 'child' is 'children'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She will go to the store later",
+      "She goes to the store later",
+      "She going to the store later",
+      "She went to the store later"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'She will go to the store later' because we use 'will' to talk about the future."
+  },
+  {
+    "question": "What is the comparative form of the adjective 'happy'?",
+    "options": [
+      "Happier",
+      "Happyer",
+      "More happy",
+      "Happiest"
+    ],
+    "answer": 0,
+    "explanation": "The comparative form of the adjective 'happy' is 'happier'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I studied English yesterday",
+      "I study English yesterday",
+      "I was studying English yesterday",
+      "I have studied English yesterday"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'I studied English yesterday' because we use the past simple to talk about completed actions in the past."
+  },
+  {
+    "question": "What is the correct form of the verb 'to be' in past simple for he, she, and it?",
+    "options": [
+      "Was",
+      "Were",
+      "Am",
+      "Is"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'was' because we use 'was' with he, she, and it in past simple."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I watched TV last night",
+      "I watch TV last night",
+      "I was watching TV last night",
+      "I am watching TV last night"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'I watched TV last night' because we use the past simple form of the verb to talk about finished actions in the past."
+  },
+  {
+    "question": "What is the opposite of 'happy'?",
+    "options": [
+      "Sad",
+      "Angry",
+      "Excited",
+      "Bored"
+    ],
+    "answer": 0,
+    "explanation": "The opposite of 'happy' is 'sad'."
+  },
+  {
+    "question": "What is the plural form of the word 'box'?",
+    "options": [
+      "Boxes",
+      "Boxs",
+      "Boxies",
+      "Boxen"
+    ],
+    "answer": 0,
+    "explanation": "The plural form of the word 'box' is 'boxes'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She worked at the office yesterday",
+      "She work at the office yesterday",
+      "She works at the office yesterday",
+      "She is working at the office yesterday"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'She worked at the office yesterday' because we use the past simple form of the verb to talk about finished actions in the past."
+  },
+  {
+    "question": "What is the comparative form of the adjective 'happy'?",
+    "options": [
+      "Happiest",
+      "Happier",
+      "More happy",
+      "Happyer"
+    ],
+    "answer": 1,
+    "explanation": "The comparative form of the adjective 'happy' is 'happier'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "They were at the party last night",
+      "They was at the party last night",
+      "They am at the party last night",
+      "They be at the party last night"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'They were at the party last night' because we use 'were' with they and we in past simple."
+  },
+  {
+    "question": "What is the past simple form of the verb 'eat'?",
+    "options": [
+      "Ate",
+      "Eaten",
+      "Eating",
+      "Eats"
+    ],
+    "answer": 0,
+    "explanation": "The past simple form of the verb 'eat' is 'ate'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I saw a movie last night",
+      "I see a movie last night",
+      "I have seen a movie last night",
+      "I seen a movie last night"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'I saw a movie last night' because we use the past simple form of the verb to talk about a completed action in the past."
+  },
+  {
+    "question": "What is the opposite of 'young'?",
+    "options": [
+      "Old",
+      "New",
+      "Modern",
+      "Current"
+    ],
+    "answer": 0,
+    "explanation": "The opposite of 'young' is 'old'."
+  },
+  {
+    "question": "What is the correct form of the verb 'to be' in past simple for he, she, and it?",
+    "options": [
+      "Was",
+      "Were",
+      "Am",
+      "Is"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'was' because we use 'was' with he, she, and it in past simple."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "They went to the beach last weekend",
+      "They go to the beach last weekend",
+      "They have gone to the beach last weekend",
+      "They are going to the beach last weekend"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'They went to the beach last weekend' because we use the past simple form of the verb to talk about a completed action in the past."
+  },
+  {
+    "question": "What is the comparative form of the adjective 'expensive'?",
+    "options": [
+      "Expensiver",
+      "More expensive",
+      "Expensivest",
+      "Expensivier"
+    ],
+    "answer": 1,
+    "explanation": "The comparative form of the adjective 'expensive' is 'more expensive'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She worked hard to pass the exam",
+      "She work hard to pass the exam",
+      "She has worked hard to pass the exam",
+      "She working hard to pass the exam"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'She worked hard to pass the exam' because we use the past simple form of the verb to talk about a completed action in the past."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He never eats breakfast",
+      "He never eat breakfast",
+      "He never ate breakfast",
+      "He never eating breakfast"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'He never eats breakfast' because we use the base form of the verb in present simple for he, she, and it."
+  },
+  {
+    "question": "What is the opposite of 'fast'?",
+    "options": [
+      "Slow",
+      "Quick",
+      "Speedy",
+      "Rapid"
+    ],
+    "answer": 0,
+    "explanation": "The opposite of 'fast' is 'slow'."
+  },
+  {
+    "question": "What is the correct form of the verb 'to be' in present simple for second person singular?",
+    "options": [
+      "Am",
+      "Are",
+      "Is",
+      "Be"
+    ],
+    "answer": 1,
+    "explanation": "The correct form is 'are' because we use 'are' with you in present simple."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "We study English every day",
+      "We studies English every day",
+      "We studied English every day",
+      "We studying English every day"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'We study English every day' because we use the base form of the verb in present simple for I, you, we, and they."
+  },
+  {
+    "question": "What is the comparative form of the adjective 'small'?",
+    "options": [
+      "Smaller",
+      "Smalliest",
+      "More small",
+      "Smallier"
+    ],
+    "answer": 0,
+    "explanation": "The comparative form of the adjective 'small' is 'smaller'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I watched a movie last night",
+      "I watch a movie last night",
+      "I was watching a movie last night",
+      "I am watching a movie last night"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'I watched a movie last night' because we use the past simple form of the verb for actions that happened in the past and are now finished."
+  },
+  {
+    "question": "What is the correct form of the verb 'to be' in past simple for he, she, and it?",
+    "options": [
+      "Was",
+      "Were",
+      "Am",
+      "Is"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'was' because we use 'was' with he, she, and it in past simple."
+  },
+  {
+    "question": "What is the opposite of 'happy'?",
+    "options": [
+      "Sad",
+      "Angry",
+      "Excited",
+      "Nervous"
+    ],
+    "answer": 0,
+    "explanation": "The opposite of 'happy' is 'sad'."
+  },
+  {
+    "question": "What is the correct word order for a simple sentence in English?",
+    "options": [
+      "Subject-Verb-Object",
+      "Subject-Object-Verb",
+      "Verb-Subject-Object",
+      "Object-Subject-Verb"
+    ],
+    "answer": 0,
+    "explanation": "The correct word order for a simple sentence in English is Subject-Verb-Object."
+  },
+  {
+    "question": "What is the irregular past simple form of the verb 'to go'?",
+    "options": [
+      "Went",
+      "Gone",
+      "Goed",
+      "Goes"
+    ],
+    "answer": 0,
+    "explanation": "The irregular past simple form of the verb 'to go' is 'went'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "I don't like coffee",
+      "I doesn't like coffee",
+      "I don't likes coffee",
+      "I not like coffee"
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence is 'I don't like coffee' because we use 'do not' or 'don't' to make negative sentences in present simple."
+  },
+  {
+    "question": "What is the comparative form of the adjective 'expensive'?",
+    "options": [
+      "Expensiver",
+      "More expensive",
+      "Expensivest",
+      "Expensiveer"
+    ],
+    "answer": 1,
+    "explanation": "The comparative form of the adjective 'expensive' is 'more expensive'."
+  },
+  {
+    "question": "What is the correct form of the verb 'to be' in present continuous for I?",
+    "options": [
+      "Am",
+      "Is",
+      "Are",
+      "Be"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'am' because we use 'am' with I in present continuous."
   }
 ]
