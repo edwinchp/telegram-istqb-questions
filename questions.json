@@ -1,57 +1,530 @@
 [
   {
-    "question": "What is the capital city of Japan?",
+    "question": "What does the word 'happy' mean?",
     "options": [
-      "Tokyo",
-      "Osaka",
-      "Kyoto",
-      "Hiroshima"
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Boring"
+    ],
+    "answer": 1,
+    "explanation": "'Happy' means feeling or expressing joy or pleasure."
+  },
+  {
+    "question": "What is the opposite of the word 'hot'?",
+    "options": [
+      "Warm",
+      "Cold",
+      "Cool",
+      "Freezing"
+    ],
+    "answer": 1,
+    "explanation": "'Cold' is the opposite of 'hot'."
+  },
+  {
+    "question": "What is the correct plural form of the word 'book'?",
+    "options": [
+      "Bookes",
+      "Books",
+      "Bookies",
+      "Bookees"
+    ],
+    "answer": 1,
+    "explanation": "'Books' is the correct plural form of 'book'."
+  },
+  {
+    "question": "What is the meaning of the phrase 'big deal'?",
+    "options": [
+      "Something important or significant",
+      "Something small or unimportant",
+      "Something bad or negative",
+      "Something good or positive"
+    ],
+    "answer": 2,
+    "explanation": "The phrase 'big deal' is used to express that something is not important or significant."
+  },
+  {
+    "question": "What is the correct comparative form of the word 'big'?",
+    "options": [
+      "Big",
+      "Bigger",
+      "Biggest",
+      "More big"
+    ],
+    "answer": 1,
+    "explanation": "'Bigger' is the correct comparative form of 'big'."
+  },
+  {
+    "question": "What is the correct form of the verb 'to be' in the present tense for 'he'?",
+    "options": [
+      "Am",
+      "Are",
+      "Is",
+      "Be"
+    ],
+    "answer": 2,
+    "explanation": "'Is' is the correct form of the verb 'to be' in the present tense for 'he'."
+  },
+  {
+    "question": "What is your name?",
+    "options": [
+      "My name am",
+      "My name is",
+      "My name be",
+      "My name are"
+    ],
+    "answer": 1,
+    "explanation": "The correct form of the sentence is 'My name is'."
+  },
+  {
+    "question": "What is your father's job?",
+    "options": [
+      "He is a teacher",
+      "He are a teacher",
+      "He be a teacher",
+      "He am a teacher"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "The correct form of the sentence is 'He is a teacher'."
   },
   {
-    "question": "Who invented the telephone?",
+    "question": "Where are you from?",
     "options": [
-      "Thomas Edison",
-      "Alexander Graham Bell",
-      "Nikola Tesla",
-      "Guglielmo Marconi"
+      "I am from Spain",
+      "I is from Spain",
+      "I be from Spain",
+      "I are from Spain"
+    ],
+    "answer": 0,
+    "explanation": "The correct form of the sentence is 'I am from Spain'."
+  },
+  {
+    "question": "What time is it?",
+    "options": [
+      "It am 3 o'clock",
+      "It is 3 o'clock",
+      "It be 3 o'clock",
+      "It are 3 o'clock"
     ],
     "answer": 1,
-    "explanation": "Alexander Graham Bell invented the telephone in 1876."
+    "explanation": "The correct form of the sentence is 'It is 3 o'clock'."
   },
   {
-    "question": "Which country is the largest producer of coffee in the world?",
+    "question": "Where is the pencil?",
     "options": [
-      "Colombia",
-      "Brazil",
-      "Vietnam",
-      "Indonesia"
+      "The pencil are on the table",
+      "The pencil am on the table",
+      "The pencil is on the table",
+      "The pencil be on the table"
+    ],
+    "answer": 2,
+    "explanation": "The correct form of the sentence is 'The pencil is on the table'."
+  },
+  {
+    "question": "What is your favorite subject?",
+    "options": [
+      "My favorite subject am maths",
+      "My favorite subject be maths",
+      "My favorite subject is maths",
+      "My favorite subject are maths"
+    ],
+    "answer": 2,
+    "explanation": "The correct form of the sentence is 'My favorite subject is maths'."
+  },
+  {
+    "question": "Who is your best friend?",
+    "options": [
+      "My best friend am Sarah",
+      "My best friend is Sarah",
+      "My best friend be Sarah",
+      "My best friend are Sarah"
     ],
     "answer": 1,
-    "explanation": "Brazil is the largest producer of coffee in the world."
+    "explanation": "The correct form of the sentence is 'My best friend is Sarah'."
   },
   {
-    "question": "Who painted the Mona Lisa?",
+    "question": "What did you do yesterday?",
     "options": [
-      "Vincent van Gogh",
-      "Pablo Picasso",
-      "Leonardo da Vinci",
-      "Michelangelo"
+      "I am play football",
+      "I was playing football",
+      "I did play football",
+      "I played football"
     ],
-    "answer": 2,
-    "explanation": "Leonardo da Vinci painted the Mona Lisa."
+    "answer": 3,
+    "explanation": "The correct form is 'played' because we use past simple to talk about completed actions in the past."
   },
   {
-    "question": "Which planet is known as the 'Red Planet'?",
+    "question": "Where did you go on vacation last year?",
     "options": [
-      "Venus",
-      "Jupiter",
-      "Mars",
-      "Saturn"
+      "I went to the beach",
+      "I go to the beach",
+      "I was going to the beach",
+      "I did go to the beach"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'went' because we use past simple to talk about actions that happened at a specific time in the past."
+  },
+  {
+    "question": "What did you have for breakfast this morning?",
+    "options": [
+      "I was having cereal",
+      "I had cereal",
+      "I did have cereal",
+      "I have cereal"
+    ],
+    "answer": 1,
+    "explanation": "The correct form is 'had' because we use past simple to talk about finished actions in the past."
+  },
+  {
+    "question": "Did you watch a movie last weekend?",
+    "options": [
+      "Yes, I was watching a movie",
+      "Yes, I watched a movie",
+      "Yes, I did watch a movie",
+      "Yes, I am watching a movie"
     ],
     "answer": 2,
-    "explanation": "Mars is known as the 'Red Planet' due to its reddish appearance in the night sky."
+    "explanation": "The correct form is 'did watch' because we use the auxiliary 'did' to form questions and negatives in past simple."
+  },
+  {
+    "question": "What did you study in school yesterday?",
+    "options": [
+      "I was studying English",
+      "I studied English",
+      "I did study English",
+      "I study English"
+    ],
+    "answer": 1,
+    "explanation": "The correct form is 'studied' because we use past simple to talk about completed actions in the past."
+  },
+  {
+    "question": "Did you have a good weekend?",
+    "options": [
+      "Yes, I had a good weekend",
+      "Yes, I was having a good weekend",
+      "Yes, I did have a good weekend",
+      "Yes, I have a good weekend"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'had' because we use past simple to talk about finished actions in the past."
+  },
+  {
+    "question": "What did you eat for dinner last night?",
+    "options": [
+      "I ate pizza",
+      "I did eat pizza",
+      "I was eating pizza",
+      "I had pizza"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'ate' because we use past simple to talk about actions that happened at a specific time in the past."
+  },
+  {
+    "question": "Do you like to read books?",
+    "options": [
+      "Yes, I likes to read books",
+      "Yes, I like to read books",
+      "No, I don't like to read books",
+      "No, I didn't like to read books"
+    ],
+    "answer": 1,
+    "explanation": "The correct form is 'like' because we use the base form of the verb with 'I', 'you', 'we', and 'they' in simple present."
+  },
+  {
+    "question": "What time do you usually wake up in the morning?",
+    "options": [
+      "I usually wakes up at 7",
+      "I usually wake up at 7",
+      "I usually waked up at 7",
+      "I usually wake upped at 7"
+    ],
+    "answer": 1,
+    "explanation": "The correct form is 'wake up' because we use the base form of the verb with 'I', 'you', 'we', and 'they' in simple present."
+  },
+  {
+    "question": "Does your mother work?",
+    "options": [
+      "Yes, my mother works",
+      "Yes, my mother work",
+      "No, my mother doesn't work",
+      "No, my mother didn't work"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'works' because we use the third person singular form of the verb with 'he', 'she', and 'it' in simple present."
+  },
+  {
+    "question": "What did you do yesterday after school?",
+    "options": [
+      "I went to work",
+      "I go to work",
+      "I was going to work",
+      "I did go to work"
+    ],
+    "answer": 3,
+    "explanation": "The correct form is 'did go' because we use the auxiliary 'did' to form questions and negatives in past simple."
+  },
+  {
+    "question": "Does your friend have a car?",
+    "options": [
+      "Yes, my friend has a car",
+      "Yes, my friend have a car",
+      "No, my friend doesn't have a car",
+      "No, my friend didn't have a car"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'has' because we use the third person singular form of the verb with 'he', 'she', and 'it' in simple present."
+  },
+  {
+    "question": "What time did you go to bed last night?",
+    "options": [
+      "I went to bed at 10 pm",
+      "I go to bed at 10 pm",
+      "I was going to bed at 10 pm",
+      "I did go to bed at 10 pm"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'went' because we use past simple to talk about actions that happened at a specific time in the past."
+  },
+  {
+    "question": "What do you usually eat for lunch?",
+    "options": [
+      "I usually eats a sandwich",
+      "I usually eat a sandwich",
+      "I usually ate a sandwich",
+      "I usually eating a sandwich"
+    ],
+    "answer": 1,
+    "explanation": "The correct form is 'eat' because we use the base form of the verb with 'I', 'you', 'we', and 'they'"
+  },
+  {
+    "question": "What did you eat for breakfast this morning?",
+    "options": [
+      "I eat toast and eggs",
+      "I ate toast and eggs",
+      "I am eating toast and eggs",
+      "I will eat toast and eggs"
+    ],
+    "answer": 1,
+    "explanation": "The correct form is 'ate' because we use past simple to talk about actions that happened at a specific time in the past."
+  },
+  {
+    "question": "Does your brother have a pet?",
+    "options": [
+      "Yes, my brother has a pet",
+      "Yes, my brother have a pet",
+      "No, my brother doesn't have a pet",
+      "No, my brother didn't have a pet"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'has' because we use the third person singular form of the verb with 'he', 'she', and 'it' in simple present."
+  },
+  {
+    "question": "What time do you usually go to bed?",
+    "options": [
+      "I usually goes to bed at 10 pm",
+      "I usually go to bed at 10 pm",
+      "I usually went to bed at 10 pm",
+      "I usually am going to bed at 10 pm"
+    ],
+    "answer": 1,
+    "explanation": "The correct form is 'go' because we use the base form of the verb with 'I', 'you', 'we', and 'they' in simple present."
+  },
+  {
+    "question": "What did you study in school yesterday?",
+    "options": [
+      "I studied math and science",
+      "I study math and science",
+      "I was studying math and science",
+      "I did study math and science"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'studied' because we use past simple to talk about actions that happened at a specific time in the past."
+  },
+  {
+    "question": "What does your father do for a living?",
+    "options": [
+      "My father does a doctor",
+      "My father do a doctor",
+      "My father is doing a doctor",
+      "My father is a doctor"
+    ],
+    "answer": 3,
+    "explanation": "The correct form is 'is' because we use the present simple of 'be' to talk about professions and occupations."
+  },
+  {
+    "question": "What did you watch on TV last night?",
+    "options": [
+      "I watched a movie",
+      "I watch a movie",
+      "I was watching a movie",
+      "I did watch a movie"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'watched' because we use past simple to talk about actions that happened at a specific time in the past."
+  },
+  {
+    "question": "Do you have any siblings?",
+    "options": [
+      "Yes, I have one sister",
+      "Yes, I have one sisters",
+      "No, I don't have any siblings",
+      "No, I didn't have any siblings"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'have' because we use the base form of the verb with 'I', 'you', 'we', and 'they' in simple present."
+  },
+  {
+    "question": "Where are you from?",
+    "options": [
+      "I am from New York",
+      "I was from New York",
+      "I will be from New York",
+      "I am being from New York"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'am' because we use the present simple of 'be' to talk about origin and nationality."
+  },
+  {
+    "question": "What did you do last weekend?",
+    "options": [
+      "I did shopping with my friends",
+      "I went shopping with my friends",
+      "I go shopping with my friends",
+      "I am going shopping with my friends"
+    ],
+    "answer": 1,
+    "explanation": "The correct form is 'went' because we use past simple to talk about actions that happened at a specific time in the past."
+  },
+  {
+    "question": "What do you usually do in your free time?",
+    "options": [
+      "I usually watch TV",
+      "I usually watching TV",
+      "I usually watched TV",
+      "I usually am watching TV"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'watch' because we use the base form of the verb with 'I', 'you', 'we', and 'they' in simple present."
+  },
+  {
+    "question": "What time did you wake up this morning?",
+    "options": [
+      "I woke up at 6 am",
+      "I wake up at 6 am",
+      "I was waking up at 6 am",
+      "I am waking up at 6 am"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'woke' because we use past simple to talk about actions that happened at a specific time in the past."
+  },
+  {
+    "question": "Do you like to cook?",
+    "options": [
+      "Yes, I likes to cook",
+      "Yes, I like to cook",
+      "No, I don't like to cook",
+      "No, I didn't like to cook"
+    ],
+    "answer": 1,
+    "explanation": "The correct form is 'like' because we use the base form of the verb with 'I', 'you', 'we', and 'they' in simple present."
+  },
+  {
+    "question": "What did you wear to the party last night?",
+    "options": [
+      "I wore a dress",
+      "I wear a dress",
+      "I was wearing a dress",
+      "I did wear a dress"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'wore' because we use past simple to talk about actions that happened at a specific time in the past."
+  },
+  {
+    "question": "What is your favorite color?",
+    "options": [
+      "My favorite color is blue",
+      "My favorite color are blue",
+      "My favorite color was blue",
+      "My favorite color were blue"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'is' because we use the present simple of 'be' to talk about personal preferences and opinions."
+  },
+  {
+    "question": "What is the negative form of 'I am a teacher'?",
+    "options": [
+      "I am not a teacher",
+      "I do not a teacher",
+      "I does not a teacher",
+      "I amn't a teacher"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'am not' because we use 'not' to make negative sentences with 'be'."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She doesn't like coffee",
+      "She don't like coffee",
+      "She didn't like coffee",
+      "She did not like coffee"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'doesn't like' because we use 'do/does + not' to make negative sentences with simple present."
+  },
+  {
+    "question": "What is the question form of 'You are a student'?",
+    "options": [
+      "Are you a student?",
+      "You are a student?",
+      "Do you a student?",
+      "Does you a student?"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'Are you a student?' because we use the auxiliary verb 'be' to make questions with 'you' in simple present."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "He didn't study for the test",
+      "He doesn't study for the test",
+      "He not study for the test",
+      "He wasn't studying for the test"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'didn't study' because we use past simple to talk about actions that happened at a specific time in the past."
+  },
+  {
+    "question": "What is the present participle of the verb 'read'?",
+    "options": [
+      "Reading",
+      "Readed",
+      "Readen",
+      "Readding"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'reading' because we add -ing to the base form of the verb to make present participle."
+  },
+  {
+    "question": "What is the third person singular form of the verb 'eat'?",
+    "options": [
+      "Eats",
+      "Eat",
+      "Ate",
+      "Eaten"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'eats' because we add -s to the base form of the verb to make third person singular in simple present."
+  },
+  {
+    "question": "What is the past participle of the verb 'go'?",
+    "options": [
+      "Gone",
+      "Went",
+      "Going",
+      "Goed"
+    ],
+    "answer": 0,
+    "explanation": "The correct form is 'gone' because irregular verbs have a different form for past participle, and 'go' is an irregular verb."
   }
 ]
