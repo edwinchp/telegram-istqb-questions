@@ -424,5 +424,17 @@
     ],
     "answer": 6,
     "explanation": "Example: testing all requirements and fixing all defects found could still produce a system that is difficult to use, that does not fulfill the users’ needs and expectations."
+  },
+    {
+    "question": "Order these Test Process activities: \n\n A)Test analysis          B)Test planning          C)Test design          D)Test monitoring and control          E)Test execution          F)Test implementation          G)Test completion",
+    "options": [
+      "B, D, A, C, F, E, G",
+      "B, D, A, C, E, F, G" ,
+      "A, B, C, E, D, F, G",
+      "A, B, C, D, E, F, G",
+      "B, D, A, E, C, F, G"
+    ],
+    "answer": 0,
+    "explanation": "Each constituent activity consists of multiple individual tasks, which would vary from one project or release to another."
   }
 ]
