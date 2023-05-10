@@ -383,5 +383,71 @@
     ],
     "answer": 3,
     "explanation": ""
+  },
+  {
+    "question": "Una startup crea una aplicación de análisis con soporte para una interfaz basada en el habla. La aplicación aceptará entradas basadas en el habla de los usuarios y luego transmitirá los resultados a través del habla. Como Cloud Practitioner, ¿qué solución recomendarías para este caso de uso?",
+    "options": [
+      "Amazon Translate para convertir habla en texto para el análisis posterior. Luego utiliza Amazon Polly para transmitir resultados del texto a través del habla",
+      "Amazon Transcribe para convertir habla en texto para el análisis posterior. Luego utiliza Amazon Polly para transmitir resultados del texto a través del habla",
+      "Amazon Polly para convertir habla en texto para el análisis posterior. Luego utiliza Amazon Translate para transmitir resultados del texto a través del habla",
+      "Amazon Polly para convertir habla en texto para el análisis posterior. Luego utiliza Amazon Transcribe para transmitir resultados del texto a través del habla"
+    ],
+    "answer": 1,
+    "explanation": "Puedes utilizar Amazon Polly para convertir el texto en habla realista, lo que te permitirá crear aplicaciones que hablen."
+  },
+  {
+    "question": "Una startup almacena datos anonimizados de pacientes en Amazon S3. Además, el director de tecnología quiere asegurarse de que se descubra e identifique cualquier dato sensible en S3 para evitar cualquier fuga de datos sensibles. Como Cloud Practitioner, ¿qué servicio de AWS recomendarías?",
+    "options": [
+      "AWS Secrets Manager",
+      "Amazon Macie",
+      "AWS Glue",
+      "Amazon Polly"
+    ],
+    "answer": 1,
+    "explanation": "Amazon Macie es un servicio de seguridad y privacidad de datos totalmente gestionado que utiliza el Machine Learning y la concordancia de patrones para descubrir y proteger tus datos sensibles en AWS."
+  },
+  {
+    "question": " Una empresa multinacional quiere obtener asesoramiento profesional experto para migrar al Cloud de AWS y gestionar sus aplicaciones en el Cloud de AWS. ¿Cuál de las siguientes entidades recomendarías para este compromiso?",
+    "options": [
+      "Socio tecnológico de APN",
+      "Equipo de soporte de conserjería (Concierge Support Team)",
+      "Socio consultor de APN",
+      "AWS Trusted Advisor"
+    ],
+    "answer": 2,
+    "explanation": "Los socios consultores de APN son empresas de servicios profesionales que ayudan a clientes de todo tipo y tamaño a diseñar."
+  },
+  {
+    "question": "¿Cuál de las siguientes clases de almacenamiento de S3 tarda más tiempo en recuperar los datos (también conocido como latencia del primer byte)?",
+    "options": [
+      "S3 Glacier",
+      "S3 Intelligent-Tiering",
+      "S3 Estándar",
+      "S3 Glacier Deep Archive"
+    ],
+    "answer": 3,
+    "explanation": "S3 Glacier Deep Archive es la clase de almacenamiento de menor coste de Amazon S3 y soporta la retención a largo plazo."
+  },
+  {
+    "question": "¿Cuáles son las ventajas que ofrece AWS Cloud sobre una infraestructura IT tradicional en las instalaciones?",
+    "options": [
+      "Cambiar el gasto de capital por el gasto variable",
+      "Tomar una decisión de capacidad antes de desplegar una aplicación, para reducir los costes",
+      "Aumenta la velocidad y la agilidad manteniendo los servidores y otros recursos necesarios listos antes de tiempo en tus centros de datos",
+      "Proporcionar una menor latencia a las aplicaciones manteniendo los servidores en las instalaciones"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+    {
+    "question": "¿Cuáles son las ventajas que ofrece AWS Cloud sobre una infraestructura IT tradicional en las instalaciones?",
+    "options": [
+      "Tomar una decisión de capacidad antes de desplegar una aplicación, para reducir los costes",
+      "Eliminar las conjeturas sobre las necesidades de capacidad de tu infraestructura",
+      "Aumenta la velocidad y la agilidad manteniendo los servidores y otros recursos necesarios listos antes de tiempo en tus centros de datos",
+      "Proporcionar una menor latencia a las aplicaciones manteniendo los servidores en las instalaciones"
+    ],
+    "answer": 1,
+    "explanation": ""
   }
 ]
