@@ -425,16 +425,296 @@
     "answer": 6,
     "explanation": "Example: testing all requirements and fixing all defects found could still produce a system that is difficult to use, that does not fulfill the users’ needs and expectations."
   },
-    {
+  {
     "question": "Order these Test Process activities: \n\n A)Test analysis          B)Test planning          C)Test design          D)Test monitoring and control          E)Test execution          F)Test implementation          G)Test completion",
     "options": [
       "B, D, A, C, F, E, G",
-      "B, D, A, C, E, F, G" ,
+      "B, D, A, C, E, F, G",
       "A, B, C, E, D, F, G",
       "A, B, C, D, E, F, G",
       "B, D, A, E, C, F, G"
     ],
     "answer": 0,
     "explanation": "Each constituent activity consists of multiple individual tasks, which would vary from one project or release to another."
+  },
+  {
+    "question": "Involves activities that define the objectives of testing and the approach for meeting test objectives within constraints imposed by the context (e.g., specifying suitable test techniques and tasks, and formulating a test schedule for meeting a deadline).",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Involves the on-going comparison of actual progress against planned progress using any test monitoring metrics defined in the test plan.",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test monitoring",
+      "Test control",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "question": "Involves taking actions necessary to meet the objectives of the test plan (which may be updated over time).",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test monitoring",
+      "Test control",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 5,
+    "explanation": ""
+  },
+  {
+    "question": "It is supported by the evaluation of exit criteria, which are referred to as the definition of done in some software development lifecycle models",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "During this test process, the test basis is analyzed to identify testable features and define associated test conditions. In other words, it determines “what to test” in terms of measurable coverage criteria.",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "During this test process you perform the following tasks: \n Analyze requirement specifications, Design and implementation, Risk analysis, Evaluate test items to identify defects",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "In which test process the application of black-box, white-box and experienced-based test techniques can be useful to reduce the likelihood of omitting important test conditions and to define accurate test conditions?",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "During this test process, the test conditions are elaborated into high-level test cases, sets of high-level test cases, and other testware. So, test analysis answers the question “what to test?” while test design answers the question “how to test?”",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 3,
+    "explanation": "Test design may also result in the identification of similar types of defects in the test basis"
+  },
+  {
+    "question": "This process includes the following major activities: Capturing bi-directional traceability between the test basis, test conditions, and test cases",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 3,
+    "explanation": "Test design may also result in the identification of similar types of defects in the test basis"
+  },
+  {
+    "question": "This test process includes the following major activities: Designing and prioritizing test cases and sets of test cases",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 3,
+    "explanation": "Test design may also result in the identification of similar types of defects in the test basis"
+  },
+  {
+    "question": "This test process includes the following major activities: Identifying necessary test data to support test conditions and test cases",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 3,
+    "explanation": "Test design may also result in the identification of similar types of defects in the test basis"
+  },
+  {
+    "question": "This test process includes the following major activities: Designing the test environment and identifying any required infrastructure and tools",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 3,
+    "explanation": "Test design may also result in the identification of similar types of defects in the test basis"
+  },
+  {
+    "question": "During this test process, the testware necessary for test execution is created and/or completed, including sequencing the test cases into test procedures.\n It answers the question “do we now have everything in place to run the tests?”",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "question": "This test process includes the following major activities: \n\nDeveloping and prioritizing test procedures, and, potentially, creating automated test scripts. Creating test suites from the test procedures and (if any) automated test scripts.",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "question": "This test process includes the following major activities: \n\nArranging the test suites within a test execution schedule in a way that results in efficient test execution. Preparing test data and ensuring it is properly loaded in the test environment.",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "question": "This test process includes the following major activities: \n\n Build the test environment (including, potentially test harnesses, service virtualization simulators and other infrastructure items) and verifying that everything needed has been set up correctly.",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "question": "This test process includes the following major activities: \n\nRecording the IDs and versions of the test item(s) or test object, test tool(s), and testware. Executing tests either manually or by using test execution tools. Comparing actual results with expected results.",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 5,
+    "explanation": ""
+  },
+  {
+    "question": "This test process includes the following major activities: \n\nReporting defects based on the failures observed. Logging the outcome of test execution (e.g., pass, fail, blocked)",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 5,
+    "explanation": ""
+  },
+  {
+    "question": "This test process includes the following major activities: \n\nCreating a test summary report to be communicated to stakeholders. Finalizing and archiving the test environment, the test data, the test infrastructure, and other testware for later reuse",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 6,
+    "explanation": "Test completion activities collect data from completed test activities to consolidate experience, testware, and any other relevant information."
+  },
+  {
+    "question": "This test process includes the following major activities: \n\nAnalyzing lessons learned from the completed test activities to determine changes needed for future iterations, releases, and projects. Using the information gathered to improve test process maturity.",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "answer": 6,
+    "explanation": "Test completion activities collect data from completed test activities to consolidate experience, testware, and any other relevant information."
   }
 ]
