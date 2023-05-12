@@ -814,5 +814,150 @@
     ],
     "answer": 6,
     "explanation": ""
+  },
+  {
+    "question": "On which test level these defects are typically found? \n\n Incorrect functionality (e.g., not as described in design specifications). Data flow problems. Incorrect code and logic.",
+    "options": [
+      "Component testing",
+      "Integration testing",
+      "System testing",
+      "Acceptance testing"
+    ],
+    "answer": 0,
+    "explanation": "Component testing (also known as unit or module testing) focuses on components that are separately testable."
+  },
+  {
+    "question": "On which test level these defects are typically found? \n\n Failures in communication between components. Unhandled or improperly handled communication failures between components. Incorrect assumptions about the meaning, units, or boundaries of the data being passed between components.",
+    "options": [
+      "Component testing",
+      "Integration testing",
+      "System testing",
+      "Acceptance testing"
+    ],
+    "answer": 1,
+    "explanation": "Integration testing focuses on interactions between components or systems."
+  },
+  {
+    "question": "On which test level these defects are typically found? \n\n Failure to properly and completely carry out end-to-end functional tasks. Failure of the product to work properly in the environment(s). Failure to work as described in user manuals.",
+    "options": [
+      "Component testing",
+      "Integration testing",
+      "System testing",
+      "Acceptance testing"
+    ],
+    "answer": 2,
+    "explanation": "System testing should focus on the overall, end-to-end behavior of the system as a whole, both functional and non-functional."
+  },
+  {
+    "question": "On which test level these defects are typically found? \n\n System workflows do not meet business or user requirements. Business rules are not implemented correctly. System does not satisfy contractual or regulatory requirements.",
+    "options": [
+      "Component testing",
+      "Integration testing",
+      "System testing",
+      "Acceptance testing"
+    ],
+    "answer": 3,
+    "explanation": "Acceptance testing, like system testing, typically focuses on the behavior and capabilities of a whole system or product."
+  },
+  {
+    "question": "_____ is often the responsibility of developers. ______ is generally the responsibility of testers. Ideally, when testers performing it should understand the system architecture.",
+    "options": [
+      "Component integration testing / System integration testing",
+      "System integration testing / Component integration testing",
+      "System integration testing / Integration testing",
+      "Acceptance testing / Component integration testing"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "It focuses on the behavior and capabilities of a whole product, often considering the end-to-end tasks the product can perform and the non-functional behaviors it exhibits while performing those tasks.",
+    "options": [
+      "Component testing",
+      "Integration testing",
+      "System testing",
+      "Acceptance testing"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "It typically focuses on the behavior and capabilities of a whole product. Validating that it is complete and will work as expected. And also establishing confidence in the quality. Defects may be found, but doing it is often not an objective.",
+    "options": [
+      "Component testing",
+      "Integration testing",
+      "System testing",
+      "Acceptance testing"
+    ],
+    "answer": 3,
+    "explanation": "Finding a significant number of defects during acceptance testing may in some cases be considered a major project risk."
+  },
+  {
+    "question": "The main objective is building confidence that the users can use the system to meet their needs, fulfill requirements, and perform business processes with minimum difficulty, cost, and risk.",
+    "options": [
+      "User acceptance testing (UAT)",
+      "Operational acceptance testing (OAT)",
+      "Contractual and regulatory acceptance testing",
+      "Alpha and beta testing"
+    ],
+    "answer": 0,
+    "explanation": "It is typically focused on validating the fitness for use of the system by intended users in a real or simulated environment."
+  },
+  {
+    "question": "Aspects focused on this acceptance testing: \n\n Disaster recovery. User management. Maintenance tasks. Testing of backup/restore. Load and migration tasks.",
+    "options": [
+      "User acceptance testing (UAT)",
+      "Operational acceptance testing (OAT)",
+      "Contractual and regulatory acceptance testing",
+      "Alpha and beta testing"
+    ],
+    "answer": 1,
+    "explanation": "The objective is building confidence that the system administrators can keep the system working properly even under difficult conditions."
+  },
+  {
+    "question": "It is performed against an agreement of acceptance criteria for producing custom-developed software. Acceptance criteria should be defined when the parties agree to the commitment.",
+    "options": [
+      "User acceptance testing (UAT)",
+      "Operational acceptance testing (OAT)",
+      "Contractual and regulatory acceptance testing",
+      "Alpha and beta testing"
+    ],
+    "answer": 2,
+    "explanation": "Regulatory acceptance testing is often performed by users or by independent testers, sometimes with the results being witnessed or audited by regulatory agencies."
+  },
+  {
+    "question": "It is used by developers of commercial off-the-shelf (COTS) software who want to get feedback from potential or existing users, customers, and/or operators before the software product is put on the market. ",
+    "options": [
+      "User acceptance testing (UAT)",
+      "Operational acceptance testing (OAT)",
+      "Contractual and regulatory acceptance testing",
+      "Alpha and beta testing"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "questions": "It is performed at the developing organization’s site, not by the development team, but by potential or existing customers, and/or operators or an independent test team.",
+    "options": [
+      "User acceptance testing (UAT)",
+      "Operational acceptance testing (OAT)",
+      "Alpha and beta testing",
+      "Alpha testing",
+      "Beta testing"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "questions": "It is performed by potential or existing customers, and/or operators at their own locations.",
+    "options": [
+      "User acceptance testing (UAT)",
+      "Operational acceptance testing (OAT)",
+      "Alpha and beta testing",
+      "Alpha testing",
+      "Beta testing"
+    ],
+    "answer": 4,
+    "explanation": ""
   }
 ]
