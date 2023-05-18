@@ -536,7 +536,7 @@
     "explanation": ""
   },
   {
-    "question": "During this test process, the test conditions are elaborated into high-level test cases, sets of high-level test cases, and other testware. So, test analysis answers the question “what to test?” while test design answers the question “how to test?”",
+    "question": "During this test process, the test conditions are elaborated into high-level test cases, sets of high-level test cases, and other testware. While test analysis answers the question “what to test?” this test process answers the question “how to test?”",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -937,7 +937,7 @@
     "explanation": ""
   },
   {
-    "questions": "It is performed at the developing organization’s site, not by the development team, but by potential or existing customers, and/or operators or an independent test team.",
+    "question": "It is performed at the developing organization’s site, not by the development team, but by potential or existing customers, and/or operators or an independent test team.",
     "options": [
       "User acceptance testing (UAT)",
       "Operational acceptance testing (OAT)",
@@ -949,7 +949,7 @@
     "explanation": ""
   },
   {
-    "questions": "It is performed by potential or existing customers, and/or operators at their own locations.",
+    "question": "It is performed by potential or existing customers, and/or operators at their own locations.",
     "options": [
       "User acceptance testing (UAT)",
       "Operational acceptance testing (OAT)",
@@ -958,6 +958,66 @@
       "Beta testing"
     ],
     "answer": 4,
+    "explanation": ""
+  },
+  {
+    "question": "It involves tests that evaluate functions that the system should perform. Work products could be business requirements specifications, epics, user stories, use cases, or functional specifications, or they may be undocumented.",
+    "options": [
+      "Functional testing",
+      "Non-functional testing",
+      "White-box testing",
+      "Black-box testing",
+      "Change-related testing"
+    ],
+    "answer": 0,
+    "explanation": "The functions are “what” the system should do."
+  },
+  {
+    "question": " evaluates characteristics of systems and software such as usability,\nperformance efficiency or security. Refer to ISO standard (ISO/IEC 25010) for a classification of software\nproduct quality characteristics. Non-functional testing is the testing of “how well” the system behaves.",
+    "options": [
+      "Functional testing",
+      "Non-functional testing",
+      "White-box testing",
+      "Black-box testing",
+      "Change-related testing"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "It evaluates characteristics of systems and software such as usability, performance efficiency or security. It is the testing of “how well” the system behaves.",
+    "options": [
+      "Functional testing",
+      "Non-functional testing",
+      "White-box testing",
+      "Black-box testing",
+      "Change-related testing"
+    ],
+    "answer": 1,
+    "explanation": "The late discovery of non-functional defects can be extremely dangerous to the success of a project."
+  },
+  {
+    "question": "It is based on the system’s internal structure or implementation. Internal structure may include code, architecture, work flows, and/or data flows within the system.",
+    "options": [
+      "Functional testing",
+      "Non-functional testing",
+      "White-box testing",
+      "Black-box testing",
+      "Change-related testing"
+    ],
+    "answer": 2,
+    "explanation": "It requires special skills or knowledge, such as the way the code is built and how data is stored."
+  },
+  {
+    "question": "It is required when new features, modification to existing features, and code refactoring result in frequent alteration to the code",
+    "options": [
+      "Functional testing",
+      "Non-functional testing",
+      "White-box testing",
+      "Black-box testing",
+      "Change-related testing"
+    ],
+    "answer": 0,
     "explanation": ""
   }
 ]
