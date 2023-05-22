@@ -439,7 +439,7 @@
     "answer": 0,
     "explanation": ""
   },
-    {
+  {
     "question": "¿Cuáles son las ventajas que ofrece AWS Cloud sobre una infraestructura IT tradicional en las instalaciones?",
     "options": [
       "Tomar una decisión de capacidad antes de desplegar una aplicación, para reducir los costes",
@@ -449,5 +449,55 @@
     ],
     "answer": 1,
     "explanation": ""
+  },
+  {
+    "question": "¿Qué modelo de la nube proporciona infraestructura de TI virtualizada, como máquinas virtuales y redes virtuales?",
+    "options": [
+      "IaaS (Infraestructura como Servicio)",
+      "PaaS (Plataforma como Servicio)",
+      "SaaS (Software como Servicio)"
+    ],
+    "answer": 0,
+    "explanation": "El modelo de la nube IaaS proporciona recursos de infraestructura virtualizados, como servidores virtuales, almacenamiento y redes, permitiendo a los usuarios implementar y administrar sus aplicaciones y sistemas en la nube."
+  },
+  {
+    "question": "¿Cuál de los siguientes modelos de la nube ofrece un entorno completo para el desarrollo, prueba y entrega de aplicaciones?",
+    "options": [
+      "IaaS (Infraestructura como Servicio)",
+      "PaaS (Plataforma como Servicio)",
+      "SaaS (Software como Servicio)"
+    ],
+    "answer": 1,
+    "explanation": "El modelo de la nube PaaS proporciona una plataforma completa que incluye infraestructura, middleware y herramientas de desarrollo para permitir a los desarrolladores crear, probar y desplegar aplicaciones de manera más eficiente."
+  },
+  {
+    "question": "¿Cuál de los siguientes modelos de la nube permite a los usuarios acceder a aplicaciones y software a través de Internet sin necesidad de instalación o gestión local?",
+    "options": [
+      "IaaS (Infraestructura como Servicio)",
+      "PaaS (Plataforma como Servicio)",
+      "SaaS (Software como Servicio)"
+    ],
+    "answer": 2,
+    "explanation": "El modelo de la nube SaaS permite a los usuarios acceder y utilizar aplicaciones y software alojados en la nube a través de Internet, sin necesidad de instalar o mantener el software localmente."
+  },
+  {
+    "question": "¿Qué modelo de la nube proporciona a los usuarios la mayor cantidad de control y responsabilidad sobre la gestión de aplicaciones y datos?",
+    "options": [
+      "IaaS (Infraestructura como Servicio)",
+      "PaaS (Plataforma como Servicio)",
+      "SaaS (Software como Servicio)"
+    ],
+    "answer": 0,
+    "explanation": "El modelo de la nube IaaS proporciona a los usuarios un mayor nivel de control y responsabilidad sobre la gestión de aplicaciones, datos, sistemas operativos y configuraciones, ya que se encargan de la gestión de la infraestructura subyacente."
+  },
+  {
+    "question": "¿Cuál de los siguientes modelos de la nube ofrece aplicaciones y software completamente gestionados por un proveedor de servicios en la nube?",
+    "options": [
+      "IaaS (Infraestructura como Servicio)",
+      "PaaS (Plataforma como Servicio)",
+      "SaaS (Software como Servicio)"
+    ],
+    "answer": 2,
+    "explanation": "El modelo de la nube SaaS ofrece aplicaciones y software completamente gestionados por un proveedor de servicios en la nube, lo que significa que los usuarios solo necesitan acceder y utilizar la aplicación sin preocuparse por la infraestructura o la gestión del software."
   }
 ]
