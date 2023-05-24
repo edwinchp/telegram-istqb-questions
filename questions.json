@@ -1020,8 +1020,8 @@
     "answer": 4,
     "explanation": ""
   },
-  {
-    "question": "We need to calculate a employee bonus. It can't be negative, it could be zero and it is based on job duration:\n<= 2 years, > 2 and < 5 years, 5 >= 10 years\nWhat is the minium scenarios required to cover all valid equivalence partitioning to calculate the bonus?",
+{
+    "question": "We need to calculate an employee bonus. It can't be negative, it could be zero and it is based on job duration:\n<= 2 years, > 2 and < 5 years, 5 > 10 years or > 10 years\nWhat is the minium scenarios required to cover all valid equivalence partitioning to calculate the bonus?",
     "options": [
       "3",
       "5",
@@ -1029,6 +1029,6 @@
       "4"
     ],
     "answer": 3,
-    "explanation": "Divide the range like this: 0 1 2 - 3 4 - 5 6 7 8 9 10 - 11 12"
+    "explanation": "You need 4 if you divide the range like this:\n0 1 2 - 3 4 - 5 6 7 8 9 10 - 11 12"
   }
 ]
