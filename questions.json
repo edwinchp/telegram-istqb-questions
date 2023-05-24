@@ -253,16 +253,16 @@
     "explanation": ""
   },
   {
-    "question": "White-box testing is a good candidate to apply unit testing",
+    "question": "White-box testing is a good candidate to apply unit testing.",
     "options": [
       "False",
       "True"
     ],
     "answer": 1,
-    "explanation": "In a White-box testing you have access to the internal code and structure. Knowing this, you can apply unit testing"
+    "explanation": "In a White-box testing you have access to the internal code and structure. Knowing this, you can apply unit testing."
   },
   {
-    "question": "It can show failures that are caused by defects in the software",
+    "question": "It can show failures that are caused by defects in the software.",
     "options": [
       "Testing",
       "Root cause",
@@ -273,7 +273,7 @@
     "explanation": ""
   },
   {
-    "question": "Development activity that find, analyzes and fixes defects",
+    "question": "Development activity that find, analyzes and fixes defects.",
     "options": [
       "Testing",
       "Root cause",
@@ -284,7 +284,7 @@
     "explanation": ""
   },
   {
-    "question": "Includes all activities that direct and control an organization regarding quality",
+    "question": "Includes all activities that direct and control an organization regarding quality.",
     "options": [
       "Quality Control",
       "Quality Management",
@@ -292,10 +292,10 @@
       "Static testing"
     ],
     "answer": 1,
-    "explanation": "Quality management ties together the concept of Quality Assurance and Testing"
+    "explanation": "Quality management ties together the concept of Quality Assurance and Testing."
   },
   {
-    "question": "It focuses on the adherence of the proper processes in order to provide confidence that level of quality will be achieved",
+    "question": "It focuses on the adherence of the proper processes in order to provide confidence that level of quality will be achieved.",
     "options": [
       "Quality Control",
       "Quality Management",
@@ -303,10 +303,10 @@
       "Static testing"
     ],
     "answer": 2,
-    "explanation": "Quality Assurance focuses on the proper execution. It also belongs to larger concept called Quality Management"
+    "explanation": "Quality Assurance focuses on the proper execution. It also belongs to larger concept called Quality Management."
   },
   {
-    "question": "Involves many activities including test activities, that support the achievement of right levels of quality",
+    "question": "Involves many activities including test activities, that support the achievement of right levels of quality.",
     "options": [
       "Quality Control",
       "Quality Management",
@@ -314,10 +314,10 @@
       "Static testing"
     ],
     "answer": 0,
-    "explanation": "Quality Control belongs to larger concept called Quality Management"
+    "explanation": "Quality Control belongs to larger concept called Quality Management."
   },
   {
-    "question": "A person makes _____, which causes _____ in the software code, and when it is executed it causes _____ in the software ",
+    "question": "A person makes _____, which causes _____ in the software code, and when it is executed it causes _____ in the software.",
     "options": [
       "an error / a defect / a failure",
       "an error / a failure / a defect",
@@ -328,7 +328,7 @@
     "explanation": "Example: A programming error can lead to a defect in the code. If a defect is executed this may cause a failure in the application."
   },
   {
-    "question": "Which one of the 7 principles represents this scenario: During testing, a software application is found to crash when a certain input is entered. This defect would have gone unnoticed if not for testing.",
+    "question": "Which one of the 7 principles represents this scenario:\n\nDuring testing, a software application is found to crash when a certain input is entered. This defect would have gone unnoticed if not for testing.",
     "options": [
       "Testing shows the presence of defects, not their absence",
       "Exhaustive testing is impossible",
@@ -342,7 +342,7 @@
     "explanation": "Testing reduces the probability of undiscovered defects remaining in the software but, even if no defects are found, testing is not a proof of correctness."
   },
   {
-    "question": "Which one of the 7 principles represents this scenario: An e-commerce website with millions of products cannot be tested for every possible combination of inputs, so testers focus on the most important and high-risk areas, such as the checkout process.",
+    "question": "Which one of the 7 principles represents this scenario:\n\nAn e-commerce website with millions of products cannot be tested for every possible combination of inputs, so testers focus on the most important and high-risk areas, such as the checkout process.",
     "options": [
       "Testing shows the presence of defects, not their absence",
       "Exhaustive testing is impossible",
@@ -356,7 +356,7 @@
     "explanation": "Rather than attempting to test exhaustively, risk analysis, test techniques, and priorities should be used to focus test efforts."
   },
   {
-    "question": "Which one of the 7 principles represents this scenario: A defect is found in the requirements phase of a project, allowing the development team to correct it early, which is much cheaper and easier than fixing it later in the development process.",
+    "question": "Which one of the 7 principles represents this scenario:\n\nA defect is found in the requirements phase of a project, allowing the development team to correct it early, which is much cheaper and easier than fixing it later in the development process.",
     "options": [
       "Testing shows the presence of defects, not their absence",
       "Exhaustive testing is impossible",
@@ -370,7 +370,7 @@
     "explanation": "To find defects early, both static and dynamic test activities should be started as early as possible in the software development lifecycle."
   },
   {
-    "question": "Which one of the 7 principles represents this scenario: In a medical software application, most defects are found in the module that handles patient data, prompting testers to focus their efforts on improving the quality of that module.",
+    "question": "Which one of the 7 principles represents this scenario:\n\nIn a medical software application, most defects are found in the module that handles patient data, prompting testers to focus their efforts on improving the quality of that module.",
     "options": [
       "Testing shows the presence of defects, not their absence",
       "Exhaustive testing is impossible",
@@ -384,7 +384,7 @@
     "explanation": "A small number of modules usually contains most of the defects discovered during pre-release testing, or is responsible for most of the operational failures."
   },
   {
-    "question": "Which one of the 7 principles represents this scenario: Testers find that the same test cases are not finding any new defects, so they review and update the test cases to include new scenarios and inputs to keep them effective.",
+    "question": "Which one of the 7 principles represents this scenario:\n\nTesters find that the same test cases are not finding any new defects, so they review and update the test cases to include new scenarios and inputs to keep them effective.",
     "options": [
       "Testing shows the presence of defects, not their absence",
       "Exhaustive testing is impossible",
@@ -398,7 +398,7 @@
     "explanation": "To detect new defects, existing tests and test data may need changing, and new tests may need to be written."
   },
   {
-    "question": "Which one of the 7 principles represents this scenario: The testing approach for a mobile game would be different from that of a safety-critical medical device. The former would require more exploratory testing, while the latter would require more rigorous testing and documentation.",
+    "question": "Which one of the 7 principles represents this scenario:\n\nThe testing approach for a mobile game would be different from that of a safety-critical medical device. The former would require more exploratory testing, while the latter would require more rigorous testing and documentation.",
     "options": [
       "Testing shows the presence of defects, not their absence",
       "Exhaustive testing is impossible",
@@ -412,7 +412,7 @@
     "explanation": "Example: Industrial software is tested differently from an e-commerce mobile app. Also testing in Agile is done differently than testing in sequential software development."
   },
   {
-    "question": "Which one of the 7 principles represents this scenario: An application has gone through extensive testing and no defects have been found. However, when users start using the application, they find new defects that were not found during testing, highlighting the importance of continuous testing and monitoring",
+    "question": "Which one of the 7 principles represents this scenario:\n\nAn application has gone through testing and no defects have been found. However, when users use the application, they find new defects that were not found during testing, highlighting the importance of continuous testing and monitoring.",
     "options": [
       "Testing shows the presence of defects, not their absence",
       "Exhaustive testing is impossible",
@@ -426,7 +426,7 @@
     "explanation": "Example: testing all requirements and fixing all defects found could still produce a system that is difficult to use, that does not fulfill the users’ needs and expectations."
   },
   {
-    "question": "Order these Test Process activities: \n\n A)Test analysis          B)Test planning          C)Test design          D)Test monitoring and control          E)Test execution          F)Test implementation          G)Test completion",
+    "question": "Order these Test Process activities:\n\nA)Test analysis    B)Test planning    C)Test design    D)Test monitoring and control    E)Test execution    F)Test implementation    G)Test completion",
     "options": [
       "B, D, A, C, F, E, G",
       "B, D, A, C, E, F, G",
@@ -480,7 +480,7 @@
     "explanation": ""
   },
   {
-    "question": "It is supported by the evaluation of exit criteria, which are referred to as the definition of done in some software development lifecycle models",
+    "question": "It is supported by the evaluation of exit criteria, which are referred to as the definition of done in some software development lifecycle models.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -508,7 +508,7 @@
     "explanation": ""
   },
   {
-    "question": "During this test process you perform the following tasks: \n Analyze requirement specifications, Design and implementation, Risk analysis, Evaluate test items to identify defects",
+    "question": "During this test process you perform the following tasks:\n\nAnalyze requirement specifications, Design and implementation, Risk analysis, Evaluate test items to identify defects.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -536,7 +536,7 @@
     "explanation": ""
   },
   {
-    "question": "During this test process, the test conditions are elaborated into high-level test cases, sets of high-level test cases, and other testware. While test analysis answers the question “what to test?” this test process answers the question “how to test?”",
+    "question": "During this test process, the test conditions are elaborated into high-level test cases, sets of high-level test cases, and other testware. This test process answers the question “how to test?”",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -547,10 +547,10 @@
       "Test completion"
     ],
     "answer": 3,
-    "explanation": "Test design may also result in the identification of similar types of defects in the test basis"
+    "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
-    "question": "This process includes the following major activities: Capturing bi-directional traceability between the test basis, test conditions, and test cases",
+    "question": "This process includes the following major activities: Capturing bi-directional traceability between the test basis, test conditions, and test cases.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -561,7 +561,7 @@
       "Test completion"
     ],
     "answer": 3,
-    "explanation": "Test design may also result in the identification of similar types of defects in the test basis"
+    "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
     "question": "This test process includes the following major activities: Designing and prioritizing test cases and sets of test cases",
@@ -575,10 +575,10 @@
       "Test completion"
     ],
     "answer": 3,
-    "explanation": "Test design may also result in the identification of similar types of defects in the test basis"
+    "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
-    "question": "This test process includes the following major activities: Identifying necessary test data to support test conditions and test cases",
+    "question": "This test process includes the following major activities: Identifying necessary test data to support test conditions and test cases.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -589,10 +589,10 @@
       "Test completion"
     ],
     "answer": 3,
-    "explanation": "Test design may also result in the identification of similar types of defects in the test basis"
+    "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
-    "question": "This test process includes the following major activities: Designing the test environment and identifying any required infrastructure and tools",
+    "question": "This test process includes the following major activities:\n\nConfigure the test environment and identifying any required infrastructure and tools.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -603,10 +603,10 @@
       "Test completion"
     ],
     "answer": 3,
-    "explanation": "Test design may also result in the identification of similar types of defects in the test basis"
+    "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
-    "question": "During this test process, the testware necessary for test execution is created and/or completed, including sequencing the test cases into test procedures.\n It answers the question “do we now have everything in place to run the tests?”",
+    "question": "During this test process, the testware necessary for test execution is created and/or completed, including sequencing the test cases into test procedures.\nIt answers the question “do we now have everything in place to run the tests?”",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -620,7 +620,7 @@
     "explanation": ""
   },
   {
-    "question": "This test process includes the following major activities: \n\nDeveloping and prioritizing test procedures, and, potentially, creating automated test scripts. Creating test suites from the test procedures and (if any) automated test scripts.",
+    "question": "This test process includes the following major activities:\n\nDeveloping and prioritizing test procedures, and, potentially, creating automated test scripts. Creating test suites from the test procedures and (if any) automated test scripts.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -634,7 +634,7 @@
     "explanation": ""
   },
   {
-    "question": "This test process includes the following major activities: \n\nArranging the test suites within a test execution schedule in a way that results in efficient test execution. Preparing test data and ensuring it is properly loaded in the test environment.",
+    "question": "This test process includes the following major activities:\n\nArranging the test suites within a test execution schedule in a way that results in efficient test execution. Preparing test data and ensuring it is properly loaded in the test environment.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -648,7 +648,7 @@
     "explanation": ""
   },
   {
-    "question": "This test process includes the following major activities: \n\n Build the test environment (including, potentially test harnesses, service virtualization simulators and other infrastructure items) and verifying that everything needed has been set up correctly.",
+    "question": "This test process includes the following major activities:\n\nBuild the test environment (including, potentially test harnesses, service virtualization simulators and other infrastructure items) and verifying that everything needed has been set up correctly.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -662,7 +662,7 @@
     "explanation": ""
   },
   {
-    "question": "This test process includes the following major activities: \n\nRecording the IDs and versions of the test item(s) or test object, test tool(s), and testware. Executing tests either manually or by using test execution tools. Comparing actual results with expected results.",
+    "question": "This test process includes the following major activities:\n\nRecording the IDs and versions of the test item(s) or test object, test tool(s), and testware. Test either manually or by using test execution tools. Comparing actual results with expected results.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -676,7 +676,7 @@
     "explanation": ""
   },
   {
-    "question": "This test process includes the following major activities: \n\nReporting defects based on the failures observed. Logging the outcome of test execution (e.g., pass, fail, blocked)",
+    "question": "This test process includes the following major activities:\n\nReporting defects based on the failures observed. Logging the outcome of test execution (e.g., pass, fail, blocked).",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -690,7 +690,7 @@
     "explanation": ""
   },
   {
-    "question": "This test process includes the following major activities: \n\nCreating a test summary report to be communicated to stakeholders. Finalizing and archiving the test environment, the test data, the test infrastructure, and other testware for later reuse",
+    "question": "This test process includes the following major activities:\n\nCreating a test summary report to be communicated to stakeholders. Finalizing and archiving the test environment, the test data, the test infrastructure, and other testware for later reuse.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -704,7 +704,7 @@
     "explanation": "Test completion activities collect data from completed test activities to consolidate experience, testware, and any other relevant information."
   },
   {
-    "question": "This test process includes the following major activities: \n\nAnalyzing lessons learned from the completed test activities to determine changes needed for future iterations, releases, and projects. Using the information gathered to improve test process maturity.",
+    "question": "This test process includes the following major activities:\n\nAnalyzing lessons learned from the concluded test activities to determine changes needed for future iterations, releases, and projects. Using the information gathered to improve test process maturity.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -718,7 +718,7 @@
     "explanation": "Test completion activities collect data from completed test activities to consolidate experience, testware, and any other relevant information."
   },
   {
-    "question": "It includes one or more test plans. The test plan includes information about the test basis, to which the other test work products will be related via traceability information, as well as exit criteria (or definition of done) which will be used during test monitoring and control.",
+    "question": "It includes information about the test basis, to which the other test work products will be related via traceability information, as well as exit criteria (or definition of done) which will be used during test monitoring and control.",
     "options": [
       "Test planning work products",
       "Test monitoring and control work products",
@@ -816,7 +816,7 @@
     "explanation": ""
   },
   {
-    "question": "On which test level these defects are typically found? \n\n Incorrect functionality (e.g., not as described in design specifications). Data flow problems. Incorrect code and logic.",
+    "question": "On which test level these defects are typically found?\n\nIncorrect functionality (e.g., not as described in design specifications). Data flow problems. Incorrect code and logic.",
     "options": [
       "Component testing",
       "Integration testing",
@@ -827,7 +827,7 @@
     "explanation": "Component testing (also known as unit or module testing) focuses on components that are separately testable."
   },
   {
-    "question": "On which test level these defects are typically found? \n\n Failures in communication between components. Unhandled or improperly handled communication failures between components. Incorrect assumptions about the meaning, units, or boundaries of the data being passed between components.",
+    "question": "On which test level these defects are typically found?\n\nFailures in communication between components. Unhandled or improperly handled communication failures between components. Incorrect assumptions about the meaning, units, or boundaries of the data being passed between components.",
     "options": [
       "Component testing",
       "Integration testing",
@@ -838,7 +838,7 @@
     "explanation": "Integration testing focuses on interactions between components or systems."
   },
   {
-    "question": "On which test level these defects are typically found? \n\n Failure to properly and completely carry out end-to-end functional tasks. Failure of the product to work properly in the environment(s). Failure to work as described in user manuals.",
+    "question": "On which test level these defects are typically found?\n\nFailure to properly and completely carry out end-to-end functional tasks. Failure of the product to work properly in the environment(s). Failure to work as described in user manuals.",
     "options": [
       "Component testing",
       "Integration testing",
@@ -849,7 +849,7 @@
     "explanation": "System testing should focus on the overall, end-to-end behavior of the system as a whole, both functional and non-functional."
   },
   {
-    "question": "On which test level these defects are typically found? \n\n System workflows do not meet business or user requirements. Business rules are not implemented correctly. System does not satisfy contractual or regulatory requirements.",
+    "question": "On which test level these defects are typically found?\n\nSystem workflows do not meet business or user requirements. Business rules are not implemented correctly. System does not satisfy contractual or regulatory requirements.",
     "options": [
       "Component testing",
       "Integration testing",
@@ -904,7 +904,7 @@
     "explanation": "It is typically focused on validating the fitness for use of the system by intended users in a real or simulated environment."
   },
   {
-    "question": "Aspects focused on this acceptance testing: \n\n Disaster recovery. User management. Maintenance tasks. Testing of backup/restore. Load and migration tasks.",
+    "question": "Aspects focused on this acceptance testing:\n\nDisaster recovery. User management. Maintenance tasks. Testing of backup/restore. Load and migration tasks.",
     "options": [
       "User acceptance testing (UAT)",
       "Operational acceptance testing (OAT)",
@@ -973,7 +973,7 @@
     "explanation": "The functions are “what” the system should do."
   },
   {
-    "question": " evaluates characteristics of systems and software such as usability,\nperformance efficiency or security. Refer to ISO standard (ISO/IEC 25010) for a classification of software\nproduct quality characteristics. Non-functional testing is the testing of “how well” the system behaves.",
+    "question": "It evaluates characteristics of systems and software such as usability, performance efficiency or security. Refer to ISO standard (ISO/IEC 25010) for a classification of software product quality characteristics.",
     "options": [
       "Functional testing",
       "Non-functional testing",
@@ -981,8 +981,8 @@
       "Black-box testing",
       "Change-related testing"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 1,
+    "explanation": "Non-functional testing is the testing of “how well” the system behaves."
   },
   {
     "question": "It evaluates characteristics of systems and software such as usability, performance efficiency or security. It is the testing of “how well” the system behaves.",
@@ -1009,7 +1009,7 @@
     "explanation": "It requires special skills or knowledge, such as the way the code is built and how data is stored."
   },
   {
-    "question": "It is required when new features, modification to existing features, and code refactoring result in frequent alteration to the code",
+    "question": "It is required when new features, modification to existing features, and code refactoring result in frequent alteration to the code.",
     "options": [
       "Functional testing",
       "Non-functional testing",
@@ -1017,7 +1017,7 @@
       "Black-box testing",
       "Change-related testing"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": ""
   }
 ]
