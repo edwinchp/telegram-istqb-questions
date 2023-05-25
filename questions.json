@@ -1074,5 +1074,87 @@
     ],
     "answer": 2,
     "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to test how a component should calculate compound interest.\n\nWhat test type is the BEST option?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "System testing",
+      "System integration testing",
+      "Acceptance testing"
+    ],
+    "answer": 0,
+    "explanation": "It is a level of testing that focuses on testing individual software components in isolation."
+  },
+  {
+    "question": "A bank application tester wants to test how a component should calculate compound interest.\n\nWhat test type is the BEST option?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "Component testing (non-functional)",
+      "System integration testing"
+    ],
+    "answer": 0,
+    "explanation": "It is a level of testing that focuses on testing individual software components in isolation."
+  },
+  {
+    "question": "A bank application tester wants to test how account information captured at the user interface is passed to the business logic.\n\nWhat test type is the BEST option?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "System testing",
+      "System integration testing",
+      "Acceptance testing"
+    ],
+    "answer": 1,
+    "explanation": "It ensures that the components function correctly when combined and that they can communicate and exchange data properly."
+  },
+  {
+    "question": "A bank application tester wants to test how account information captured at the user interface is passed to the business logic.\n\nWhat test type is the BEST option?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "Component integration testing (non-functional)",
+      "System integration testing"
+    ],
+    "answer": 1,
+    "explanation": "It ensures that the components function correctly when combined and that they can communicate and exchange data properly."
+  },
+  {
+    "question": "A bank application tester wants to test how account holders can apply for a line of credit on their checking accounts.\n\nWhat test type is the BEST option?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "System testing",
+      "System integration testing",
+      "Acceptance testing"
+    ],
+    "answer": 2,
+    "explanation": " It is a level of testing where the entire system is tested as a whole."
+  },
+  {
+    "question": "A bank application tester wants to test how the system uses an external microservice to check an account holder’s credit score.\n\nWhat test type is the BEST option?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "System testing",
+      "System integration testing",
+      "Acceptance testing"
+    ],
+    "answer": 3,
+    "explanation": "It verifies that the different components of the system work together seamlessly and interact correctly with each other."
+  },
+  {
+    "question": "A bank application tester wants to test how the banker handles approving or declining a credit application.\n\nWhat test type is the BEST option?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "System testing",
+      "System integration testing",
+      "Acceptance testing"
+    ],
+    "answer": 4,
+    "explanation": "It involves testing the system in a real-world environment to validate its functionality, usability, and compliance with business needs."
   }
 ]
