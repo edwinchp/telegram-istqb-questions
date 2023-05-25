@@ -592,7 +592,7 @@
     "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
-    "question": "This test process includes the following major activities:\n\nConfigure the test environment and identifying any required infrastructure and tools.",
+    "question": "This test process includes the following major activities:\n\nDesign or plan the test environment and identifying any required infrastructure and tools.",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -1020,8 +1020,8 @@
     "answer": 4,
     "explanation": ""
   },
-{
-    "question": "We need to calculate an employee bonus. It can't be negative, it could be zero and it is based on job duration:\n<= 2 years, > 2 and < 5 years, 5 > 10 years or > 10 years\nWhat is the minium scenarios required to cover all valid equivalence partitioning to calculate the bonus?",
+  {
+    "question": "We need to calculate an employee bonus. It can't be negative, it could be zero and it is based on job duration:\n➊<= 2 years, ➋ > 2 and < 5 years, ➌ 5 > 10 years or > 10 years\nWhat is the minimum scenarios required to cover all valid equivalence partitioning to calculate the bonus?",
     "options": [
       "3",
       "5",
@@ -1030,5 +1030,49 @@
     ],
     "answer": 3,
     "explanation": "You need 4 if you divide the range like this:\n0 1 2 - 3 4 - 5 6 7 8 9 10 - 11 12"
+  },
+  {
+    "question": "An application gives feedback based on the steps walked:\n➊0+ to 1000 steps, ➋1000+ to 2000 steps, ➌2000+ to 4000 steps, ➍4000+ to 6000 steps, ➎6000+ steps\nWhich input values would provide the highest equivalence partitioning coverage?",
+    "options": [
+      "0, 1000, 2000, 3000, 4000",
+      "1000, 2001, 4000, 4001, 6000",
+      "123, 2345, 3456, 4567, 5678",
+      "666, 999, 2222, 5555, 6666"
+    ],
+    "answer": 3,
+    "explanation": "It covers 4 of 5 partitions:\n666 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5)"
+  },
+  {
+    "question": "A temperature converter app provides the following output categories based on the input temperature:\n➊Below freezing (<= 32°F), ➋Cold (33°F - 50°F), ➌Mild (51°F - 70°F), ➍Hot (> 70°F)\nWhich input values would provide the highest equivalence partitioning coverage?",
+    "options": [
+      "10, 30, 40, 80",
+      "32, 33, 51, 70",
+      "20, 35, 65, 80",
+      "25, 45, 55, 75"
+    ],
+    "answer": 1,
+    "explanation": "The input values 32, 33, 51, and 70 cover all four temperature categories:\nbelow freezing, cold, mild, and hot."
+  },
+  {
+    "question": "A system categorizes customers into different tiers based on their purchase amount:\n➊$0 - $100. ➋$101 - $500. ➌$501 - $1000. ➍$1001 - 5000 and 5001 and above\nHow many scenarios are required to cover all valid equivalence partitions for determining the customer tier?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "You need 5 scenarios to cover all valid equivalence partitions:\n$5, $120, $705, $3876 and $5600."
+  },
+  {
+    "question": "A system has the following password complexity:\n➊<= 8 characters. ➋<= 8 characters, 1 uppercase letter. ➌<= 8 characters, 1 uppercase letter, 1 digit. ➍<= 8 characters, 1 uppercase letter, 1 digit, 1 special character.\nHow many scenarios are required to cover all valid equivalence partitions?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "explanation": ""
   }
 ]
