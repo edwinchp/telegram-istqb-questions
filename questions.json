@@ -1156,5 +1156,185 @@
     ],
     "answer": 4,
     "explanation": "It involves testing the system in a real-world environment to validate its functionality, usability, and compliance with business needs."
+  },
+  {
+    "question": "A bank application tester wants to test make sure performance tests are designed to evaluate the number of CPU cycles required to perform a complex total interest calculation.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing (non-functional)",
+      "Component testing",
+      "Component integration testing (non-functional)",
+      "System testing",
+      "System testing (non-functional)"
+    ],
+    "answer": 0,
+    "explanation": "This may include performance testing, security testing, reliability testing, or usability testing specific to the component being tested."
+  },
+  {
+    "question": "A bank application tester wants to test make sure security tests are designed for buffer overflow vulnerabilities due to data passed from the user interface to the business logic.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing (non-functional)",
+      "Component integration testing (non-functional)",
+      "Component testing",
+      "System testing",
+      "System testing (non-functional)"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to test make sure portability tests are designed to check whether the presentation layer works on all supported browsers and mobile devices.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing (non-functional)",
+      "Component integration testing (non-functional)",
+      "System testing (non-functional)",
+      "Component testing",
+      "System testing"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to test make sure reliability tests are designed to evaluate system robustness if the credit score microservice fails to respond.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "System testing",
+      "System testing (non-functional)",
+      "System integration testing",
+      "System integration testing (non-functional)",
+      "Acceptance testing (non-functional)"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to test make sure usability tests are designed to evaluate the accessibility of the banker’s credit processing interface for people with disabilities.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing (non-functional)",
+      "System testing (non-functional)",
+      "System integration testing",
+      "Acceptance testing",
+      "Acceptance testing (non-functional)"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to test make sure tests are designed to achieve complete statement and decision coverage for all components that perform financial calculations.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "System testing",
+      "System integration testing",
+      "Acceptance testing"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to test make sure tests are designed to exercise how each screen in the browser interface passes data to the next screen and to the business logic.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "System testing",
+      "System integration testing",
+      "Acceptance testing"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to cover sequences of web pages that can occur during a credit line application.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "System testing",
+      "System integration testing",
+      "Acceptance testing"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to exercise all possible inquiry types sent to the credit score microservice.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "System testing",
+      "System integration testing",
+      "Acceptance testing"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to cover all supported financial data file structures and value ranges for bank-to-bank transfers.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing",
+      "Component integration testing",
+      "System testing",
+      "System integration testing",
+      "Acceptance testing"
+    ],
+    "answer": 4,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to make sure automated regression tests are built for each component and included within the continuous integration framework.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing (change-related)",
+      "Component testing",
+      "Component testing (non-functional)",
+      "Component integration testing",
+      "Component integration testing (change-related)"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to make sure tests are designed to confirm fixes to interface-related defects as the fixes are checked into the code repository.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing (change-related)",
+      "Component integration testing (change-related)",
+      "Component integration testing",
+      "Component testing",
+      "Component testing (non-functional)"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to make sure all tests for a given workflow are re-executed if any screen on that workflow changes.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "Component testing (change-related)",
+      "Component integration testing (change-related)",
+      "System testing (change-related)",
+      "Component testing",
+      "Component testing (non-functional)"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to make sure tests of the application interacting with the credit scoring microservice are re-executed daily as part of continuous deployment of that microservice.\n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "System testing",
+      "System testing (change-related)",
+      "System integration testing",
+      "System integration testing (change-related)",
+      "System integration testing (non-functional)"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "A bank application tester wants to make sure all previously-failed tests are re-executed after a defect found in acceptance testing is fixed. \n\nWhat test type is the BEST option to address that?",
+    "options": [
+      "System testing (non-functional)",
+      "System integration testing",
+      "System integration testing (change-related)",
+      "Acceptance testing (non-functional)",
+      "Acceptance testing (change-related)"
+    ],
+    "answer": 4,
+    "explanation": ""
   }
 ]
