@@ -1158,7 +1158,7 @@
     "explanation": "It involves testing the system in a real-world environment to validate its functionality, usability, and compliance with business needs."
   },
   {
-    "question": "A bank application tester wants to test make sure performance tests are designed to evaluate the number of CPU cycles required to perform a complex total interest calculation.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure performance tests are designed to evaluate the number of CPU cycles required to perform a complex total interest calculation.\n\nWhat test type is the BEST option to address that?",
     "options": [
       "Component testing (non-functional)",
       "Component testing",
@@ -1170,7 +1170,7 @@
     "explanation": "This may include performance testing, security testing, reliability testing, or usability testing specific to the component being tested."
   },
   {
-    "question": "A bank application tester wants to test make sure security tests are designed for buffer overflow vulnerabilities due to data passed from the user interface to the business logic.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure security tests are designed for buffer overflow vulnerabilities due to data passed from the user interface to the business logic.\n\nWhat test type is the BEST option to address that?",
     "options": [
       "Component testing (non-functional)",
       "Component integration testing (non-functional)",
@@ -1182,7 +1182,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to test make sure portability tests are designed to check whether the presentation layer works on all supported browsers and mobile devices.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure portability tests are designed to check whether the presentation layer works on all supported browsers and mobile devices.\n\nWhat test type is the BEST option to address that?",
     "options": [
       "Component testing (non-functional)",
       "Component integration testing (non-functional)",
@@ -1194,7 +1194,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to test make sure reliability tests are designed to evaluate system robustness if the credit score microservice fails to respond.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure reliability tests are designed to evaluate system robustness if the credit score microservice fails to respond.\n\nWhat test type is the BEST option to address that?",
     "options": [
       "System testing",
       "System testing (non-functional)",
@@ -1206,7 +1206,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to test make sure usability tests are designed to evaluate the accessibility of the banker’s credit processing interface for people with disabilities.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure usability tests are designed to evaluate the accessibility of the banker’s credit processing interface for people with disabilities.\n\nWhat test type is the BEST option to address that?",
     "options": [
       "Component testing (non-functional)",
       "System testing (non-functional)",
@@ -1218,7 +1218,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to test make sure tests are designed to achieve complete statement and decision coverage for all components that perform financial calculations.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure tests are designed to achieve complete statement and decision coverage for all components that perform financial calculations.\n\nWhat test type is the BEST option to address that?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1230,7 +1230,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to test make sure tests are designed to exercise how each screen in the browser interface passes data to the next screen and to the business logic.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure tests are designed to exercise how each screen in the browser interface passes data to the next screen and to the business logic.\n\nWhat test type is the BEST option to address that?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1326,7 +1326,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure all previously-failed tests are re-executed after a defect found in acceptance testing is fixed. \n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure all previously-failed tests are re-executed after a defect found in acceptance testing is fixed.\n\nWhat test type is the BEST option to address that?",
     "options": [
       "System testing (non-functional)",
       "System integration testing",
