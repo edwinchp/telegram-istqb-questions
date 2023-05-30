@@ -1468,5 +1468,27 @@
     ],
     "answer": 3,
     "explanation": "Static testing contributes to improved coverage by thoroughly examining code sections, which leads to more comprehensive testing."
+  },
+  {
+    "question": "What type of defects are typically found during static testing?",
+    "options": [
+      "Requirement defects, design defects, security vulnerabilities",
+      "Integration defects between system components",
+      "Performance issues under heavy load and integration defects between system components.",
+      "User interface inconsistencies, logic errors within individual units of code"
+    ],
+    "answer": 0,
+    "explanation": "Static testing can be used to improve the consistency and internal quality of work products, while dynamic testing typically focuses on externally visible behaviors."
+  },
+  {
+    "question": "What type of defects are typically found during static testing?",
+    "options": [
+      "Improper modularization, poor reusability of components, code that is difficult to analyze and modify",
+      "Integration defects between system components",
+      "Performance issues under heavy load and integration defects between system components.",
+      "User interface inconsistencies, logic errors within individual units of code"
+    ],
+    "answer": 0,
+    "explanation": "Static testing can be used to improve the consistency and internal quality of work products, while dynamic testing typically focuses on externally visible behaviors."
   }
 ]
