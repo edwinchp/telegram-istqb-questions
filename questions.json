@@ -1501,5 +1501,60 @@
     ],
     "answer": 0,
     "explanation": "A review can focus on finding defects, gaining understanding, educating participants such as testers and new team members, or discussing and deciding by consensus."
+  },
+  {
+    "question": "Black box technique that divides data based on the expectation that all the elements of a given divided area are to be processed in the same way by the test object.",
+    "options": [
+      "Equivalence Partitioning",
+      "Boundary Value Analysis",
+      "Decision Table Testing",
+      "State Transition Testing"
+    ],
+    "answer": 0,
+    "explanation": "The partitions may be continuous or discrete, ordered or unordered, finite or infinite. The partitions must not overlap and must be non-empty sets."
+  },
+  {
+    "question": "Black box technique that is based on exercising the limits of equivalence partitions. Typical defects found are located where are misplaced to positions above or below their intended positions or are omitted altogether.",
+    "options": [
+      "Equivalence Partitioning",
+      "Boundary Value Analysis",
+      "Decision Table Testing",
+      "State Transition Testing"
+    ],
+    "answer": 1,
+    "explanation": "BVA can only be used for ordered partitions. The minimum and maximum values of a partition are its boundary values."
+  },
+  {
+    "question": "Black box technique that is used for testing the implementation of system requirements that specify how different combinations of conditions result in different outcomes. It is an effective way of recording complex logic, such as business rules.",
+    "options": [
+      "Equivalence Partitioning",
+      "Boundary Value Analysis",
+      "Decision Table Testing",
+      "State Transition Testing"
+    ],
+    "answer": 2,
+    "explanation": "It provides a systematic approach to identify all the combinations of conditions, some of which might otherwise be overlooked."
+  },
+  {
+    "question": "Black box technique that models the behavior of a system by showing its possible condition or situation and a valid alteration. Which is initiated by an event, which may be additionally qualified by a guard condition.",
+    "options": [
+      "Equivalence Partitioning",
+      "Boundary Value Analysis",
+      "Decision Table Testing",
+      "State Transition Testing"
+    ],
+    "answer": 3,
+    "explanation": "One test case may, and usually will, cover several transitions between states."
+  },
+  {
+    "question": "Which of the following sentence is TRUE regarding State Transition Testing coverage?",
+    "options": [
+      "All states coverage is weaker than valid transitions coverage, because it can typically be achieved without exercising all the transitions.",
+      "All states coverage is the same as valid transitions coverage, because both covers all states, hance, all transitions.",
+      "Valid transitions coverage is weaker than all states coverage, because it can typically be achieved without exercising all the transitions.",
+      "Valid transitions coverage is weaker than all transitions coverage, because valid transitions have less scope."
+    ],
+    "answer": 0,
+    "explanation": "Achieving full valid transitions coverage guarantees full all states coverage."
   }
 ]
