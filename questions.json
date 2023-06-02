@@ -1556,5 +1556,27 @@
     ],
     "answer": 0,
     "explanation": "Achieving full valid transitions coverage guarantees full all states coverage."
+  },
+  {
+    "question": "It is a transfer of control between two nodes in the control flow graph, which shows the possible sequences in which source code statements are executed in the test object.",
+    "options": [
+      "Branch",
+      "Branch testing",
+      "White-box testing",
+      "Statement testing"
+    ],
+    "answer": 0,
+    "explanation": "Each transfer of control can be either unconditional (i.e., straight-line code) or conditional (i.e., a decision outcome)."
+  },
+  {
+    "question": "Which of the following sentence is TRUE regarding Branch coverage?",
+    "options": [
+      "100% branch coverage also achieves 100% statement coverage (but not vice versa)",
+      "100% statement coverage also achieves 100% branch coverage (but not vice versa)",
+      "100% branch coverage also achieves 50% statement coverage",
+      "100% statement coverage also achieves 50% branch coverage"
+    ],
+    "answer": 0,
+    "explanation": "When 100% branch coverage is achieved, all branches in the code, unconditional and conditional, are exercised by test cases."
   }
 ]
