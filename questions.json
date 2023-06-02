@@ -1578,5 +1578,49 @@
     ],
     "answer": 0,
     "explanation": "When 100% branch coverage is achieved, all branches in the code, unconditional and conditional, are exercised by test cases."
+  },
+  {
+    "question": "Which of these statements BETTER describes the testing quadrant Q1 (technology facing, support the team)?",
+    "options": [
+      "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
+      "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
+      "This quadrant contains exploratory testing, usability testing, user acceptance testing. These tests are user-oriented and often manual.",
+      "This quadrant contains smoke tests and non-functional tests (except usability tests). These tests are often automated"
+    ],
+    "answer": 0,
+    "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
+  },
+  {
+    "question": "Which of these statements BETTER describes the testing quadrant Q2 (business facing, support the team)?",
+    "options": [
+      "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
+      "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
+      "This quadrant contains exploratory testing, usability testing, user acceptance testing. These tests are user-oriented and often manual.",
+      "This quadrant contains smoke tests and non-functional tests (except usability tests). These tests are often automated"
+    ],
+    "answer": 1,
+    "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
+  },
+  {
+    "question": "Which of these statements BETTER describes the testing quadrant Q3 (business facing, critique the product)?",
+    "options": [
+      "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
+      "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
+      "This quadrant contains exploratory testing, usability testing, user acceptance testing. These tests are user-oriented and often manual.",
+      "This quadrant contains smoke tests and non-functional tests (except usability tests). These tests are often automated"
+    ],
+    "answer": 2,
+    "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
+  },
+  {
+    "question": "Which of these statements BETTER describes the testing quadrant Q4 (technology facing, critique the product)?",
+    "options": [
+      "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
+      "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
+      "This quadrant contains exploratory testing, usability testing, user acceptance testing. These tests are user-oriented and often manual.",
+      "This quadrant contains smoke tests and non-functional tests (except usability tests). These tests are often automated"
+    ],
+    "answer": 3,
+    "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
   }
 ]
