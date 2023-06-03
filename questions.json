@@ -676,7 +676,7 @@
     "explanation": ""
   },
   {
-    "question": "This test process includes the following major activities:\n\nReporting defects based on the failures observed. Logging the outcome of test execution (e.g., pass, fail, blocked).",
+    "question": "This test process includes the following major activities:\n\nReporting defects based on the failures observed. Logging the outcome of tests (e.g., pass, fail, blocked).",
     "options": [
       "Test planning",
       "Test monitoring and control",
@@ -1580,7 +1580,7 @@
     "explanation": "When 100% branch coverage is achieved, all branches in the code, unconditional and conditional, are exercised by test cases."
   },
   {
-    "question": "Which of these statements BETTER describes the testing quadrant Q1 (technology facing, support the team)?",
+    "question": "Which of these statements best describes the testing quadrant Q1 (technology facing, support the team)?",
     "options": [
       "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
       "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
@@ -1591,7 +1591,7 @@
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
   },
   {
-    "question": "Which of these statements BETTER describes the testing quadrant Q2 (business facing, support the team)?",
+    "question": "Which of these statements best describes the testing quadrant Q2 (business facing, support the team)?",
     "options": [
       "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
       "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
@@ -1602,7 +1602,7 @@
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
   },
   {
-    "question": "Which of these statements BETTER describes the testing quadrant Q3 (business facing, critique the product)?",
+    "question": "Which of these statements best describes the testing quadrant Q3 (business facing, critique the product)?",
     "options": [
       "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
       "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
@@ -1613,7 +1613,7 @@
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
   },
   {
-    "question": "Which of these statements BETTER describes the testing quadrant Q4 (technology facing, critique the product)?",
+    "question": "Which of these statements best describes the testing quadrant Q4 (technology facing, critique the product)?",
     "options": [
       "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
       "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
@@ -1622,5 +1622,16 @@
     ],
     "answer": 3,
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
+  },
+  {
+    "question": "Which of the following sentences is most TRUE about the Test Pyramid model?",
+    "options": [
+      "The higher the layer, the lower test granularity. Tests in the bottom layer are small, isolated and fast. The top layer represents complex, high-level, end-to end test.",
+      "The higher the layer, the higher test granularity. Tests in the bottom layer are large, isolated and slow. The top layer represents simple, low-level, component integration test.",
+      "High level test are generally faster than the test from the lower layers, and typically check a small pieces of functionality.",
+      "High level test are slower than test from lower layers, but they cover significantly a large pieces of functionality."
+    ],
+    "answer": 0,
+    "explanation": "The pyramid layers represent groups of tests. The higher the layer, the lower the test granularity, test isolation and test execution time."
   }
 ]
