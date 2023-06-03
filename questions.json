@@ -1633,5 +1633,49 @@
     ],
     "answer": 0,
     "explanation": "The pyramid layers represent groups of tests. The higher the layer, the lower the test granularity, test isolation and test execution time."
+  },
+  {
+    "question": "In this test estimation technique, figures are collected from previous projects within the organization, which makes it possible to derive “standard” proportion for similar projects. This organization’s own projects are generally the best source to use in the estimation process.",
+    "options": [
+      "Estimation based on ratios",
+      "Extrapolation",
+      "Wideband Delphi",
+      "Three-point estimation"
+    ],
+    "answer": 0,
+    "explanation": "Test effort estimation involves predicting the amount of test-related work needed to meet the objectives of a test project."
+  },
+  {
+    "question": "In this test estimation technique, measurements are made as early as possible in the current project to gather the data. Having enough observations, the effort required for the remaining work can be approximated by comparing and hypothesize this data.",
+    "options": [
+      "Estimation based on ratios",
+      "Extrapolation",
+      "Wideband Delphi",
+      "Three-point estimation"
+    ],
+    "answer": 1,
+    "explanation": "This method is very suitable in iterative SDLCs. For example, the team may extrapolate the test effort in the forthcoming iteration as the averaged effort from the last three iterations."
+  },
+  {
+    "question": "In this test estimation technique, experts estimate effort individually. Deviations outside agreed boundaries trigger discussions. Experts revise their estimates based on feedback. The process continues until a consensus is reached. Experience-based estimations and collaboration are key.",
+    "options": [
+      "Estimation based on ratios",
+      "Extrapolation",
+      "Wideband Delphi",
+      "Three-point estimation"
+    ],
+    "answer": 2,
+    "explanation": "Planning Poker is a variant of Wideband Delphi, commonly used in Agile software development. In Planning Poker, estimates are usually made using cards with numbers that represent the effort size."
+  },
+  {
+    "question": "In this test estimation technique, there are estimations made by the experts: the most optimistic estimation (a), the most likely estimation (m) and the most pessimistic estimation (b). The final estimate (E) is their weighted arithmetic mean.",
+    "options": [
+      "Estimation based on ratios",
+      "Extrapolation",
+      "Wideband Delphi",
+      "Three-point estimation"
+    ],
+    "answer": 3,
+    "explanation": "In the most popular version of this technique, the estimate is calculated as\nE = (a + 4*m + b) / 6"
   }
 ]
