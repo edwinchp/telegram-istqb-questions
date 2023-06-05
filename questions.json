@@ -1549,10 +1549,10 @@
   {
     "question": "Which of the following sentence is TRUE regarding State Transition Testing coverage?",
     "options": [
-      "All states coverage is weaker than valid transitions coverage, because it can typically be achieved without exercising all the transitions.",
-      "All states coverage is the same as valid transitions coverage, because both covers all states, hance, all transitions.",
-      "Valid transitions coverage is weaker than all states coverage, because it can typically be achieved without exercising all the transitions.",
-      "Valid transitions coverage is weaker than all transitions coverage, because valid transitions have less scope."
+      "All states coverage is weaker than valid transitions; not all transitions need to be exercised.",
+      "All states coverage equals valid transitions coverage; both cover all states and transitions.",
+      "Valid transitions coverage is weaker than all states; not all transitions need to be exercised.",
+      "Valid transitions coverage is weaker than all transitions; valid transitions have narrower scope."
     ],
     "answer": 0,
     "explanation": "Achieving full valid transitions coverage guarantees full all states coverage."
@@ -1582,10 +1582,10 @@
   {
     "question": "Which of these statements best describes the testing quadrant Q1 (technology facing, support the team)?",
     "options": [
-      "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
-      "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
-      "This quadrant contains exploratory testing, usability testing, user acceptance testing. These tests are user-oriented and often manual.",
-      "This quadrant contains smoke tests and non-functional tests (except usability tests). These tests are often automated"
+      "It contains component tests. Tests should be automated and included in the CI process.",
+      "It contains functional tests, user story tests, user experience prototypes and API testing.",
+      "It contains exploratory testing, usability testing, user acceptance testing.",
+      "It contains smoke tests and non-functional tests (except usability tests)."
     ],
     "answer": 0,
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
@@ -1593,10 +1593,10 @@
   {
     "question": "Which of these statements best describes the testing quadrant Q2 (business facing, support the team)?",
     "options": [
-      "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
-      "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
-      "This quadrant contains exploratory testing, usability testing, user acceptance testing. These tests are user-oriented and often manual.",
-      "This quadrant contains smoke tests and non-functional tests (except usability tests). These tests are often automated"
+      "It contains component tests. Tests should be automated and included in the CI process.",
+      "It contains functional tests, user story tests, user experience prototypes and API testing.",
+      "It contains exploratory testing, usability testing, user acceptance testing.",
+      "It contains smoke tests and non-functional tests (except usability tests)."
     ],
     "answer": 1,
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
@@ -1604,10 +1604,10 @@
   {
     "question": "Which of these statements best describes the testing quadrant Q3 (business facing, critique the product)?",
     "options": [
-      "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
-      "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
-      "This quadrant contains exploratory testing, usability testing, user acceptance testing. These tests are user-oriented and often manual.",
-      "This quadrant contains smoke tests and non-functional tests (except usability tests). These tests are often automated"
+      "It contains component tests. Tests should be automated and included in the CI process.",
+      "It contains functional tests, user story tests, user experience prototypes and API testing.",
+      "It contains exploratory testing, usability testing, user acceptance testing.",
+      "It contains smoke tests and non-functional tests (except usability tests)."
     ],
     "answer": 2,
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
@@ -1615,10 +1615,10 @@
   {
     "question": "Which of these statements best describes the testing quadrant Q4 (technology facing, critique the product)?",
     "options": [
-      "This quadrant contains component and component integration tests. These tests should be automated and included in the CI process",
-      "This quadrant contains functional tests, examples, user story tests, user experience prototypes, API testing, and simulations. These tests check the acceptance criteria and can be manual or automated.",
-      "This quadrant contains exploratory testing, usability testing, user acceptance testing. These tests are user-oriented and often manual.",
-      "This quadrant contains smoke tests and non-functional tests (except usability tests). These tests are often automated"
+      "It contains component tests. Tests should be automated and included in the CI process.",
+      "It contains functional tests, user story tests, user experience prototypes and API testing.",
+      "It contains exploratory testing, usability testing, user acceptance testing.",
+      "It contains smoke tests and non-functional tests (except usability tests)."
     ],
     "answer": 3,
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
@@ -1626,10 +1626,10 @@
   {
     "question": "Which of the following sentences is most TRUE about the Test Pyramid model?",
     "options": [
-      "The higher the layer, the lower test granularity. Tests in the bottom layer are small, isolated and fast. The top layer represents complex, high-level, end-to end test.",
-      "The higher the layer, the higher test granularity. Tests in the bottom layer are large, isolated and slow. The top layer represents simple, low-level, component integration test.",
-      "High level test are generally faster than the test from the lower layers, and typically check a small pieces of functionality.",
-      "High level test are slower than test from lower layers, but they cover significantly a large pieces of functionality."
+      "The higher layer, lower granularity. Bottom layer: small, isolated, fast tests.",
+      "The higher layer, higher granularity. Bottom layer: large, isolated, slow tests.",
+      "High-level tests are fast, check small functionality pieces.",
+      "High-level tests are slower, cover large functionality pieces."
     ],
     "answer": 0,
     "explanation": "The pyramid layers represent groups of tests. The higher the layer, the lower the test granularity, test isolation and test execution time."
@@ -1677,5 +1677,27 @@
     ],
     "answer": 3,
     "explanation": "In the most popular version of this technique, the estimate is calculated as\nE = (a + 4*m + b) / 6"
+  },
+  {
+    "question": "Which of the following is NOT associated with a product risk?",
+    "options": [
+      "Delays in work product deliveries occur in a software project due to miscommunication between teams.",
+      "A software defect in an autonomous vehicle control system causes a critical failure.",
+      "A software bug in a logistics management system causes incorrect shipping information.",
+      "Users of a mobile banking app are dissatisfied with its slow performance and frequent crashes."
+    ],
+    "answer": 0,
+    "explanation": "Product risks are related to the product quality characteristics."
+  },
+  {
+    "question": "Which of the following is NOT associated with a project risk?",
+    "options": [
+      "A software defect in an autonomous vehicle control system causes a critical failure.",
+      "Insufficient skills of the development team members lead to frequent code defects.",
+      "A software bug in a logistics management system causes incorrect shipping information.",
+      "Additional features and requirements are continuously added without impact analysis."
+    ],
+    "answer": 0,
+    "explanation": "Project risks are related to the management and control of the project."
   }
 ]
