@@ -1,6 +1,7 @@
 import json
 import random
 import requests
+import time
 
 # Read the token and chat id from the JSON file
 with open('setup.json') as f:
@@ -12,6 +13,15 @@ with open('setup.json') as f:
 # Read the questions and answers from the JSON file
 with open('questions.json') as f:
     questions = json.load(f)
+
+# Generate a unique seed value based on current time
+seed_value = int(time.time())
+
+# Wait some time to generate a new unique seed
+time.sleep(2)
+
+# Set the seed value
+random.seed(seed_value)
 
 # Get a random question object from the questions.json file
 question_obj = random.choice(questions)
