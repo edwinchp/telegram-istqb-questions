@@ -1694,10 +1694,51 @@
     "options": [
       "A software defect in an autonomous vehicle control system causes a critical failure.",
       "Insufficient skills of the development team members lead to frequent code defects.",
-      "A software bug in a logistics management system causes incorrect shipping information.",
+      "A third-party software vendor fails to deliver a component on time, causing delays in the schedule.",
       "Additional features and requirements are continuously added without impact analysis."
     ],
     "answer": 0,
     "explanation": "Project risks are related to the management and control of the project."
+  },
+  {
+    "question": "Which of the following is a FALSE statement about test automation?",
+    "options": [
+      "Detection of early security vulnerabilities and higher coverage assuming the absence of defects.",
+      "More objective assessment (coverage) and providing measures complicated for humans to derive.",
+      "Prevention of simple human errors through greater consistency and repeatability.",
+      "Easier access to information about testing to support and test reporting (e.g., statistics, graphs)"
+    ],
+    "answer": 0,
+    "explanation": "Automated tests may provide coverage but cannot guarantee the absence of defects."
+  },
+  {
+    "question": "Which of the Software Development practices best describes the following:\n\nDirects the coding through test cases. Tests are written first, then the code is written to satisfy the test, and then the tests and code are refactored.",
+    "options": [
+      "Test-Driven Development (TDD)",
+      "Acceptance Test-Driven Development (ATDD)",
+      "Behavior-Driven Development (BDD)"
+    ],
+    "answer": 0,
+    "explanation": "Example: Writing unit tests for a function that calculates the total price of items in an online shopping cart."
+  },
+  {
+    "question": "Which of the Software Development practices best describes the following:\n\nDerives tests from the definition of done (conditions that a software product must satisfy) as part of the system design process. Tests are written before the part of the application is developed to satisfy the tests.",
+    "options": [
+      "Test-Driven Development (TDD)",
+      "Acceptance Test-Driven Development (ATDD)",
+      "Behavior-Driven Development (BDD)"
+    ],
+    "answer": 1,
+    "explanation": "Example: Writing acceptance tests for a new feature of a web application to ensure it meets the specified requirements."
+  },
+  {
+    "question": "Software Development practice that expresses the desired conduct of an application with test cases written in simple form of natural language, which is easy to understand by stakeholders (usually using the Given/When/Then format). Test cases are then translated into executable tests.",
+    "options": [
+      "Test-Driven Development (TDD)",
+      "Acceptance Test-Driven Development (ATDD)",
+      "Behavior-Driven Development (BDD)"
+    ],
+    "answer": 2,
+    "explanation": "Example: Writing a BDD scenario in Given-When-Then format to describe the expected behavior of a login feature on a mobile app."
   }
 ]
