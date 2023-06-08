@@ -1076,7 +1076,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to test how a component should calculate compound interest.\n\nWhat test type is the BEST option?",
+    "question": "A bank application tester wants to test how a component should calculate compound interest.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1088,7 +1088,7 @@
     "explanation": "It is a level of testing that focuses on testing individual software components in isolation."
   },
   {
-    "question": "A bank application tester wants to test how a component should calculate compound interest.\n\nWhat test type is the BEST option?",
+    "question": "A bank application tester wants to test how a component should calculate compound interest.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1099,7 +1099,7 @@
     "explanation": "It is a level of testing that focuses on testing individual software components in isolation."
   },
   {
-    "question": "A bank application tester wants to test how account information captured at the user interface is passed to the business logic.\n\nWhat test type is the BEST option?",
+    "question": "A bank application tester wants to test how account information captured at the user interface is passed to the business logic.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1111,7 +1111,7 @@
     "explanation": "It ensures that the components function correctly when combined and that they can communicate and exchange data properly."
   },
   {
-    "question": "A bank application tester wants to test how account information captured at the user interface is passed to the business logic.\n\nWhat test type is the BEST option?",
+    "question": "A bank application tester wants to test how account information captured at the user interface is passed to the business logic.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1122,7 +1122,7 @@
     "explanation": "It ensures that the components function correctly when combined and that they can communicate and exchange data properly."
   },
   {
-    "question": "A bank application tester wants to test how account holders can apply for a line of credit on their checking accounts.\n\nWhat test type is the BEST option?",
+    "question": "A bank application tester wants to test how account holders can apply for a line of credit on their checking accounts.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1134,7 +1134,7 @@
     "explanation": " It is a level of testing where the entire system is tested as a whole."
   },
   {
-    "question": "A bank application tester wants to test how the system uses an external microservice to check an account holder’s credit score.\n\nWhat test type is the BEST option?",
+    "question": "A bank application tester wants to test how the system uses an external microservice to check an account holder’s credit score.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1146,7 +1146,7 @@
     "explanation": "It verifies that the different components of the system work together seamlessly and interact correctly with each other."
   },
   {
-    "question": "A bank application tester wants to test how the banker handles approving or declining a credit application.\n\nWhat test type is the BEST option?",
+    "question": "A bank application tester wants to test how the banker handles approving or declining a credit application.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1158,7 +1158,7 @@
     "explanation": "It involves testing the system in a real-world environment to validate its functionality, usability, and compliance with business needs."
   },
   {
-    "question": "A bank application tester wants to make sure performance tests are designed to evaluate the number of CPU cycles required to perform a complex total interest calculation.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure performance tests are designed to evaluate the number of CPU cycles required to perform a complex total interest calculation.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing (non-functional)",
       "Component testing",
@@ -1170,7 +1170,7 @@
     "explanation": "This may include performance testing, security testing, reliability testing, or usability testing specific to the component being tested."
   },
   {
-    "question": "A bank application tester wants to make sure security tests are designed for buffer overflow vulnerabilities due to data passed from the user interface to the business logic.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure security tests are designed for buffer overflow vulnerabilities due to data passed from the user interface to the business logic.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing (non-functional)",
       "Component integration testing (non-functional)",
@@ -1182,7 +1182,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure portability tests are designed to check whether the presentation layer works on all supported browsers and mobile devices.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure portability tests are designed to check whether the presentation layer works on all supported browsers and mobile devices.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing (non-functional)",
       "Component integration testing (non-functional)",
@@ -1194,7 +1194,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure reliability tests are designed to evaluate system robustness if the credit score microservice fails to respond.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure reliability tests are designed to evaluate system robustness if the credit score microservice fails to respond.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "System testing",
       "System testing (non-functional)",
@@ -1206,7 +1206,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure usability tests are designed to evaluate the accessibility of the banker’s credit processing interface for people with disabilities.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure usability tests are designed to evaluate the accessibility of the banker’s credit processing interface for people with disabilities.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing (non-functional)",
       "System testing (non-functional)",
@@ -1218,7 +1218,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure tests are designed to achieve complete statement and decision coverage for all components that perform financial calculations.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure tests are designed to achieve complete statement and decision coverage for all components that perform financial calculations.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1230,7 +1230,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure tests are designed to exercise how each screen in the browser interface passes data to the next screen and to the business logic.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure tests are designed to exercise how each screen in the browser interface passes data to the next screen and to the business logic.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1242,7 +1242,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to cover sequences of web pages that can occur during a credit line application.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to cover sequences of web pages that can occur during a credit line application.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1254,7 +1254,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to exercise all possible inquiry types sent to the credit score microservice.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to exercise all possible inquiry types sent to the credit score microservice.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1266,7 +1266,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to cover all supported financial data file structures and value ranges for bank-to-bank transfers.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to cover all supported financial data file structures and value ranges for bank-to-bank transfers.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing",
       "Component integration testing",
@@ -1278,7 +1278,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure automated regression tests are built for each component and included within the continuous integration framework.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure automated regression tests are built for each component and included within the continuous integration framework.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing (change-related)",
       "Component testing",
@@ -1290,7 +1290,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure tests are designed to confirm fixes to interface-related defects as the fixes are checked into the code repository.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure tests are designed to confirm fixes to interface-related defects as the fixes are checked into the code repository.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing (change-related)",
       "Component integration testing (change-related)",
@@ -1302,7 +1302,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure all tests for a given workflow are re-executed if any screen on that workflow changes.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure all tests for a given workflow are re-executed if any screen on that workflow changes.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "Component testing (change-related)",
       "Component integration testing (change-related)",
@@ -1314,7 +1314,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure tests of the application interacting with the credit scoring microservice are re-executed daily as part of continuous deployment of that microservice.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure tests of the application interacting with the credit scoring microservice are re-executed daily as part of continuous deployment of that microservice.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "System testing",
       "System testing (change-related)",
@@ -1326,7 +1326,7 @@
     "explanation": ""
   },
   {
-    "question": "A bank application tester wants to make sure all previously-failed tests are re-executed after a defect found in acceptance testing is fixed.\n\nWhat test type is the BEST option to address that?",
+    "question": "A bank application tester wants to make sure all previously-failed tests are re-executed after a defect found in acceptance testing is fixed.\n\nWhich Test Type best represents previous scenario?",
     "options": [
       "System testing (non-functional)",
       "System integration testing",
