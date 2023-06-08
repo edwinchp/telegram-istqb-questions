@@ -165,12 +165,12 @@
     "explanation": ""
   },
   {
-    "question": "The statement on decision coverage suggests that when there is only one 'if' statement with no loops or CASE statements, and its execution is not nested, running any single test case results in 50% decision coverage. What is the correct statement regarding this?",
+    "question": "The statement on decision coverage suggests that when there is only one 'if' statement with no loops or CASE statements, and its execution is not nested, running any single test case results in 50% decision coverage.\n\nWhat is the correct statement regarding this?",
     "options": [
-      "The statement is true. Any single test case provides 100% statement coverage and therefore 50% decision coverage",
-      "The statement is true. Any single test case would cause the outcome of the “if” statement to be either true or false",
-      "The statement is false. A single test case can only guarantee 25% decision coverage in this case",
-      "The statement is false. The statement is too broad. It may be correct or not, depending on the tested software"
+      "It's true. Any single test case provides 100% statement coverage and therefore 50% decision coverage",
+      "It's true. Any single test case would cause the outcome of the “if” statement to be true or false",
+      "It's false. A single test case can only guarantee 25% decision coverage in this case",
+      "It's false. The statement is too broad. It may be correct or not, depending on the tested software"
     ],
     "answer": 1,
     "explanation": ""
@@ -228,7 +228,7 @@
       "Average of calculations collected from business experts"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "There are a number of estimation techniques used to determine the effort required for adequate testing.\nTwo of the most commonly used techniques are: metrics-based, expert-based."
   },
   {
     "question": "Which one of the following is MOST likely to be a benefit of test execution tools?",
@@ -991,6 +991,7 @@
       "Non-functional testing",
       "White-box testing",
       "Black-box testing",
+      "Shift-Left testing",
       "Change-related testing"
     ],
     "answer": 1,
@@ -1003,6 +1004,7 @@
       "Non-functional testing",
       "White-box testing",
       "Black-box testing",
+      "Shift-Left testing",
       "Change-related testing"
     ],
     "answer": 2,
@@ -1740,5 +1742,27 @@
     ],
     "answer": 2,
     "explanation": "Example: Writing a BDD scenario in Given-When-Then format to describe the expected behavior of a login feature on a mobile app."
+  },
+  {
+    "question": "Which of the statements is FALSE about DevOps and Testing?",
+    "options": [
+      "Decreases the focus on non-functional quality characteristics.",
+      "Fast feedback on the code quality, and whether changes adversely affect existing code.",
+      "Decreases manual labor by automating processes (CI/CD) that facilitate creating test environments.",
+      "Minimizes the risk in regression due to the scale and range of automated regression tests."
+    ],
+    "answer": 0,
+    "explanation": "Increases the view on non-functional quality characteristics (e.g., performance, reliability). DevOps promotes team autonomy, fast feedback and integrated toolchains."
+  },
+  {
+    "question": "Which test approach best describes this scenario:\n\nStatic analysis tools are used to analyze the source code for potential issues (standards violations, code complexity, potential bugs). This analysis is often performed before dynamic testing to identify potential problems early.",
+    "options": [
+      "Shift-Left testing",
+      "White-box testing",
+      "Black-box testing",
+      "Functional testing"
+    ],
+    "answer": 0,
+    "explanation": "Testing enters the picture at the very end or to the extreme right of the SDLC. Shift Left Testing literally pushes testing to the “left,” i.e., to earlier stages in the SDLC."
   }
 ]
