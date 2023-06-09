@@ -44,7 +44,10 @@
     "explanation": "Leonardo da Vinci painted the Mona Lisa."
   },
   {
-    "question": "Which planet is known as the 'Red Planet'?",
+    "messages": [
+      "The reddish color of its surface is due to finely grained iron(III) oxide dust in the soil, giving it the nickname \"the Red Planet\". It has a second smallest radius among the planets in the Solar System at 3,389.5 km (2,106 mi) and has a surface gravity of 3.72 m/s2 (12.2 ft/s2), which is 38% of Earth's gravity.\nOf all the planets in the Solar System, the seasons are the most Earth-like, due to the similar tilts of the two planets' rotational axes."
+    ],
+    "question": "Which planet is the text above referring to?",
     "options": [
       "Venus",
       "Jupiter",
@@ -53,5 +56,22 @@
     ],
     "answer": 2,
     "explanation": "Mars is known as the 'Red Planet' due to its reddish appearance in the night sky."
+  },
+
+    {
+    "messages": [
+      "It is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea.",
+      "Here is a picture of its flag:",
+      "https://en.wikipedia.org/wiki/File:Flag_of_Mexico.svg"
+    ],
+    "question": "Which country is the text above referring to?",
+    "options": [
+      "México",
+      "Brazil",
+      "Vietnam",
+      "Indonesia"
+    ],
+    "answer": 0,
+    "explanation": "Mexico is the fifth-largest country in the Americas and the 14th largest in the world. It is the 11th most populated country and the largest Spanish speaking country."
   }
 ]
