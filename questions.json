@@ -1764,5 +1764,181 @@
     ],
     "answer": 0,
     "explanation": "Testing enters the picture at the very end or to the extreme right of the SDLC. Shift Left Testing literally pushes testing to the “left,” i.e., to earlier stages in the SDLC."
+  },
+  {
+    "question": "Which of the following statements describe a valid test objective?",
+    "options": [
+      "To prove that there are no unfixed defects in the system under test",
+      "To prove that there will be no failures after the implementation of the system into production",
+      "To reduce the risk level of the test object and to build confidence in the quality level",
+      "To verify that there are no untested combinations of inputs"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following options shows an example of test activities that contribute to success?",
+    "options": [
+      "Testers involved during SDLC activities will help to detect defects in work products",
+      "Testers try not to disturb the developers while coding, so that the developers write better code",
+      "Testers collaborating with end users improve the quality of defect reports during system testing",
+      "Certified testers will design much better test cases than non-certified testers"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "You are assigned as a tester to new team. You have noticed that no changes have been made to the existing regression test cases for several iterations and no new regression defects were identified. Your manager is happy, but you are not. Which testing principle explains your skepticism?",
+    "options": [
+      "Tests wear out",
+      "Absence-of-errors fallacy\n",
+      "Defects cluster together\n",
+      "Exhaustive testing is impossible\n"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "You work in a team that develops a mobile application for food ordering. In the current iteration the team decided to implement the payment functionality.\n\nWhich of the following activities is a part of test analysis?",
+    "options": [
+      "Estimating that testing the integration with the payment service will take 8 person-days",
+      "Decide the team should test if it is possible to properly share payment between many users",
+      "Using boundary value analysis (BVA) for the test cases that check the correct payment amount",
+      "Analyzing the discrepancy between the actual result and expected result after executing a test case"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following factors (i-v) have SIGNIFICANT influence on the test process?\n\ni. The SDLC ii. The number of defects detected in previous projects iii. The identified product risks iv. New regulatory requirements forcing v. The number of certified testers in the organization.",
+    "options": [
+      "i, ii have significant influence; iii, iv, v have not",
+      "i, iii, iv have significant influence; ii, v have not",
+      "ii, iv, v have significant influence; i, iii have not",
+      "iii, v have significant influence; i, ii, iv have not"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following tasks belong MAINLY to a testing role?",
+    "options": [
+      "Configure test environments",
+      "Maintain the product backlog",
+      "Design solutions to new requirements",
+      "Create the test plan"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following tasks belong MAINLY to a testing role?",
+    "options": [
+      "Configure test environments",
+      "Maintain the product backlog",
+      "Design solutions to new requirements",
+      "Report on achieved coverage"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following skills (i-v) are the MOST important skills of a tester?\n\ni. Having domain knowledge ii. Creating a product vision iii. Being a good team player iv. Planning and organizing the work of the team v. Critical thinking",
+    "options": [
+      "ii and iv are important; i, iii and v are not",
+      "i, iii and v are important; ii and iv are not",
+      "i, ii and v are important; iii and iv are not",
+      "iii and iv are important; i, ii and v are not"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "How is the whole team approach present in the interactions between testers and business representatives?",
+    "options": [
+      "Business representatives decide on test automation approaches",
+      "Testers help business representatives to define test strategy",
+      "Business representatives are not part of the whole team approach",
+      "Testers help business representatives to create suitable acceptance tests"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Consider the following rule: “for every SDLC activity there is a corresponding test activity”. In which SDLC models does this rule hold?",
+    "options": [
+      "Only in sequential SDLC models",
+      "Only in iterative SDLC models",
+      "Only in iterative and incremental SDLC models",
+      "In sequential, incremental, and iterative SDLC models"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following statements BEST describes the acceptance test-driven development (ATDD) approach?",
+    "options": [
+      "In ATDD, acceptance criteria are typically created based on the given/when/then format",
+      "In ATDD, test cases are mainly created at component testing and are code-oriented",
+      "In ATDD, tests are created based on acceptance criteria to drive the software development",
+      "In ATDD, tests are based on the desired behavior of the software, and makes it easier to understand"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following is NOT an example of the shift left approach?",
+    "options": [
+      "Reviewing the user requirements before they are formally accepted by the stakeholders",
+      "Writing a component test before the corresponding code is written",
+      "Executing a performance efficiency test for a component during component testing",
+      "Writing a test script before setting up the configuration management process"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the arguments below would you use to convince your manager to organize retrospectives at the end of each release cycle?",
+    "options": [
+      "Retrospectives are popular and valued by clients for process improvement",
+      "Organizing retrospectives saves costs by capturing end user feedback",
+      "Identified process weaknesses form a to-do list for continuous improvement",
+      "Retrospectives embrace values like courage and respect for ongoing growth"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": 0,
+    "explanation": ""
   }
 ]
