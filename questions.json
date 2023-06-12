@@ -1774,7 +1774,7 @@
       "To verify that there are no untested combinations of inputs"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "Testing finds defects and failures which reduces the level of risk and at the same time gives more confidence in the quality level of the test object."
   },
   {
     "question": "Which of the following options shows an example of test activities that contribute to success?",
@@ -1785,18 +1785,18 @@
       "Certified testers will design much better test cases than non-certified testers"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "It is important that testers are involved from the beginning of the software development lifecycle (SDLC). It will increase understanding of design decisions and will detect defects early."
   },
   {
     "question": "You are assigned as a tester to new team. You have noticed that no changes have been made to the existing regression test cases for several iterations and no new regression defects were identified. Your manager is happy, but you are not. Which testing principle explains your skepticism?",
     "options": [
       "Tests wear out",
-      "Absence-of-errors fallacy\n",
-      "Defects cluster together\n",
-      "Exhaustive testing is impossible\n"
+      "Absence-of-errors fallacy",
+      "Defects cluster together",
+      "Exhaustive testing is impossible"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "This principle means that if the same tests are repeated over and over again, eventually these tests no longer find any new defects. This is probably why the tests all passed in this release as well."
   },
   {
     "question": "You work in a team that develops a mobile application for food ordering. In the current iteration the team decided to implement the payment functionality.\n\nWhich of the following activities is a part of test analysis?",
@@ -1806,11 +1806,14 @@
       "Using boundary value analysis (BVA) for the test cases that check the correct payment amount",
       "Analyzing the discrepancy between the actual result and expected result after executing a test case"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 1,
+    "explanation": "This is an example of defining test conditions which is a part of test analysis."
   },
   {
-    "question": "Which of the following factors (i-v) have SIGNIFICANT influence on the test process?\n\ni. The SDLC ii. The number of defects detected in previous projects iii. The identified product risks iv. New regulatory requirements forcing v. The number of certified testers in the organization.",
+    "messages": [
+      "Which of the following factors (i-v) have SIGNIFICANT influence on the test process?\n\ni. The SDLC\nii. The number of defects detected in previous projects\niii. The identified product risks\niv. New regulatory requirements forcing\nv. The number of certified testers in the organization"
+    ],
+    "question": "Select ONE option:",
     "options": [
       "i, ii have significant influence; iii, iv, v have not",
       "i, iii, iv have significant influence; ii, v have not",
@@ -1818,7 +1821,7 @@
       "iii, v have significant influence; i, ii, iv have not"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "ii. is false. The number of defects detected in previous projects may have some influence, but this is not as significant as i, iii and iv"
   },
   {
     "question": "Which of the following tasks belong MAINLY to a testing role?",
@@ -1828,22 +1831,25 @@
       "Design solutions to new requirements",
       "Create the test plan"
     ],
-    "answer": 3,
-    "explanation": ""
+    "answer": 0,
+    "explanation": "The product backlog is built and maintained by the product owner. Design solutions is done by the development team. Create test plan is a managerial role."
   },
   {
     "question": "Which of the following tasks belong MAINLY to a testing role?",
     "options": [
-      "Configure test environments",
+      "Create the test plan",
       "Maintain the product backlog",
       "Design solutions to new requirements",
       "Report on achieved coverage"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "The product backlog is built and maintained by the product owner. Design solutions is done by the development team. Create test plan is a managerial role."
   },
   {
-    "question": "Which of the following skills (i-v) are the MOST important skills of a tester?\n\ni. Having domain knowledge ii. Creating a product vision iii. Being a good team player iv. Planning and organizing the work of the team v. Critical thinking",
+    "messages": [
+      "Which of the following skills (i-v) are the MOST important skills of a tester?\n\ni. Having domain knowledge\nii. Creating a product vision\niii. Being a good team player\niv. Planning and organizing the work of the team\nv. Critical thinking"
+    ],
+    "question": "Select ONE option:",
     "options": [
       "ii and iv are important; i, iii and v are not",
       "i, iii and v are important; ii and iv are not",
@@ -1851,7 +1857,7 @@
       "iii and iv are important; i, ii and v are not"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "ii. This is a task of the business analyst together with the business representative.\niv. Is a task of the test manager or, mostly in an Agile project, the whole team, and not just the tester."
   },
   {
     "question": "How is the whole team approach present in the interactions between testers and business representatives?",
@@ -1862,7 +1868,7 @@
       "Testers help business representatives to create suitable acceptance tests"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "Testers will work closely with business representatives to ensure that the desired quality levels are achieved. This includes supporting and collaborating with them."
   },
   {
     "question": "Consider the following rule: “for every SDLC activity there is a corresponding test activity”. In which SDLC models does this rule hold?",
@@ -1872,8 +1878,8 @@
       "Only in iterative and incremental SDLC models",
       "In sequential, incremental, and iterative SDLC models"
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 3,
+    "explanation": "This rule holds for all SDLC models."
   },
   {
     "question": "Which of the following statements BEST describes the acceptance test-driven development (ATDD) approach?",
@@ -1884,7 +1890,7 @@
       "In ATDD, tests are based on the desired behavior of the software, and makes it easier to understand"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "given/when/then is ofter used in BDD. In acceptance test-driven development (ATDD) tests are written from acceptance criteria as part of the design process."
   },
   {
     "question": "Which of the following is NOT an example of the shift left approach?",
@@ -1894,8 +1900,8 @@
       "Executing a performance efficiency test for a component during component testing",
       "Writing a test script before setting up the configuration management process"
     ],
-    "answer": 0,
-    "explanation": ""
+    "answer": 3,
+    "explanation": "Test scripts should be subject to configuration management, so it makes no sense to create the test scripts before this process is set up."
   },
   {
     "question": "Which of the arguments below would you use to convince your manager to organize retrospectives at the end of each release cycle?",
@@ -1909,36 +1915,105 @@
     "explanation": ""
   },
   {
-    "question": "",
+    "messages": [
+      "Which types of failures (1-4) fit which test levels (A-D) BEST?\n1. Failures in system behavior\n2. Failures in communication between components\n3. Failures in logic in a module\n4. Failures in not implemented business rules\nA. Component testing\nB. Component integration testing\nC. System testing\nD. Acceptance testing"
+    ],
+    "question": "Select your answer:",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "1D, 2B, 3A, 4C",
+      "1D, 2B, 3C, 4A",
+      "1B, 2A, 3D, 4C",
+      "1C, 2B, 3A, 4D"
     ],
     "answer": 0,
     "explanation": ""
   },
   {
-    "question": "",
+    "messages": [
+      "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three test runs on three consecutive versions of the software as follows:",
+      "https://www.flickr.com/photos/198495524@N07/52969908333/",
+      "Tests are repeated once you are informed that all defects found in the test run are corrected and a new version of the software is available."
+    ],
+    "question": "Which of the above tests are executed as regression tests?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Only 4, 7, 8, 9",
+      "Only 5, 7",
+      "Only 4, 6, 8, 9",
+      "Only 5, 6"
     ],
     "answer": 0,
     "explanation": ""
   },
   {
-    "question": "",
+    "question": "Which of the following is NOT a benefit of static testing?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Having less expensive defect management due to the ease of detecting defects later in the SDLC",
+      "Fixing defects during static testing is less expensive than fixing defects during dynamic testing",
+      "Finding coding defects that might not have been found by only performing dynamic testing",
+      "Detecting gaps and inconsistencies in requirements"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following is a benefit of early and frequent feedback?",
+    "options": [
+      "It improves the test process for future projects",
+      "It forces customers to prioritize their requirements based on agreed risks",
+      "It is the only way to measure the quality of changes",
+      "It helps avoid requirements misunderstandings"
     ],
     "answer": 0,
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "The reviews being used in your organization have the following attributes:\n• There is the role of a scribe\n• The main purpose is to evaluate quality\n• The meeting is led by the author of the work product\n• There is individual preparation\n• A review report is produced"
+    ],
+    "question": "Which of the following review types is MOST likely being used?",
+    "options": [
+      "Informal review",
+      "Walkthrough",
+      "Technical review",
+      "Inspection"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Which of these statements is NOT a factor that contributes to successful reviews?",
+    "options": [
+      "Participants should dedicate adequate time for the review",
+      "Splitting large work products into small parts to make the required effort less intense",
+      "Participants should avoid boredom behaviors (exasperation, hostility to other participants)",
+      "Failures found should be acknowledged, appreciated, and handled objectively"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following is a characteristic of experience-based test techniques?",
+    "options": [
+      "Test cases are created based on detailed design information",
+      "Items tested within the interface code section are used to measure coverage",
+      "The techniques heavily rely on the tester’s knowledge of the software and the business domain",
+      "The test cases are used to identify deviations from the requirements"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "You are testing a simplified apartment search form which has only two search criteria:\n• floor (with three possible options: ground floor; first floor; second or higher floor)\n• garden type (with three possible options: no garden; small garden; large garden)\nOnly apartments on the ground floor may have gardens. The form has a built-in validation mechanism that will not allow you to use the search criteria which violate this rule.\nEach test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each garden type in your tests."
+    ],
+    "question": "What is the minimal number of test cases to achieve 100% EP coverage?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
     "explanation": ""
   }
 ]
