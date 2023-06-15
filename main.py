@@ -2,6 +2,20 @@ import json
 import random
 import requests
 import time
+import re
+
+answer_index = {
+    'a': 0,
+    'b': 1,
+    'c': 2,
+    'd': 3,
+    'e': 4,
+    'f': 5,
+    'g': 6,
+    'h': 7,
+    'i': 8,
+    'j': 9,
+}
 
 # Read the token and chat id from the JSON file
 with open('setup.json') as f:
@@ -25,6 +39,19 @@ random.seed(seed_value)
 
 # Get a random question object from the questions.json file
 random_question = random.choice(questions)
+
+
+def get_answer_index(letter):
+    pattern = r'[:.(),]'
+    modified_letter = re.sub(pattern, '', letter)
+    return answer_index.get(modified_letter.lower())
+
+
+def find_key_by_value(dictionary, value):
+    for key, val in dictionary.items():
+        if val == value:
+            return key
+    return None
 
 
 def send_telegram_message(token, chat_id, text):
@@ -52,7 +79,7 @@ def send_telegram_poll(token, chat_id):
     explanation = random_question["explanation"][:200]
 
     # Get the correct option text at the moment based on the original answer
-    option_text = options[answer][:100]
+    option_text = options[get_answer_index(answer)][:100]
 
     # Shuffle the options
     random.shuffle(options)
@@ -62,7 +89,7 @@ def send_telegram_poll(token, chat_id):
     for i in range(len(options)):
         options[i] = options[i][:100]
         if options[i] == option_text:
-            answer = i
+            answer = find_key_by_value(answer_index, i)
 
     # Parse the options into a JSON object
     options_json = json.dumps(options)
@@ -78,7 +105,7 @@ def send_telegram_poll(token, chat_id):
         'is_anonymous': True,
         'allows_multiple_answers': False,
         'type': 'quiz',
-        'correct_option_id': answer,
+        'correct_option_id': get_answer_index(answer),
         'explanation': explanation,
     }
 

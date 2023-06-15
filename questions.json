@@ -2,12 +2,12 @@
   {
     "question": "What is the capital city of Japan?",
     "options": [
-      "Tokyo",
       "Osaka",
       "Kyoto",
-      "Hiroshima"
+      "Hiroshima",
+      "Tokyo"
     ],
-    "answer": 0,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -18,7 +18,7 @@
       "Nikola Tesla",
       "Guglielmo Marconi"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Alexander Graham Bell invented the telephone in 1876."
   },
   {
@@ -29,7 +29,7 @@
       "Vietnam",
       "Indonesia"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Brazil is the largest producer of coffee in the world."
   },
   {
@@ -40,7 +40,7 @@
       "Leonardo da Vinci",
       "Michelangelo"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Leonardo da Vinci painted the Mona Lisa."
   },
   {
@@ -54,11 +54,10 @@
       "Mars",
       "Saturn"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Mars is known as the 'Red Planet' due to its reddish appearance in the night sky."
   },
-
-    {
+  {
     "messages": [
       "It is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea.",
       "Here is a picture of its flag:",
@@ -71,7 +70,7 @@
       "Vietnam",
       "Indonesia"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Mexico is the fifth-largest country in the Americas and the 14th largest in the world. It is the 11th most populated country and the largest Spanish speaking country."
   }
 ]
