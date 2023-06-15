@@ -7,7 +7,7 @@
       "Red como servicio (NaaS)",
       "Plataforma como servicio (PaaS)"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -18,7 +18,7 @@
       "Business",
       "Enterprise"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -29,7 +29,7 @@
       "Business",
       "Enterprise"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -40,7 +40,7 @@
       "Contacta con el equipo de abusos de AWS",
       "Contacta con los moderadores del foro de desarrollo de AWS"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -51,7 +51,7 @@
       "Capa 4 y 7",
       "Capa 3"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -62,7 +62,7 @@
       "El soporte de AWS tras recibir una solicitud del cliente",
       "El cliente de AWS mediante SSH en las instancias"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -73,7 +73,7 @@
       "Mantenimiento de la infraestructura de la Zona de Disponibilidad",
       "Mantenimiento de la infraestructura de los servidores de almacenamiento de Amaazon S3"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -84,7 +84,7 @@
       "Configurar base de datos en réplica de lectura RDS con conmutación automática en standby",
       "Aprovisionar la base de datos mediante CloudFormation"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -95,7 +95,7 @@
       "Crear un nuevo usuario IAM y compartir el nombre de usuario y contraseña",
       "Utilizar los grupos IAM para acceder a los recursos de AWS mediante programación"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -106,7 +106,7 @@
       "Habilitar el cifrado del lado del cliente mediante el SDK de cifrado de AWS",
       "Habilitar el cifrado del lado del servidor con claves gestionadas por AmAZON S3 (SSE - S3)"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -117,7 +117,7 @@
       "Amazon Pinpoint",
       "AWS CloudFormation"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -128,7 +128,7 @@
       "Enterprise",
       "Developer"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -139,7 +139,7 @@
       "DynamoDB",
       "Amazon SNS"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -150,7 +150,7 @@
       "S3",
       "Amazon SNS"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -161,7 +161,7 @@
       "Proporcionar una menor latencia a las aplicaciones manteniendo los servidores en las instalaciones",
       "Aumenta la velocidad de los servidores listos antes de tiempo en tus centros de datos"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -172,7 +172,7 @@
       "Proporcionar una menor latencia a las aplicaciones manteniendo los servidores en las instalaciones",
       "Aumenta la velocidad de los servidores listos antes de tiempo en tus centros de datos"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -183,7 +183,7 @@
       "EFS",
       "Amazon S3"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -194,7 +194,7 @@
       "AWS Pricing Calculator",
       "AWS Budgets"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -205,7 +205,7 @@
       "La tolerancia a los fallos se consigue con el escalado vertical",
       "La tolerancia a los fallos se consigue mediante el escalado horizontal"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -216,7 +216,7 @@
       "Salario del desarrollador",
       "Gastos en administración de sistemas"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -227,7 +227,7 @@
       "Salario del desarrollador",
       "Gastos en administración de sistemas"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -238,7 +238,7 @@
       "75",
       "10"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -249,7 +249,7 @@
       "Política de enrutamiento de conmutación por error",
       "Política de enrutamiento ponderado"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -260,7 +260,7 @@
       "EBS se adjunta a 1+ instancias en varias Zonas; EFS se monta en la misma Zona",
       "EBS se adjunta a 1+ instancias en varias Zonas; EFS se monta en varias Zonas"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -271,7 +271,7 @@
       "No es necesario optimizar el tipo y el tamaño de la instancia de la base de datos",
       "El cliente necesita gestionar las copias de seguridad de la base de datos"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -282,7 +282,7 @@
       "Las instancias de Amazon EC2 se pueden lanzar bajo demanda cuando sea necesario",
       "Los usuarios ejecutan permanentemente instancias para manejar los aumentos de las cargas de trabajo"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -293,7 +293,7 @@
       "Amazon EC2",
       "Amazon AppStream 2.0"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -304,7 +304,7 @@
       "AWS SDK",
       "AWS Marketplace"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -315,7 +315,7 @@
       "AWS Direct Connect",
       "Amazon Virtual Private Cloud (Amazon VPC)"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -326,7 +326,7 @@
       "Protección del acceso a la aplicación y de sus datos",
       "Administración de sistemas operativos invitados"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -337,7 +337,7 @@
       "Zonas de disponibilidad",
       "Virtual Private Cloud (VPC)"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -348,7 +348,7 @@
       "Mediante la habilitación de la autenticación multifactor",
       "Mediante la habilitación de AWS CloudTrail"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -359,7 +359,7 @@
       "AWS X-Ray",
       "AWS Identity and Access Management (AWS IAM)"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -370,7 +370,7 @@
       "AWS Trusted Advisor",
       "Amazon Route 53"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -381,7 +381,7 @@
       "Consola de facturación de AWS",
       "Política de uso aceptable de AWS"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -392,7 +392,7 @@
       "Amazon Polly para convertir habla en texto para el análisis posterior. Luego utiliza Amazon Translate para transmitir resultados del texto a través del habla",
       "Amazon Polly para convertir habla en texto para el análisis posterior. Luego utiliza Amazon Transcribe para transmitir resultados del texto a través del habla"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Puedes utilizar Amazon Polly para convertir el texto en habla realista, lo que te permitirá crear aplicaciones que hablen."
   },
   {
@@ -403,7 +403,7 @@
       "AWS Glue",
       "Amazon Polly"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Amazon Macie es un servicio de seguridad y privacidad de datos totalmente gestionado que utiliza el Machine Learning y la concordancia de patrones para descubrir y proteger tus datos sensibles en AWS."
   },
   {
@@ -414,7 +414,7 @@
       "Socio consultor de APN",
       "AWS Trusted Advisor"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Los socios consultores de APN son empresas de servicios profesionales que ayudan a clientes de todo tipo y tamaño a diseñar."
   },
   {
@@ -425,7 +425,7 @@
       "S3 Estándar",
       "S3 Glacier Deep Archive"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "S3 Glacier Deep Archive es la clase de almacenamiento de menor coste de Amazon S3 y soporta la retención a largo plazo."
   },
   {
@@ -436,7 +436,7 @@
       "Aumenta la velocidad y la agilidad manteniendo los servidores y otros recursos necesarios listos antes de tiempo en tus centros de datos",
       "Proporcionar una menor latencia a las aplicaciones manteniendo los servidores en las instalaciones"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -447,7 +447,7 @@
       "Aumenta la velocidad y la agilidad manteniendo los servidores y otros recursos necesarios listos antes de tiempo en tus centros de datos",
       "Proporcionar una menor latencia a las aplicaciones manteniendo los servidores en las instalaciones"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -457,7 +457,7 @@
       "PaaS (Plataforma como Servicio)",
       "SaaS (Software como Servicio)"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "El modelo de la nube IaaS proporciona recursos de infraestructura virtualizados, como servidores virtuales, almacenamiento y redes, permitiendo a los usuarios implementar y administrar sus aplicaciones y sistemas en la nube."
   },
   {
@@ -467,7 +467,7 @@
       "PaaS (Plataforma como Servicio)",
       "SaaS (Software como Servicio)"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "El modelo de la nube PaaS proporciona una plataforma completa que incluye infraestructura, middleware y herramientas de desarrollo para permitir a los desarrolladores crear, probar y desplegar aplicaciones de manera más eficiente."
   },
   {
@@ -477,7 +477,7 @@
       "PaaS (Plataforma como Servicio)",
       "SaaS (Software como Servicio)"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "El modelo de la nube SaaS permite a los usuarios acceder y utilizar aplicaciones y software alojados en la nube a través de Internet, sin necesidad de instalar o mantener el software localmente."
   },
   {
@@ -487,7 +487,7 @@
       "PaaS (Plataforma como Servicio)",
       "SaaS (Software como Servicio)"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "El modelo de la nube IaaS proporciona a los usuarios un mayor nivel de control y responsabilidad sobre la gestión de aplicaciones, datos, sistemas operativos y configuraciones, ya que se encargan de la gestión de la infraestructura subyacente."
   },
   {
@@ -497,7 +497,7 @@
       "PaaS (Plataforma como Servicio)",
       "SaaS (Software como Servicio)"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "El modelo de la nube SaaS ofrece aplicaciones y software completamente gestionados por un proveedor de servicios en la nube, lo que significa que los usuarios solo necesitan acceder y utilizar la aplicación sin preocuparse por la infraestructura o la gestión del software."
   }
 ]
