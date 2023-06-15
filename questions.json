@@ -499,5 +499,33 @@
     ],
     "answer": "c",
     "explanation": "El modelo de la nube SaaS ofrece aplicaciones y software completamente gestionados por un proveedor de servicios en la nube, lo que significa que los usuarios solo necesitan acceder y utilizar la aplicación sin preocuparse por la infraestructura o la gestión del software."
+  },
+  {
+    "messages": [
+      "Es una práctica recomendada sencilla que aporta una capa adicional de protección a un nombre de usuario y contraseña. Cuando es habilitada, un usuario inicia sesión en una AWS Management Console, se le solicitará su nombre de usuario y contraseña (el primer factor, que es algo que conoce), así como un código de autenticación de su dispositivo.\nEn conjunto, estos varios factores proporcionan una mayor seguridad para la configuración y los recursos de la cuenta de AWS."
+    ],
+    "question": "Seleccione UNA opción:",
+    "options": [
+      "La autenticación multifactor (MFA)",
+      "AWS Cloud Trial",
+      "Usar AWS Cloud Directory",
+      "Auditar roles de AWS Identity and Access Management (IAM)"
+    ],
+    "answer": "a",
+    "explanation": "Esta práctica añade una capa adicional de seguridad de inicio de sesión a la AWS Management Console de un usuario."
+  },
+  {
+    "messages": [
+      "Dado el siguiente diagrama sobre los principales modelos de servicio de computación en la nube:",
+      "https://www.flickr.com/photos/198495524@N07/52977359661/"
+    ],
+    "question": "Seleccione la opción que mejor represente cada una de las categorías:",
+    "options": [
+      "a) PaaS b) IaaS c) SaaS",
+      "a) SaaS b) PaaS c) IaaS",
+      "a) IaaS b) PaaS c) SaaS"
+    ],
+    "answer": "c",
+    "explanation": "Tanto empresas, profesionales como usuarios utilizan cada vez más servicios en la nube (Cloud Computing). Este modelo basado en diferentes capas, maneja nueva terminología como IaaS, PaaS, SaaS, etc. "
   }
 ]
