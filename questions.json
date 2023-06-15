@@ -7,7 +7,7 @@
       "The degree to which a software product provides functions which meet needs when the software is used",
       "Test cases designed to execute combinations of conditions and actions resulting from them"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -18,7 +18,7 @@
       "To prove that all possible defects are identified",
       "To prove that any remaining defects will not cause any failures"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -29,7 +29,7 @@
       "Testing removes faults; but debugging removes defects that cause the faults",
       "Dynamic testing prevents the causes of failures; debugging removes the failures"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -40,7 +40,7 @@
       "The computation algorithm used the wrong input variables",
       "The developer misinterpreted the requirement for the algorithm"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -51,7 +51,7 @@
       "Repeating of same tests will not find new defects",
       "Defects cluster together"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -62,7 +62,7 @@
       "It ensures that standards in the organization are followed",
       "It measures the quality of software in terms of number of executed test cases"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -73,7 +73,7 @@
       "Analyzing lessons learned for process improvement",
       "Evaluating the test basis for testability"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -84,7 +84,7 @@
       "To check if all work process flows have been covered",
       "To cover all web page navigations"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -95,7 +95,7 @@
       "Testing is viewed as a separate phase which takes place after development has been completed",
       "Testing is added to development as an increment"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -106,7 +106,7 @@
       "Decision to test if archived data is possible to be retrieved",
       "Decision to test after 'hot fixes'"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -117,7 +117,7 @@
       "Author, Manager, Review leader, Reviewer, Designer",
       "Author, Moderator, Review leader, Reviewer, Scribe"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -128,7 +128,7 @@
       "Definition and Verification of fulfillment of entry criteria for the review",
       "Evaluation of the review findings against the exit criteria"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -139,7 +139,7 @@
       "Inspection",
       "Walkthrough"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -150,7 +150,7 @@
       "Static testing makes it possible to find run-time problems early in the lifecycle",
       "Static testing better for safety-critical systems; dynamic testing finds defects better."
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -161,7 +161,7 @@
       "Experience-based technique where tester uses a list of items or criteria to verify product",
       "Testers dynamically design and execute tests based on knowledge and exploration of test item"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -172,7 +172,7 @@
       "It's false. A single test case can only guarantee 25% decision coverage in this case",
       "It's false. The statement is too broad. It may be correct or not, depending on the tested software"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -183,7 +183,7 @@
       "It is a metric that counts the number of executed statements in the source code by passed test cases",
       "It is a metric, that gives a true/false confirmation if all statements are covered or not"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -194,7 +194,7 @@
       "50% decision coverage also guarantees 50% statement coverage",
       "Decision coverage can never reach 100%"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -205,7 +205,7 @@
       "When testers are available who have enough knowledge of similar applications and technologies",
       "When there is prior knowledge of the system and it should undergo extensive testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -216,7 +216,7 @@
       "Measurements of actual progress against exit criteria",
       "Evaluation of the quality of the test object"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -227,7 +227,7 @@
       "Estimation of effort for test automation agreed in the test team",
       "Average of calculations collected from business experts"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "There are a number of estimation techniques used to determine the effort required for adequate testing.\nTwo of the most commonly used techniques are: metrics-based, expert-based."
   },
   {
@@ -238,7 +238,7 @@
       "It is easy to design tests for security testing",
       "It is easy to run regression tests"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -249,7 +249,7 @@
       "Static analysis tools",
       "Performance testing tools"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -258,7 +258,7 @@
       "False",
       "True"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "In a White-box testing you have access to the internal code and structure. Knowing this, you can apply unit testing."
   },
   {
@@ -269,7 +269,7 @@
       "Debugging",
       "Static testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -280,7 +280,7 @@
       "Debugging",
       "Static testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -291,7 +291,7 @@
       "Debugging",
       "Static testing"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Quality management ties together the concept of Quality Assurance and Testing."
   },
   {
@@ -302,7 +302,7 @@
       "Quality Assurance",
       "Static testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Quality Assurance focuses on the proper execution. It also belongs to larger concept called Quality Management."
   },
   {
@@ -313,7 +313,7 @@
       "Quality Assurance",
       "Static testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Quality Control belongs to larger concept called Quality Management."
   },
   {
@@ -324,7 +324,7 @@
       "a defect / a defect / an error",
       "a failure / a defect / a failure"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Example: A programming error can lead to a defect in the code. If a defect is executed this may cause a failure in the application."
   },
   {
@@ -338,7 +338,7 @@
       "Testing is context dependent",
       "Absence-of-defects fallacy"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Testing reduces the probability of undiscovered defects remaining in the software but, even if no defects are found, testing is not a proof of correctness."
   },
   {
@@ -352,7 +352,7 @@
       "Testing is context dependent",
       "Absence-of-defects fallacy"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Rather than attempting to test exhaustively, risk analysis, test techniques, and priorities should be used to focus test efforts."
   },
   {
@@ -366,7 +366,7 @@
       "Testing is context dependent",
       "Absence-of-defects fallacy"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "To find defects early, both static and dynamic test activities should be started as early as possible in the software development lifecycle."
   },
   {
@@ -380,7 +380,7 @@
       "Testing is context dependent",
       "Absence-of-defects fallacy"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "A small number of modules usually contains most of the defects discovered during pre-release testing, or is responsible for most of the operational failures."
   },
   {
@@ -394,7 +394,7 @@
       "Testing is context dependent",
       "Absence-of-defects fallacy"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": "To detect new defects, existing tests and test data may need changing, and new tests may need to be written."
   },
   {
@@ -408,7 +408,7 @@
       "Testing is context dependent",
       "Absence-of-defects fallacy"
     ],
-    "answer": 5,
+    "answer": "f",
     "explanation": "Example: Industrial software is tested differently from an e-commerce mobile app. Also testing in Agile is done differently than testing in sequential software development."
   },
   {
@@ -422,7 +422,7 @@
       "Testing is context dependent",
       "Absence-of-defects fallacy"
     ],
-    "answer": 6,
+    "answer": "g",
     "explanation": "Example: testing all requirements and fixing all defects found could still produce a system that is difficult to use, that does not fulfill the users’ needs and expectations."
   },
   {
@@ -434,7 +434,7 @@
       "A, B, C, D, E, F, G",
       "B, D, A, E, C, F, G"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Each constituent activity consists of multiple individual tasks, which would vary from one project or release to another."
   },
   {
@@ -448,7 +448,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -462,7 +462,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -476,7 +476,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 5,
+    "answer": "f",
     "explanation": ""
   },
   {
@@ -490,7 +490,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -504,7 +504,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -518,7 +518,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -532,7 +532,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -546,7 +546,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
@@ -560,7 +560,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
@@ -574,7 +574,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
@@ -588,7 +588,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
@@ -602,7 +602,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Test design may also result in the identification of similar types of defects in the test basis."
   },
   {
@@ -616,7 +616,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -630,7 +630,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -644,7 +644,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -658,7 +658,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -672,7 +672,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 5,
+    "answer": "f",
     "explanation": ""
   },
   {
@@ -686,7 +686,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 5,
+    "answer": "f",
     "explanation": ""
   },
   {
@@ -700,7 +700,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 6,
+    "answer": "g",
     "explanation": "Test completion activities collect data from completed test activities to consolidate experience, testware, and any other relevant information."
   },
   {
@@ -714,7 +714,7 @@
       "Test execution",
       "Test completion"
     ],
-    "answer": 6,
+    "answer": "g",
     "explanation": "Test completion activities collect data from completed test activities to consolidate experience, testware, and any other relevant information."
   },
   {
@@ -728,7 +728,7 @@
       "Test execution work products",
       "Test completion work products"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -742,7 +742,7 @@
       "Test execution work products",
       "Test completion work products"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "All test reports should provide audience-relevant details about the test progress as of the date of the report, including summarizing the test execution results once those become available."
   },
   {
@@ -756,7 +756,7 @@
       "Test execution work products",
       "Test completion work products"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Test analysis may also result in the discovery and reporting of defects in the test basis."
   },
   {
@@ -770,7 +770,7 @@
       "Test execution work products",
       "Test completion work products"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "It is often a good practice to design high-level test cases, without concrete values for input data and expected results."
   },
   {
@@ -784,7 +784,7 @@
       "Test execution work products",
       "Test completion work products"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -798,7 +798,7 @@
       "Test execution work products",
       "Test completion work products"
     ],
-    "answer": 5,
+    "answer": "f",
     "explanation": ""
   },
   {
@@ -812,7 +812,7 @@
       "Test execution work products",
       "Test completion work products"
     ],
-    "answer": 6,
+    "answer": "g",
     "explanation": ""
   },
   {
@@ -823,7 +823,7 @@
       "System testing",
       "Acceptance testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Component testing (also known as unit or module testing) focuses on components that are separately testable."
   },
   {
@@ -834,7 +834,7 @@
       "System testing",
       "Acceptance testing"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Integration testing focuses on interactions between components or systems."
   },
   {
@@ -845,7 +845,7 @@
       "System testing",
       "Acceptance testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "System testing should focus on the overall, end-to-end behavior of the system as a whole, both functional and non-functional."
   },
   {
@@ -856,7 +856,7 @@
       "System testing",
       "Acceptance testing"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Acceptance testing, like system testing, typically focuses on the behavior and capabilities of a whole system or product."
   },
   {
@@ -867,7 +867,7 @@
       "System integration testing / Integration testing",
       "Acceptance testing / Component integration testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -878,7 +878,7 @@
       "System testing",
       "Acceptance testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -889,7 +889,7 @@
       "System testing",
       "Acceptance testing"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Finding a significant number of defects during acceptance testing may in some cases be considered a major project risk."
   },
   {
@@ -900,7 +900,7 @@
       "Contractual and regulatory acceptance testing",
       "Alpha and beta testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "It is typically focused on validating the fitness for use of the system by intended users in a real or simulated environment."
   },
   {
@@ -911,7 +911,7 @@
       "Contractual and regulatory acceptance testing",
       "Alpha and beta testing"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "The objective is building confidence that the system administrators can keep the system working properly even under difficult conditions."
   },
   {
@@ -922,7 +922,7 @@
       "Contractual and regulatory acceptance testing",
       "Alpha and beta testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Regulatory acceptance testing is often performed by users or by independent testers, sometimes with the results being witnessed or audited by regulatory agencies."
   },
   {
@@ -933,7 +933,7 @@
       "Contractual and regulatory acceptance testing",
       "Alpha and beta testing"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -945,7 +945,7 @@
       "Alpha testing",
       "Beta testing"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -957,7 +957,7 @@
       "Alpha testing",
       "Beta testing"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -969,7 +969,7 @@
       "Black-box testing",
       "Change-related testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "The functions are “what” the system should do."
   },
   {
@@ -981,7 +981,7 @@
       "Black-box testing",
       "Change-related testing"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Non-functional testing is the testing of “how well” the system behaves."
   },
   {
@@ -994,7 +994,7 @@
       "Shift-Left testing",
       "Change-related testing"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "The late discovery of non-functional defects can be extremely dangerous to the success of a project."
   },
   {
@@ -1007,7 +1007,7 @@
       "Shift-Left testing",
       "Change-related testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "It requires special skills or knowledge, such as the way the code is built and how data is stored."
   },
   {
@@ -1019,7 +1019,7 @@
       "Black-box testing",
       "Change-related testing"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -1030,7 +1030,7 @@
       "2",
       "4"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "You need 4 if you divide the range like this:\n0 1 2 - 3 4 - 5 6 7 8 9 10 - 11 12"
   },
   {
@@ -1041,7 +1041,7 @@
       "123, 2345, 3456, 4567, 5678",
       "666, 999, 2222, 5555, 6666"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "It covers 4 of 5 partitions:\n666 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5)"
   },
   {
@@ -1052,7 +1052,7 @@
       "20, 35, 65, 80",
       "25, 45, 55, 75"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "The input values 32, 33, 51, and 70 cover all four temperature categories:\nbelow freezing, cold, mild, and hot."
   },
   {
@@ -1063,7 +1063,7 @@
       "5",
       "6"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "You need 5 scenarios to cover all valid equivalence partitions:\n$5, $120, $705, $3876 and $5600."
   },
   {
@@ -1074,7 +1074,7 @@
       "4",
       "5"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -1086,7 +1086,7 @@
       "System integration testing",
       "Acceptance testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "It is a level of testing that focuses on testing individual software components in isolation."
   },
   {
@@ -1097,7 +1097,7 @@
       "Component testing (non-functional)",
       "System integration testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "It is a level of testing that focuses on testing individual software components in isolation."
   },
   {
@@ -1109,7 +1109,7 @@
       "System integration testing",
       "Acceptance testing"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "It ensures that the components function correctly when combined and that they can communicate and exchange data properly."
   },
   {
@@ -1120,7 +1120,7 @@
       "Component integration testing (non-functional)",
       "System integration testing"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "It ensures that the components function correctly when combined and that they can communicate and exchange data properly."
   },
   {
@@ -1132,7 +1132,7 @@
       "System integration testing",
       "Acceptance testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": " It is a level of testing where the entire system is tested as a whole."
   },
   {
@@ -1144,7 +1144,7 @@
       "System integration testing",
       "Acceptance testing"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "It verifies that the different components of the system work together seamlessly and interact correctly with each other."
   },
   {
@@ -1156,7 +1156,7 @@
       "System integration testing",
       "Acceptance testing"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": "It involves testing the system in a real-world environment to validate its functionality, usability, and compliance with business needs."
   },
   {
@@ -1168,7 +1168,7 @@
       "System testing",
       "System testing (non-functional)"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "This may include performance testing, security testing, reliability testing, or usability testing specific to the component being tested."
   },
   {
@@ -1180,7 +1180,7 @@
       "System testing",
       "System testing (non-functional)"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -1192,7 +1192,7 @@
       "Component testing",
       "System testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -1204,7 +1204,7 @@
       "System integration testing (non-functional)",
       "Acceptance testing (non-functional)"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -1216,7 +1216,7 @@
       "Acceptance testing",
       "Acceptance testing (non-functional)"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -1228,7 +1228,7 @@
       "System integration testing",
       "Acceptance testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -1240,7 +1240,7 @@
       "System integration testing",
       "Acceptance testing"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -1252,7 +1252,7 @@
       "System integration testing",
       "Acceptance testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -1264,7 +1264,7 @@
       "System integration testing",
       "Acceptance testing"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -1276,7 +1276,7 @@
       "System integration testing",
       "Acceptance testing"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -1288,7 +1288,7 @@
       "Component integration testing",
       "Component integration testing (change-related)"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -1300,7 +1300,7 @@
       "Component testing",
       "Component testing (non-functional)"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -1312,7 +1312,7 @@
       "Component testing",
       "Component testing (non-functional)"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -1324,7 +1324,7 @@
       "System integration testing (change-related)",
       "System integration testing (non-functional)"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -1336,7 +1336,7 @@
       "Acceptance testing (non-functional)",
       "Acceptance testing (change-related)"
     ],
-    "answer": 4,
+    "answer": "e",
     "explanation": ""
   },
   {
@@ -1347,7 +1347,7 @@
       "To track the progress of the development team",
       "To create test cases for the software application"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Bi-directional traceability is used to establish and maintain a relationship between requirements and testing artifacts, such as test cases and defects."
   },
   {
@@ -1358,7 +1358,7 @@
       "By prioritizing defects based on severity",
       "By tracking and verifying requirements throughout the testing process"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Bi-directional traceability helps in tracking and verifying requirements throughout the testing process, ensuring that they are adequately tested."
   },
   {
@@ -1369,7 +1369,7 @@
       "When there are complex or changing requirements",
       "When test cases are not linked to requirements"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Bi-directional traceability is most useful in scenarios with complex or changing requirements, where tracking and verifying requirements become crucial for effective testing."
   },
   {
@@ -1380,7 +1380,7 @@
       "Testing that focuses solely on usability aspects",
       "Testing that is performed by end-users"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Ad hoc testing involves testing without a predefined test plan or script, relying on the tester's knowledge and experience."
   },
   {
@@ -1391,7 +1391,7 @@
       "Increased test execution time",
       "Difficulty in reproducing and documenting tests"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Relying solely on ad hoc testing can lead to drawbacks such as lack of test coverage and traceability, making it harder to ensure comprehensive testing."
   },
   {
@@ -1402,7 +1402,7 @@
       "When there is a need for automated test execution",
       "When the focus is primarily on performance testing"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Ad hoc testing is most beneficial when the system under test has complex and constantly changing requirements, as it allows for flexibility and adaptability in testing."
   },
   {
@@ -1413,7 +1413,7 @@
       "Static testing is used for small-scale projects, dynamic testing is used for large-scale projects",
       "Static testing requires test scripts, while dynamic testing does not"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "The main difference is that static testing focuses on code analysis, such as reviews and inspections, while dynamic testing involves executing the software to observe its behavior."
   },
   {
@@ -1424,7 +1424,7 @@
       "Identification of design flaws and improvements",
       "Real-time evaluation of performance and usability"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Static testing provides the benefits of identifying design flaws and improvements early in the development process, leading to higher software quality."
   },
   {
@@ -1435,7 +1435,7 @@
       "Dynamic testing",
       "Static testing"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Static testing, such as code reviews and inspections, is best suited for identifying defects in the early stages of the software development lifecycle, promoting early bug detection and prevention."
   },
   {
@@ -1446,7 +1446,7 @@
       "Real-time validation of system functionality",
       "Validation of end-user requirements"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Static testing allows for the early identification of defects before the software is executed, helping to catch issues at an earlier stage."
   },
   {
@@ -1457,7 +1457,7 @@
       "Integration testing",
       "Static testing"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Static testing is particularly useful for detecting design flaws and enhancing software quality by focusing on code analysis and reviews."
   },
   {
@@ -1468,7 +1468,7 @@
       "Early detection of defects in code",
       "Improved coverage of code sections"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Static testing contributes to improved coverage by thoroughly examining code sections, which leads to more comprehensive testing."
   },
   {
@@ -1479,7 +1479,7 @@
       "Performance issues under heavy load and integration defects between system components",
       "User interface inconsistencies, logic errors within individual units of code"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Static testing can be used to improve the consistency and internal quality of work products, while dynamic testing typically focuses on externally visible behaviors."
   },
   {
@@ -1490,7 +1490,7 @@
       "Performance issues under heavy load and integration defects between system components",
       "User interface inconsistencies, logic errors within individual units of code"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Static testing can be used to improve the consistency and internal quality of work products, while dynamic testing typically focuses on externally visible behaviors."
   },
   {
@@ -1501,7 +1501,7 @@
       "Initiate review, Initiate planning, Individual review, Fix and reporting, Review analysis",
       "Planning, Review implementation, Analysis, Plan execution, Fix and reporting, Review completion"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "A review can focus on finding defects, gaining understanding, educating participants such as testers and new team members, or discussing and deciding by consensus."
   },
   {
@@ -1512,7 +1512,7 @@
       "Decision Table Testing",
       "State Transition Testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "The partitions may be continuous or discrete, ordered or unordered, finite or infinite. The partitions must not overlap and must be non-empty sets."
   },
   {
@@ -1523,7 +1523,7 @@
       "Decision Table Testing",
       "State Transition Testing"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "BVA can only be used for ordered partitions. The minimum and maximum values of a partition are its boundary values."
   },
   {
@@ -1534,7 +1534,7 @@
       "Decision Table Testing",
       "State Transition Testing"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "It provides a systematic approach to identify all the combinations of conditions, some of which might otherwise be overlooked."
   },
   {
@@ -1545,7 +1545,7 @@
       "Decision Table Testing",
       "State Transition Testing"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "One test case may, and usually will, cover several transitions between states."
   },
   {
@@ -1556,7 +1556,7 @@
       "Valid transitions coverage is weaker than all states; not all transitions need to be exercised.",
       "Valid transitions coverage is weaker than all transitions; valid transitions have narrower scope."
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Achieving full valid transitions coverage guarantees full all states coverage."
   },
   {
@@ -1567,7 +1567,7 @@
       "White-box testing",
       "Statement testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Each transfer of control can be either unconditional (i.e., straight-line code) or conditional (i.e., a decision outcome)."
   },
   {
@@ -1578,7 +1578,7 @@
       "100% branch coverage also achieves 50% statement coverage",
       "100% statement coverage also achieves 50% branch coverage"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "When 100% branch coverage is achieved, all branches in the code, unconditional and conditional, are exercised by test cases."
   },
   {
@@ -1589,7 +1589,7 @@
       "It contains exploratory testing, usability testing, user acceptance testing.",
       "It contains smoke tests and non-functional tests (except usability tests)."
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
   },
   {
@@ -1600,7 +1600,7 @@
       "It contains exploratory testing, usability testing, user acceptance testing.",
       "It contains smoke tests and non-functional tests (except usability tests)."
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
   },
   {
@@ -1611,7 +1611,7 @@
       "It contains exploratory testing, usability testing, user acceptance testing.",
       "It contains smoke tests and non-functional tests (except usability tests)."
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
   },
   {
@@ -1622,7 +1622,7 @@
       "It contains exploratory testing, usability testing, user acceptance testing.",
       "It contains smoke tests and non-functional tests (except usability tests)."
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Testing quadrants group the test levels with the appropriate test types, activities, test techniques and work products in the Agile software development."
   },
   {
@@ -1633,7 +1633,7 @@
       "High-level tests are fast, check small functionality pieces.",
       "High-level tests are slower, cover large functionality pieces."
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "The pyramid layers represent groups of tests. The higher the layer, the lower the test granularity, test isolation and test execution time."
   },
   {
@@ -1644,7 +1644,7 @@
       "Wideband Delphi",
       "Three-point estimation"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Test effort estimation involves predicting the amount of test-related work needed to meet the objectives of a test project."
   },
   {
@@ -1655,7 +1655,7 @@
       "Wideband Delphi",
       "Three-point estimation"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "This method is very suitable in iterative SDLCs. For example, the team may extrapolate the test effort in the forthcoming iteration as the averaged effort from the last three iterations."
   },
   {
@@ -1666,7 +1666,7 @@
       "Wideband Delphi",
       "Three-point estimation"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Planning Poker is a variant of Wideband Delphi, commonly used in Agile software development. In Planning Poker, estimates are usually made using cards with numbers that represent the effort size."
   },
   {
@@ -1677,7 +1677,7 @@
       "Wideband Delphi",
       "Three-point estimation"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "In the most popular version of this technique, the estimate is calculated as\nE = (a + 4*m + b) / 6"
   },
   {
@@ -1688,7 +1688,7 @@
       "A software bug in a logistics management system causes incorrect shipping information.",
       "Users of a mobile banking app are dissatisfied with its slow performance and frequent crashes."
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Product risks are related to the product quality characteristics."
   },
   {
@@ -1699,7 +1699,7 @@
       "A third-party software vendor fails to deliver a component on time, causing delays in the schedule.",
       "Additional features and requirements are continuously added without impact analysis."
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Project risks are related to the management and control of the project."
   },
   {
@@ -1710,7 +1710,7 @@
       "Prevention of simple human errors through greater consistency and repeatability.",
       "Easier access to information about testing to support and test reporting (e.g., statistics, graphs)"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Automated tests may provide coverage but cannot guarantee the absence of defects."
   },
   {
@@ -1720,7 +1720,7 @@
       "Acceptance Test-Driven Development (ATDD)",
       "Behavior-Driven Development (BDD)"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Example: Writing unit tests for a function that calculates the total price of items in an online shopping cart."
   },
   {
@@ -1730,7 +1730,7 @@
       "Acceptance Test-Driven Development (ATDD)",
       "Behavior-Driven Development (BDD)"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "Example: Writing acceptance tests for a new feature of a web application to ensure it meets the specified requirements."
   },
   {
@@ -1740,7 +1740,7 @@
       "Acceptance Test-Driven Development (ATDD)",
       "Behavior-Driven Development (BDD)"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Example: Writing a BDD scenario in Given-When-Then format to describe the expected behavior of a login feature on a mobile app."
   },
   {
@@ -1751,7 +1751,7 @@
       "Decreases manual labor by automating processes (CI/CD) that facilitate creating test environments.",
       "Minimizes the risk in regression due to the scale and range of automated regression tests."
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Increases the view on non-functional quality characteristics (e.g., performance, reliability). DevOps promotes team autonomy, fast feedback and integrated toolchains."
   },
   {
@@ -1762,7 +1762,7 @@
       "Black-box testing",
       "Functional testing"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "Testing enters the picture at the very end or to the extreme right of the SDLC. Shift Left Testing literally pushes testing to the “left,” i.e., to earlier stages in the SDLC."
   },
   {
@@ -1773,7 +1773,7 @@
       "To reduce the risk level of the test object and to build confidence in the quality level",
       "To verify that there are no untested combinations of inputs"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "Testing finds defects and failures which reduces the level of risk and at the same time gives more confidence in the quality level of the test object."
   },
   {
@@ -1784,7 +1784,7 @@
       "Testers collaborating with end users improve the quality of defect reports during system testing",
       "Certified testers will design much better test cases than non-certified testers"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "It is important that testers are involved from the beginning of the software development lifecycle (SDLC). It will increase understanding of design decisions and will detect defects early."
   },
   {
@@ -1795,7 +1795,7 @@
       "Defects cluster together",
       "Exhaustive testing is impossible"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "This principle means that if the same tests are repeated over and over again, eventually these tests no longer find any new defects. This is probably why the tests all passed in this release as well."
   },
   {
@@ -1806,7 +1806,7 @@
       "Using boundary value analysis (BVA) for the test cases that check the correct payment amount",
       "Analyzing the discrepancy between the actual result and expected result after executing a test case"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "This is an example of defining test conditions which is a part of test analysis."
   },
   {
@@ -1820,7 +1820,7 @@
       "ii, iv, v have significant influence; i, iii have not",
       "iii, v have significant influence; i, ii, iv have not"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "ii. is false. The number of defects detected in previous projects may have some influence, but this is not as significant as i, iii and iv"
   },
   {
@@ -1831,7 +1831,7 @@
       "Design solutions to new requirements",
       "Create the test plan"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": "The product backlog is built and maintained by the product owner. Design solutions is done by the development team. Create test plan is a managerial role."
   },
   {
@@ -1842,7 +1842,7 @@
       "Design solutions to new requirements",
       "Report on achieved coverage"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "The product backlog is built and maintained by the product owner. Design solutions is done by the development team. Create test plan is a managerial role."
   },
   {
@@ -1856,7 +1856,7 @@
       "i, ii and v are important; iii and iv are not",
       "iii and iv are important; i, ii and v are not"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": "ii. This is a task of the business analyst together with the business representative.\niv. Is a task of the test manager or, mostly in an Agile project, the whole team, and not just the tester."
   },
   {
@@ -1867,7 +1867,7 @@
       "Business representatives are not part of the whole team approach",
       "Testers help business representatives to create suitable acceptance tests"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Testers will work closely with business representatives to ensure that the desired quality levels are achieved. This includes supporting and collaborating with them."
   },
   {
@@ -1878,7 +1878,7 @@
       "Only in iterative and incremental SDLC models",
       "In sequential, incremental, and iterative SDLC models"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "This rule holds for all SDLC models."
   },
   {
@@ -1889,7 +1889,7 @@
       "In ATDD, tests are created based on acceptance criteria to drive the software development",
       "In ATDD, tests are based on the desired behavior of the software, and makes it easier to understand"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": "given/when/then is ofter used in BDD. In acceptance test-driven development (ATDD) tests are written from acceptance criteria as part of the design process."
   },
   {
@@ -1900,7 +1900,7 @@
       "Executing a performance efficiency test for a component during component testing",
       "Writing a test script before setting up the configuration management process"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": "Test scripts should be subject to configuration management, so it makes no sense to create the test scripts before this process is set up."
   },
   {
@@ -1911,7 +1911,7 @@
       "Identified process weaknesses form a to-do list for continuous improvement",
       "Retrospectives embrace values like courage and respect for ongoing growth"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -1925,7 +1925,7 @@
       "1B, 2A, 3D, 4C",
       "1C, 2B, 3A, 4D"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -1941,7 +1941,7 @@
       "Only 4, 6, 8, 9",
       "Only 5, 6"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -1952,7 +1952,7 @@
       "Finding coding defects that might not have been found by only performing dynamic testing",
       "Detecting gaps and inconsistencies in requirements"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -1963,7 +1963,7 @@
       "It is the only way to measure the quality of changes",
       "It helps avoid requirements misunderstandings"
     ],
-    "answer": 0,
+    "answer": "a",
     "explanation": ""
   },
   {
@@ -1977,7 +1977,7 @@
       "Technical review",
       "Inspection"
     ],
-    "answer": 3,
+    "answer": "d",
     "explanation": ""
   },
   {
@@ -1988,7 +1988,7 @@
       "Participants should avoid boredom behaviors (exasperation, hostility to other participants)",
       "Failures found should be acknowledged, appreciated, and handled objectively"
     ],
-    "answer": 1,
+    "answer": "b",
     "explanation": ""
   },
   {
@@ -1999,7 +1999,7 @@
       "The techniques heavily rely on the tester’s knowledge of the software and the business domain",
       "The test cases are used to identify deviations from the requirements"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   },
   {
@@ -2013,7 +2013,7 @@
       "5",
       "6"
     ],
-    "answer": 2,
+    "answer": "c",
     "explanation": ""
   }
 ]
