@@ -28,7 +28,7 @@ Schedule example (10:00AM and 7:00PM):
 0 10,19 * * *
 ```
 
-Pipeline script:
+Pipeline script example:
 ```bash
 pipeline {
     agent any
