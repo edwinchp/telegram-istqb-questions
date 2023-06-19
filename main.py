@@ -134,6 +134,7 @@ if 'messages' in random_question:
     for message in random_question["messages"]:
         send_telegram_message(bot_token, target_chat_id, message)
 
+# Send all photos if any
 if 'photos' in random_question:
     for photo in random_question["photos"]:
         send_photo(bot_token, target_chat_id, f"photos/{photo}")

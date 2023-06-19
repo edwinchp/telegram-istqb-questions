@@ -1,0 +1,26 @@
+name: Test changes
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone
+      uses: actions/checkout@v2
+
+    - name: Create
+      run: echo '{"token": "${{ secrets.test_token }}","chat_id": "${{ secrets.test_chat_id}}"}' > setup.json
+
+    - name: Run
+      run: python3 main.py
+
+      env:
+        ARCHIVO_JSON: setup.json
+
+    - name: Delete file
+      run: rm setup.json
