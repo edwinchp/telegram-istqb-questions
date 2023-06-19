@@ -13,8 +13,8 @@ jobs:
     - name: Clone
       uses: actions/checkout@v2
 
-    - name: Create
-      run: echo '{"token": "${{ secrets.test_token }}","chat_id": "${{ secrets.test_chat_id}}"}' > setup.json
+    - name: Create setup file
+      run: echo '{"token": "${{ secrets.test_token }}","chat_id": "${{ secrets.test_chat_id}}"}' >> setup.json
 
     - name: Run
       run: python3 main.py
