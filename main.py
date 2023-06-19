@@ -117,10 +117,27 @@ def send_telegram_poll(token, chat_id):
         raise Exception(f'Error sending poll: {response.status_code} - {response.text} - {question}')
 
 
+def send_photo(bot_token, chat_id, picture_path):
+    url = f"https://api.telegram.org/bot{bot_token}/sendPhoto"
+    files = {'photo': open(picture_path, 'rb')}
+    params = {'chat_id': chat_id}
+    response = requests.post(url, files=files, data=params)
+
+    if response.status_code == 200:
+        print('Photo sent successfully!')
+    else:
+        raise Exception(f'Error sending photo: {response.status_code} - {response.text} - {picture_path}')
+
+
 # Send all messages if any
 if 'messages' in random_question:
     for message in random_question["messages"]:
         send_telegram_message(bot_token, target_chat_id, message)
+
+# Send all photos if any
+if 'photos' in random_question:
+    for photo in random_question["photos"]:
+        send_photo(bot_token, target_chat_id, f"photos/{photo}")
 
 # Send the poll
 send_telegram_poll(bot_token, target_chat_id)

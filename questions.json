@@ -60,8 +60,10 @@
   {
     "messages": [
       "It is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea.",
-      "Here is a picture of its flag:",
-      "https://en.wikipedia.org/wiki/File:Flag_of_Mexico.svg"
+      "Here is a picture of its flag:"
+    ],
+    "photos": [
+      "México.webp"
     ],
     "question": "Which country is the text above referring to?",
     "options": [
