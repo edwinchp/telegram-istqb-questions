@@ -1703,7 +1703,7 @@
     "explanation": "Project risks are related to the management and control of the project."
   },
   {
-    "question": "Which of the following is a FALSE statement about test automation?",
+    "question": "Which of the following is NOT a benefit of test automation?",
     "options": [
       "Detection of early security vulnerabilities and higher coverage assuming the absence of defects.",
       "More objective assessment (coverage) and providing measures complicated for humans to derive.",
@@ -1912,7 +1912,7 @@
       "Retrospectives embrace values like courage and respect for ongoing growth"
     ],
     "answer": "c",
-    "explanation": ""
+    "explanation": "Regularly conducted retrospectives, when appropriate follow up activities occur, are critical to continual improvement of development and testing."
   },
   {
     "messages": [
@@ -1926,7 +1926,7 @@
       "1C, 2B, 3A, 4D"
     ],
     "answer": "a",
-    "explanation": ""
+    "explanation": "Component communication is tested during component integration testing (2B). Failures in logic can be found during component testing (3A).\nBusiness rules are the test basis for system testing (4C)."
   },
   {
     "messages": [
@@ -1941,8 +1941,8 @@
       "Only 4, 6, 8, 9",
       "Only 5, 6"
     ],
-    "answer": "a",
-    "explanation": ""
+    "answer": "b",
+    "explanation": "TC2 passed in Execution 1 (i.e., test (2)), so test (5) is a regression test. TC1 passed in the Execution 2 (i.e., test (4)), so test (7) is also a regression test."
   },
   {
     "question": "Which of the following is NOT a benefit of static testing?",
@@ -1952,8 +1952,8 @@
       "Finding coding defects that might not have been found by only performing dynamic testing",
       "Detecting gaps and inconsistencies in requirements"
     ],
-    "answer": "c",
-    "explanation": ""
+    "answer": "a",
+    "explanation": "Defect management is not less expensive. Finding and fixing defects later in SDLC is more costly."
   },
   {
     "question": "Which of the following is a benefit of early and frequent feedback?",
@@ -1963,8 +1963,8 @@
       "It is the only way to measure the quality of changes",
       "It helps avoid requirements misunderstandings"
     ],
-    "answer": "a",
-    "explanation": ""
+    "answer": "d",
+    "explanation": "Feedback improves test process, but if only wants to improve future projects, the feedback does not need to come frequently. Early and frequent feedback communicate potential problems."
   },
   {
     "messages": [
@@ -1977,8 +1977,8 @@
       "Technical review",
       "Inspection"
     ],
-    "answer": "d",
-    "explanation": ""
+    "answer": "b",
+    "explanation": "The purpose is to evaluate quality – the purpose of evaluating quality is one of the most important objectives of a walkthrough."
   },
   {
     "question": "Which of these statements is NOT a factor that contributes to successful reviews?",
@@ -1988,8 +1988,8 @@
       "Participants should avoid boredom behaviors (exasperation, hostility to other participants)",
       "Failures found should be acknowledged, appreciated, and handled objectively"
     ],
-    "answer": "b",
-    "explanation": ""
+    "answer": "d",
+    "explanation": "During reviews one can find defects, not failures."
   },
   {
     "question": "Which of the following is a characteristic of experience-based test techniques?",
@@ -2000,7 +2000,7 @@
       "The test cases are used to identify deviations from the requirements"
     ],
     "answer": "c",
-    "explanation": ""
+    "explanation": "This knowledge and experience include expected use of the software, its environment, likely defects, and the distribution of those defects is used to define tests."
   },
   {
     "messages": [
@@ -2013,7 +2013,7 @@
       "5",
       "6"
     ],
-    "answer": "c",
-    "explanation": ""
+    "answer": "b",
+    "explanation": "”Small garden” and “large garden” can go only with “ground floor”, so 2 test cases with “ground floor” which cover these 2 “garden type” partitions. 2 more test cases to cover “floor” and ”no garden”."
   }
 ]
