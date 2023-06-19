@@ -14,7 +14,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Create setup file
-      run: echo '{"token": "${{ secrets.test_token }}","chat_id": "${{ secrets.test_chat_id}}"}' >> setup.json
+      run: |
+        echo '{"token": "${{ secrets.TEST_TOKEN_ID }}","chat_id": "${{ secrets.TEST_CHAT_ID}}"}' >> setup.json
+        cat setup.json
 
     - name: Run
       run: python3 main.py
