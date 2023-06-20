@@ -1,9 +1,15 @@
 import json
+import os
 import random
 import requests
 import time
 import re
+from dotenv import load_dotenv
 
+# Load environment variables from .env file
+load_dotenv()
+
+# All answers supported
 answer_index = {
     'a': 0,
     'b': 1,
@@ -17,12 +23,12 @@ answer_index = {
     'j': 9,
 }
 
-# Read the token and chat id from the JSON file
-with open('setup.json') as f:
-    bot_token = json.load(f)["token"]
+# Read the environment variables
+bot_token = os.getenv('BOT_TOKEN')
+target_chat_id = os.getenv('TARGET_CHAT_ID')
 
-with open('setup.json') as f:
-    target_chat_id = json.load(f)["chat_id"]
+if not bot_token or not target_chat_id:
+    raise Exception("Please add your environment variables on .env file")
 
 # Read the questions and answers from the JSON file
 with open('questions.json') as f:
@@ -41,15 +47,17 @@ random.seed(seed_value)
 random_question = random.choice(questions)
 
 
+# Get index based on letter which is formatted
 def get_answer_index(letter):
     pattern = r'[:.(),]'
     modified_letter = re.sub(pattern, '', letter)
     return answer_index.get(modified_letter.lower())
 
 
-def find_key_by_value(dictionary, value):
+# Get the letter based on the index
+def find_key_by_value(dictionary, index):
     for key, val in dictionary.items():
-        if val == value:
+        if val == index:
             return key
     return None
 
@@ -117,8 +125,8 @@ def send_telegram_poll(token, chat_id):
         raise Exception(f'Error sending poll: {response.status_code} - {response.text} - {question}')
 
 
-def send_photo(bot_token, chat_id, picture_path):
-    url = f"https://api.telegram.org/bot{bot_token}/sendPhoto"
+def send_photo(token, chat_id, picture_path):
+    url = f"https://api.telegram.org/bot{token}/sendPhoto"
     files = {'photo': open(picture_path, 'rb')}
     params = {'chat_id': chat_id}
     response = requests.post(url, files=files, data=params)
