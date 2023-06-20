@@ -1,0 +1,32 @@
+name: Test changes
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - env-variables
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install requests
+        pip install python-dotenv
+
+    - name: Run
+      run: python main.py
+      env:
+        BOT_TOKEN: ${{ secrets.TEST_BOT_TOKEN }}
+        TARGET_CHAT_ID: ${{ secrets.TEST_TARGET_CHAT_ID }}
