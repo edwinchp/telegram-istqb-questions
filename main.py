@@ -1,8 +1,13 @@
 import json
+import os
 import random
 import requests
 import time
 import re
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 answer_index = {
     'a': 0,
@@ -17,12 +22,10 @@ answer_index = {
     'j': 9,
 }
 
-# Read the token and chat id from the JSON file
-with open('setup.json') as f:
-    bot_token = json.load(f)["token"]
+# Read the environment variables
+bot_token = os.getenv('BOT_TOKEN')
+target_chat_id = os.getenv('TARGET_CHAT_ID')
 
-with open('setup.json') as f:
-    target_chat_id = json.load(f)["chat_id"]
 
 # Read the questions and answers from the JSON file
 with open('questions.json') as f:
