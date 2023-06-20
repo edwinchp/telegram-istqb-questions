@@ -516,8 +516,10 @@
   },
   {
     "messages": [
-      "Dado el siguiente diagrama sobre los principales modelos de servicio de computación en la nube:",
-      "https://www.flickr.com/photos/198495524@N07/52977359661/"
+      "Dado el siguiente diagrama sobre los principales modelos de servicio de computación en la nube:"
+    ],
+    "photos": [
+      "photo1.png"
     ],
     "question": "Seleccione la opción que mejor represente cada una de las categorías:",
     "options": [
