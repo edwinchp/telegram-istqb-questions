@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+# All answers supported
 answer_index = {
     'a': 0,
     'b': 1,
@@ -46,15 +47,17 @@ random.seed(seed_value)
 random_question = random.choice(questions)
 
 
+# Get index based on letter which is formatted
 def get_answer_index(letter):
     pattern = r'[:.(),]'
     modified_letter = re.sub(pattern, '', letter)
     return answer_index.get(modified_letter.lower())
 
 
-def find_key_by_value(dictionary, value):
+# Get the letter based on the index
+def find_key_by_value(dictionary, index):
     for key, val in dictionary.items():
-        if val == value:
+        if val == index:
             return key
     return None
 
