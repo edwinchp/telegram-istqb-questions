@@ -7,10 +7,6 @@ on:
       - master
       - env-variables
 
-env:
-  BOT_TOKEN: ${{ secrets.TEST_TOKEN_ID }}
-  TARGET_CHAT_ID: ${{ secrets.TEST_CHAT_ID }}
-
 jobs:
   test-job:
     runs-on: ubuntu-latest
@@ -25,3 +21,6 @@ jobs:
 
     - name: Run
       run: python3 main.py
+      env:
+        BOT_TOKEN: ${{ secrets.TEST_TOKEN_ID }}
+        TARGET_CHAT_ID: ${{ secrets.TEST_CHAT_ID }}
