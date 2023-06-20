@@ -26,6 +26,8 @@ answer_index = {
 bot_token = os.getenv('BOT_TOKEN')
 target_chat_id = os.getenv('TARGET_CHAT_ID')
 
+if not bot_token or not target_chat_id:
+    raise Exception("Please add your environment variables on .env file")
 
 # Read the questions and answers from the JSON file
 with open('questions.json') as f:
@@ -120,8 +122,8 @@ def send_telegram_poll(token, chat_id):
         raise Exception(f'Error sending poll: {response.status_code} - {response.text} - {question}')
 
 
-def send_photo(bot_token, chat_id, picture_path):
-    url = f"https://api.telegram.org/bot{bot_token}/sendPhoto"
+def send_photo(token, chat_id, picture_path):
+    url = f"https://api.telegram.org/bot{token}/sendPhoto"
     files = {'photo': open(picture_path, 'rb')}
     params = {'chat_id': chat_id}
     response = requests.post(url, files=files, data=params)
