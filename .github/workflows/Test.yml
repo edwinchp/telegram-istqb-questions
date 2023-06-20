@@ -28,5 +28,5 @@ jobs:
     - name: Run
       run: python main.py
       env:
-        BOT_TOKEN: ${{ secrets.TEST_TOKEN_ID }}
-        TARGET_CHAT_ID: ${{ secrets.TARGET_CHAT_ID }}
+        BOT_TOKEN: ${{ secrets.TEST_BOT_TOKEN }}
+        TARGET_CHAT_ID: ${{ secrets.TEST_TARGET_CHAT_ID }}
