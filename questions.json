@@ -1023,7 +1023,10 @@
     "explanation": ""
   },
   {
-    "question": "We need to calculate an employee bonus. It can't be negative, it could be zero and it is based on job duration:\n➊<= 2 years, ➋ > 2 and < 5 years, ➌ 5 > 10 years or > 10 years\nWhat is the minimum scenarios required to cover all valid equivalence partitioning to calculate the bonus?",
+    "messages": [
+      "We need to calculate an employee bonus. It can't be negative, it could be zero and it is based on job duration:\nLess or equal to 2 years\nMore than 2 years but less than 5 years\nMore than 5 years but less than 10 years or more than 10 years\n\nWhat is the minimum scenarios required to cover all valid equivalence partitioning to calculate the bonus?"
+    ],
+    "question": "Select ONE option:",
     "options": [
       "3",
       "5",
@@ -1034,18 +1037,24 @@
     "explanation": "You need 4 if you divide the range like this:\n0 1 2 - 3 4 - 5 6 7 8 9 10 - 11 12"
   },
   {
-    "question": "An application gives feedback based on the steps walked:\n➊0+ to 1000 steps, ➋1000+ to 2000 steps, ➌2000+ to 4000 steps, ➍4000+ to 6000 steps, ➎6000+ steps\nWhich input values would provide the highest equivalence partitioning coverage?",
+    "messages": [
+      "A fitness application gives feedback based on the steps walked:\n0+ to 1000 steps\n1000+ to 2000 steps\n2000+ to 4000 steps\n4000+ to 6000 steps\n6000+ steps\n\nWhich input values would provide the highest equivalence partitioning coverage?"
+    ],
+    "question": "Select ONE option:",
     "options": [
       "0, 1000, 2000, 3000, 4000",
       "1000, 2001, 4000, 4001, 6000",
-      "123, 2345, 3456, 4567, 5678",
-      "666, 999, 2222, 5555, 6666"
+      "298, 2345, 3456, 4567, 5678",
+      "598, 999, 2222, 5555, 6666"
     ],
     "answer": "d",
-    "explanation": "It covers 4 of 5 partitions:\n666 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5)"
+    "explanation": "It covers 4 of 5 partitions:\n598 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5)"
   },
   {
-    "question": "A temperature converter app provides the following output categories based on the input temperature:\n➊Below freezing (<= 32°F), ➋Cold (33°F - 50°F), ➌Mild (51°F - 70°F), ➍Hot (> 70°F)\nWhich input values would provide the highest equivalence partitioning coverage?",
+    "messages": [
+      "A temperature converter app provides the following output categories based on the input temperature:\nBelow freezing (<= 32°F)\nCold (33°F - 50°F)\nMild (51°F - 70°F)\nHot (> 70°F)\n\nWhich input values would provide the highest equivalence partitioning coverage?"
+    ],
+    "question": "Select ONE option:",
     "options": [
       "10, 30, 40, 80",
       "32, 33, 51, 70",
@@ -1056,7 +1065,10 @@
     "explanation": "The input values 32, 33, 51, and 70 cover all four temperature categories:\nbelow freezing, cold, mild, and hot."
   },
   {
-    "question": "A system categorizes customers into different tiers based on their purchase amount:\n➊$0 - $100. ➋$101 - $500. ➌$501 - $1000. ➍$1001 - 5000 and 5001 and above\nHow many scenarios are required to cover all valid equivalence partitions for determining the customer tier?",
+    "messages": [
+      "A system categorizes customers into different tiers based on their purchase amount:\n0 - $100\n$101 - $500\n$501 - $1000\n$1001 - 5000\n5001 and above\n\nHow many scenarios are required to cover all valid equivalence partitions for determining the customer tier?"
+    ],
+    "question": "Select ONE option:",
     "options": [
       "3",
       "4",
@@ -1065,17 +1077,6 @@
     ],
     "answer": "c",
     "explanation": "You need 5 scenarios to cover all valid equivalence partitions:\n$5, $120, $705, $3876 and $5600."
-  },
-  {
-    "question": "A system has the following password complexity:\n➊<= 8 characters. ➋<= 8 characters, 1 uppercase letter. ➌<= 8 characters, 1 uppercase letter, 1 digit. ➍<= 8 characters, 1 uppercase letter, 1 digit, 1 special character.\nHow many scenarios are required to cover all valid equivalence partitions?",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "answer": "c",
-    "explanation": ""
   },
   {
     "question": "A bank application tester wants to test how a component should calculate compound interest.\n\nWhich Test Type best represents previous scenario?",
@@ -1930,11 +1931,12 @@
   },
   {
     "messages": [
-      "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three test runs on three consecutive versions of the software as follows:",
-      "https://www.flickr.com/photos/198495524@N07/52969908333/",
-      "Tests are repeated once you are informed that all defects found in the test run are corrected and a new version of the software is available."
+      "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three test runs on three consecutive versions of the software as follows:"
     ],
-    "question": "Which of the above tests are executed as regression tests?",
+    "photos": [
+      "photo1.png"
+    ],
+    "question": "Tests are repeated once you are informed that all defects found in the test run are corrected and a new version of the software is available.\n\nWhich of the above tests are executed as regression tests?",
     "options": [
       "Only 4, 7, 8, 9",
       "Only 5, 7",
