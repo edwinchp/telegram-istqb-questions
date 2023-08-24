@@ -1079,268 +1079,6 @@
     "explanation": "You need 5 scenarios to cover all valid equivalence partitions:\n$5, $120, $705, $3876 and $5600."
   },
   {
-    "question": "A bank application tester wants to test how a component should calculate compound interest.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "System testing",
-      "System integration testing",
-      "Acceptance testing"
-    ],
-    "answer": "a",
-    "explanation": "It is a level of testing that focuses on testing individual software components in isolation."
-  },
-  {
-    "question": "A bank application tester wants to test how a component should calculate compound interest.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "Component testing (non-functional)",
-      "System integration testing"
-    ],
-    "answer": "a",
-    "explanation": "It is a level of testing that focuses on testing individual software components in isolation."
-  },
-  {
-    "question": "A bank application tester wants to test how account information captured at the user interface is passed to the business logic.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "System testing",
-      "System integration testing",
-      "Acceptance testing"
-    ],
-    "answer": "b",
-    "explanation": "It ensures that the components function correctly when combined and that they can communicate and exchange data properly."
-  },
-  {
-    "question": "A bank application tester wants to test how account information captured at the user interface is passed to the business logic.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "Component integration testing (non-functional)",
-      "System integration testing"
-    ],
-    "answer": "b",
-    "explanation": "It ensures that the components function correctly when combined and that they can communicate and exchange data properly."
-  },
-  {
-    "question": "A bank application tester wants to test how account holders can apply for a line of credit on their checking accounts.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "System testing",
-      "System integration testing",
-      "Acceptance testing"
-    ],
-    "answer": "c",
-    "explanation": " It is a level of testing where the entire system is tested as a whole."
-  },
-  {
-    "question": "A bank application tester wants to test how the system uses an external microservice to check an account holder’s credit score.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "System testing",
-      "System integration testing",
-      "Acceptance testing"
-    ],
-    "answer": "d",
-    "explanation": "It verifies that the different components of the system work together seamlessly and interact correctly with each other."
-  },
-  {
-    "question": "A bank application tester wants to test how the banker handles approving or declining a credit application.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "System testing",
-      "System integration testing",
-      "Acceptance testing"
-    ],
-    "answer": "e",
-    "explanation": "It involves testing the system in a real-world environment to validate its functionality, usability, and compliance with business needs."
-  },
-  {
-    "question": "A bank application tester wants to make sure performance tests are designed to evaluate the number of CPU cycles required to perform a complex total interest calculation.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing (non-functional)",
-      "Component testing",
-      "Component integration testing (non-functional)",
-      "System testing",
-      "System testing (non-functional)"
-    ],
-    "answer": "a",
-    "explanation": "This may include performance testing, security testing, reliability testing, or usability testing specific to the component being tested."
-  },
-  {
-    "question": "A bank application tester wants to make sure security tests are designed for buffer overflow vulnerabilities due to data passed from the user interface to the business logic.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing (non-functional)",
-      "Component integration testing (non-functional)",
-      "Component testing",
-      "System testing",
-      "System testing (non-functional)"
-    ],
-    "answer": "b",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to make sure portability tests are designed to check whether the presentation layer works on all supported browsers and mobile devices.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing (non-functional)",
-      "Component integration testing (non-functional)",
-      "System testing (non-functional)",
-      "Component testing",
-      "System testing"
-    ],
-    "answer": "c",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to make sure reliability tests are designed to evaluate system robustness if the credit score microservice fails to respond.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "System testing",
-      "System testing (non-functional)",
-      "System integration testing",
-      "System integration testing (non-functional)",
-      "Acceptance testing (non-functional)"
-    ],
-    "answer": "d",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to make sure usability tests are designed to evaluate the accessibility of the banker’s credit processing interface for people with disabilities.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing (non-functional)",
-      "System testing (non-functional)",
-      "System integration testing",
-      "Acceptance testing",
-      "Acceptance testing (non-functional)"
-    ],
-    "answer": "e",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to make sure tests are designed to achieve complete statement and decision coverage for all components that perform financial calculations.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "System testing",
-      "System integration testing",
-      "Acceptance testing"
-    ],
-    "answer": "a",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to make sure tests are designed to exercise how each screen in the browser interface passes data to the next screen and to the business logic.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "System testing",
-      "System integration testing",
-      "Acceptance testing"
-    ],
-    "answer": "b",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to cover sequences of web pages that can occur during a credit line application.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "System testing",
-      "System integration testing",
-      "Acceptance testing"
-    ],
-    "answer": "c",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to exercise all possible inquiry types sent to the credit score microservice.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "System testing",
-      "System integration testing",
-      "Acceptance testing"
-    ],
-    "answer": "d",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to cover all supported financial data file structures and value ranges for bank-to-bank transfers.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing",
-      "Component integration testing",
-      "System testing",
-      "System integration testing",
-      "Acceptance testing"
-    ],
-    "answer": "e",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to make sure automated regression tests are built for each component and included within the continuous integration framework.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing (change-related)",
-      "Component testing",
-      "Component testing (non-functional)",
-      "Component integration testing",
-      "Component integration testing (change-related)"
-    ],
-    "answer": "a",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to make sure tests are designed to confirm fixes to interface-related defects as the fixes are checked into the code repository.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing (change-related)",
-      "Component integration testing (change-related)",
-      "Component integration testing",
-      "Component testing",
-      "Component testing (non-functional)"
-    ],
-    "answer": "b",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to make sure all tests for a given workflow are re-executed if any screen on that workflow changes.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "Component testing (change-related)",
-      "Component integration testing (change-related)",
-      "System testing (change-related)",
-      "Component testing",
-      "Component testing (non-functional)"
-    ],
-    "answer": "c",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to make sure tests of the application interacting with the credit scoring microservice are re-executed daily as part of continuous deployment of that microservice.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "System testing",
-      "System testing (change-related)",
-      "System integration testing",
-      "System integration testing (change-related)",
-      "System integration testing (non-functional)"
-    ],
-    "answer": "d",
-    "explanation": ""
-  },
-  {
-    "question": "A bank application tester wants to make sure all previously-failed tests are re-executed after a defect found in acceptance testing is fixed.\n\nWhich Test Type best represents previous scenario?",
-    "options": [
-      "System testing (non-functional)",
-      "System integration testing",
-      "System integration testing (change-related)",
-      "Acceptance testing (non-functional)",
-      "Acceptance testing (change-related)"
-    ],
-    "answer": "e",
-    "explanation": ""
-  },
-  {
     "question": "What is the purpose of bi-directional traceability in software testing?",
     "options": [
       "To establish a link between requirements and testing artifacts",
@@ -1934,7 +1672,7 @@
       "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three test runs on three consecutive versions of the software as follows:"
     ],
     "photos": [
-      "photo1.png"
+      "istqb1_14.png"
     ],
     "question": "Tests are repeated once you are informed that all defects found in the test run are corrected and a new version of the software is available.\n\nWhich of the above tests are executed as regression tests?",
     "options": [
@@ -2017,5 +1755,135 @@
     ],
     "answer": "b",
     "explanation": "”Small garden” and “large garden” can go only with “ground floor”, so 2 test cases with “ground floor” which cover these 2 “garden type” partitions. 2 more test cases to cover “floor” and ”no garden”."
+  },
+  {
+    "messages": [
+      "You are testing a system that calculates the final course grade for a given student.\nThe final grade is assigned based on the final result, according to the following rules:\n• 0 – 50 points: failed\n• 51 – 60 points: fair\n• 61 – 70 points: satisfactory\n• 71 – 80 points: good\n• 81 – 90 points: very good\n• 91 – 100 points: excellent\nYou have prepared the following set of test cases:"
+    ],
+    "photos": [
+      "istqb1_21.png"
+    ],
+    "question": "What is the 2-value Boundary Value Analysis (BVA) coverage for the final result that is achieved with the existing test cases?",
+    "options": [
+      "50%",
+      "60%",
+      "33.%",
+      "100%"
+    ],
+    "answer": "d?",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "Your favorite bicycle daily rental store has just introduced a new Customer Relationship Management system and asked you, one of their most loyal members, to test it.\nThe implemented features are as follows:\n• Anyone can rent a bicycle, but members receive a 20% discount\n• However, if the return deadline is missed, the discount is no longer available\n• After 15 rentals, members get a gift: a T-Shirt\nDecision table describing the implemented features looks as follows:"
+    ],
+    "photos": [
+      "istqb1_22.png"
+    ],
+    "question": "Based ONLY on the feature description of the Customer Relationship Management system, which of the above rules describes an impossible situation?",
+    "options": [
+      "R4",
+      "R2",
+      "R6",
+      "R8"
+    ],
+    "answer": "d?",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "You test a system whose lifecycle is modeled by the state transition diagram shown below. The system starts in the INIT state and ends its operation in the OFF state."
+    ],
+    "photos": [
+      "istqb1_23.png"
+    ],
+    "question": "What is the MINIMAL number of test cases to achieve valid transitions coverage?",
+    "options": [
+      "4",
+      "2",
+      "7",
+      "3"
+    ],
+    "answer": "a?",
+    "explanation": ""
+  },
+  {
+    "question": "Your test suite achieved 100% statement coverage. What is the consequence of this fact?",
+    "options": [
+      "Each instruction in the code that contains a defect has been executed at least once",
+      "Any test suite with more test cases than your test suite will also achieve 100% statement coverage",
+      "Each path in the code has been executed at least once",
+      "Every combination of input values has been tested at least once"
+    ],
+    "answer": "a?",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following is NOT true for white-box testing?",
+    "options": [
+      "During white-box testing the entire software implementation is considered",
+      "White-box coverage metrics can help identify additional tests to increase code coverage",
+      "White-box test techniques can be used in static testing",
+      "White-box testing can help identify gaps in requirements implementation"
+    ],
+    "answer": "c?",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "Which of the following BEST describes the concept behind error guessing?\n\na) Error guessing involves using your knowledge and experience of defects found in the past and typical errors made by developers\nb) Error guessing involves using your personal experience of development and the errors you made as a developer\nc) Error guessing requires you to imagine that you are the user of the test object and to guess errors the user could make interacting with it\nd) Error guessing requires you to rapidly duplicate the development task to identify the sort of errors a developer might make"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answer": "a?",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "In your project there has been a delay in the release of a brand-new application and test execution started late, but you have very detailed domain knowledge and good analytical skills.\nThe full list of requirements has not yet been shared with the team, but management is asking for some test results to be presented."
+    ],
+    "question": "Which test technique fits BEST in this situation?",
+    "options": [
+      "Checklist-based testing",
+      "Error guessing",
+      "Exploratory testing",
+      "Branch testing"
+    ],
+    "answer": "b?",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "Which of the following BEST describes the way acceptance criteria can be documented?\n\na) Performing retrospectives to determine the actual needs of the stakeholders regarding a given user story\nb) Using the given/when/then format to describe an example test condition related to a given user story\nc) Using verbal communication to reduce the risk of misunderstanding the acceptance criteria by others\nd) Documenting risks related to a given user story in a test plan to facilitate the risk-based testing of a given user story"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answer": "b?",
+    "explanation": ""
+  },
+
+  {
+    "messages": [
+      "Consider the following user story:\n\n_As an Editor\nI want to review content before it is published\nso that I can assure the grammar is correct_\n\nand its acceptance criteria:\n\n• The user can log in to the content management system with \"Editor\" role\n• The editor can view existing content pages\n• The editor can edit the page content\n• The editor can add markup comments\n• The editor can save changes\n• The editor can reassign to the \"content owner\" role to make updates"
+    ],
+    "question": "Which of the following is the BEST example of an ATDD test for this user story?",
+    "options": [
+      "test if the editor can save the document after deleting the page content",
+      "test if the content owner can log in and make updates to the content",
+      "test if the editor can schedule the edited content for publication",
+      "test if the editor can reassign to another editor to make updates"
+    ],
+    "answer": "a?",
+    "explanation": ""
   }
 ]
