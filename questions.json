@@ -1770,8 +1770,8 @@
       "33.%",
       "100%"
     ],
-    "answer": "d?",
-    "explanation": ""
+    "answer": "a",
+    "explanation": "There are 12 boundary values. The test cases cover six of them (TC1 – 91, TC2 – 50, TC3 – 81, TC4 – 60, TC5 – 70 and TC7 – 51). Therefore, the test cases cover 6/12 = 50%."
   },
   {
     "messages": [
@@ -1787,8 +1787,8 @@
       "R6",
       "R8"
     ],
-    "answer": "d?",
-    "explanation": ""
+    "answer": "d",
+    "explanation": "No discount as a non-member that has also missed a deadline, but only members can receive a gift T-Shirt. Hence, the action is not correct."
   },
   {
     "messages": [
@@ -1804,8 +1804,8 @@
       "7",
       "3"
     ],
-    "answer": "a?",
-    "explanation": ""
+    "answer": "d",
+    "explanation": "“test” and “error” transitions cannot occur in one test case. Neither can both “done” transitions."
   },
   {
     "question": "Your test suite achieved 100% statement coverage. What is the consequence of this fact?",
@@ -1815,8 +1815,8 @@
       "Each path in the code has been executed at least once",
       "Every combination of input values has been tested at least once"
     ],
-    "answer": "a?",
-    "explanation": ""
+    "answer": "a",
+    "explanation": "Since 100% statement coverage is achieved, every statement, including the ones with defects, must have been executed and evaluated at least once."
   },
   {
     "question": "Which of the following is NOT true for white-box testing?",
@@ -1826,8 +1826,8 @@
       "White-box test techniques can be used in static testing",
       "White-box testing can help identify gaps in requirements implementation"
     ],
-    "answer": "c?",
-    "explanation": ""
+    "answer": "d",
+    "explanation": "This is the weakness of the white-box test techniques. They're not able to identify the missing implementation. They are based on the test object structure, not on the requirements specification."
   },
   {
     "messages": [
@@ -1840,8 +1840,8 @@
       "c",
       "d"
     ],
-    "answer": "a?",
-    "explanation": ""
+    "answer": "a",
+    "explanation": "The basic concept behind error guessing is that the tester tries to guess what errors may have been made by the developer and what defects may be in the test object based on past experience."
   },
   {
     "messages": [
@@ -1854,8 +1854,8 @@
       "Exploratory testing",
       "Branch testing"
     ],
-    "answer": "b?",
-    "explanation": ""
+    "answer": "c",
+    "explanation": "Exploratory testing is most useful when there are few known specifications and/or there is a pressing timeline for testing."
   },
   {
     "messages": [
@@ -1868,13 +1868,13 @@
       "c",
       "d"
     ],
-    "answer": "b?",
-    "explanation": ""
+    "answer": "b",
+    "explanation": "This is the standard way to document acceptance criteria."
   },
 
   {
     "messages": [
-      "Consider the following user story:\n\n_As an Editor\nI want to review content before it is published\nso that I can assure the grammar is correct_\n\nand its acceptance criteria:\n\n• The user can log in to the content management system with \"Editor\" role\n• The editor can view existing content pages\n• The editor can edit the page content\n• The editor can add markup comments\n• The editor can save changes\n• The editor can reassign to the \"content owner\" role to make updates"
+      "Consider the following user story:\n\n\"_As an Editor\nI want to review content before it is published\nso that I can assure the grammar is correct\"_\n\nand its acceptance criteria:\n\n• The user can log in to the content management system with \"Editor\" role\n• The editor can view existing content pages\n• The editor can edit the page content\n• The editor can add markup comments\n• The editor can save changes\n• The editor can reassign to the \"content owner\" role to make updates"
     ],
     "question": "Which of the following is the BEST example of an ATDD test for this user story?",
     "options": [
@@ -1883,7 +1883,7 @@
       "test if the editor can schedule the edited content for publication",
       "test if the editor can reassign to another editor to make updates"
     ],
-    "answer": "a?",
-    "explanation": ""
+    "answer": "a",
+    "explanation": "This test covers two acceptance criteria: one about editing the document and one about saving changes."
   }
 ]
