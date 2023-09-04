@@ -534,7 +534,7 @@
     "question": "SELECCIONE UNA OPCIÓN:",
     "options": [
       "Amazon Elastic File System (Amazon EFS)",
-      "Amazon Elastic Block Store(EBS)",
+      "Amazon Elastic Block Store (EBS)",
       "Almacén de instancias",
       "Amazon Simple Storage Service (Amazon S3)"
     ],
