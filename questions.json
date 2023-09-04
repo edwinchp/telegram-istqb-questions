@@ -44,17 +44,6 @@
     "explanation": "The phrase 'big deal' is used to express that something is not important or significant."
   },
   {
-    "question": "What is the correct comparative form of the word 'big'?",
-    "options": [
-      "Big",
-      "Bigger",
-      "Biggest",
-      "More big"
-    ],
-    "answer": "b",
-    "explanation": "'Bigger' is the correct comparative form of 'big'."
-  },
-  {
     "question": "What is the correct form of the verb 'to be' in the present tense for 'he'?",
     "options": [
       "Am",
@@ -594,17 +583,6 @@
     "explanation": "The correct form is 'have never been' because we use present perfect + never to talk about actions that have not happened up to now."
   },
   {
-    "question": "What is the comparative form of the adjective 'good'?",
-    "options": [
-      "Better",
-      "Gooder",
-      "Best",
-      "More good"
-    ],
-    "answer": "a",
-    "explanation": "The correct form is 'better' because we add -er to the base form of the adjective to make comparative for most one-syllable adjectives."
-  },
-  {
     "question": "Which sentence is correct?",
     "options": [
       "She was studying when her friend called",
@@ -713,17 +691,6 @@
     ],
     "answer": "a",
     "explanation": "The correct form is 'have already eaten' because we use present perfect to talk about past actions that are still relevant or have an impact on the present."
-  },
-  {
-    "question": "What is the comparative form of the adjective 'big'?",
-    "options": [
-      "Bigger",
-      "Biggest",
-      "More big",
-      "Biger"
-    ],
-    "answer": "a",
-    "explanation": "The correct form is 'bigger' because we add -er to the base form of the adjective to make comparative for most one-syllable adjectives."
   },
   {
     "question": "What is the correct form of the verb 'to be' in present simple for third person singular?",
@@ -858,17 +825,6 @@
     "explanation": "The correct sentence is 'She will go to the store later' because we use 'will' to talk about the future."
   },
   {
-    "question": "What is the comparative form of the adjective 'happy'?",
-    "options": [
-      "Happier",
-      "Happyer",
-      "More happy",
-      "Happiest"
-    ],
-    "answer": "a",
-    "explanation": "The comparative form of the adjective 'happy' is 'happier'."
-  },
-  {
     "question": "Which sentence is correct?",
     "options": [
       "I studied English yesterday",
@@ -933,17 +889,6 @@
     ],
     "answer": "a",
     "explanation": "The correct sentence is 'She worked at the office yesterday' because we use the past simple form of the verb to talk about finished actions in the past."
-  },
-  {
-    "question": "What is the comparative form of the adjective 'happy'?",
-    "options": [
-      "Happiest",
-      "Happier",
-      "More happy",
-      "Happyer"
-    ],
-    "answer": "b",
-    "explanation": "The comparative form of the adjective 'happy' is 'happier'."
   },
   {
     "question": "Which sentence is correct?",
@@ -1012,17 +957,6 @@
     "explanation": "The correct sentence is 'They went to the beach last weekend' because we use the past simple form of the verb to talk about a completed action in the past."
   },
   {
-    "question": "What is the comparative form of the adjective 'expensive'?",
-    "options": [
-      "Expensiver",
-      "More expensive",
-      "Expensivest",
-      "Expensivier"
-    ],
-    "answer": "b",
-    "explanation": "The comparative form of the adjective 'expensive' is 'more expensive'."
-  },
-  {
     "question": "Which sentence is correct?",
     "options": [
       "She worked hard to pass the exam",
@@ -1056,17 +990,6 @@
     "explanation": "The opposite of 'fast' is 'slow'."
   },
   {
-    "question": "What is the correct form of the verb 'to be' in present simple for second person singular?",
-    "options": [
-      "Am",
-      "Are",
-      "Is",
-      "Be"
-    ],
-    "answer": "b",
-    "explanation": "The correct form is 'are' because we use 'are' with you in present simple."
-  },
-  {
     "question": "Which sentence is correct?",
     "options": [
       "We study English every day",
@@ -1076,17 +999,6 @@
     ],
     "answer": "a",
     "explanation": "The correct sentence is 'We study English every day' because we use the base form of the verb in present simple for I, you, we, and they."
-  },
-  {
-    "question": "What is the comparative form of the adjective 'small'?",
-    "options": [
-      "Smaller",
-      "Smalliest",
-      "More small",
-      "Smallier"
-    ],
-    "answer": "a",
-    "explanation": "The comparative form of the adjective 'small' is 'smaller'."
   },
   {
     "question": "Which sentence is correct?",
@@ -1122,28 +1034,6 @@
     "explanation": "The opposite of 'happy' is 'sad'."
   },
   {
-    "question": "What is the correct word order for a simple sentence in English?",
-    "options": [
-      "Subject-Verb-Object",
-      "Subject-Object-Verb",
-      "Verb-Subject-Object",
-      "Object-Subject-Verb"
-    ],
-    "answer": "a",
-    "explanation": "The correct word order for a simple sentence in English is Subject-Verb-Object."
-  },
-  {
-    "question": "What is the irregular past simple form of the verb 'to go'?",
-    "options": [
-      "Went",
-      "Gone",
-      "Goed",
-      "Goes"
-    ],
-    "answer": "a",
-    "explanation": "The irregular past simple form of the verb 'to go' is 'went'."
-  },
-  {
     "question": "Which sentence is correct?",
     "options": [
       "I don't like coffee",
@@ -1155,25 +1045,168 @@
     "explanation": "The correct sentence is 'I don't like coffee' because we use 'do not' or 'don't' to make negative sentences in present simple."
   },
   {
-    "question": "What is the comparative form of the adjective 'expensive'?",
+    "question": "Change the verb to past form:\n\nThe dog (be) so cute.",
     "options": [
-      "Expensiver",
-      "More expensive",
-      "Expensivest",
-      "Expensiveer"
-    ],
-    "answer": "b",
-    "explanation": "The comparative form of the adjective 'expensive' is 'more expensive'."
-  },
-  {
-    "question": "What is the correct form of the verb 'to be' in present continuous for I?",
-    "options": [
-      "Am",
-      "Is",
-      "Are",
-      "Be"
+      "The dog was so cute.",
+      "The dog is so cute.",
+      "The dog being so cute.",
+      "The dog were so cute."
     ],
     "answer": "a",
-    "explanation": "The correct form is 'am' because we use 'am' with I in present continuous."
+    "explanation": "Present: Be. Past: Was/Were. Past participle: Been."
+  },
+  {
+    "question": "Change the verb to past form:\n\nShe (have) a dog named Max.",
+    "options": [
+      "She had a dog named Max.",
+      "She have a dog named Max.",
+      "She having a dog named Max.",
+      "She has a dog named Max."
+    ],
+    "answer": "a",
+    "explanation": "Present: Have. Past: Had. Past participle: Had."
+  },
+  {
+    "question": "Change the verb to past participle form:\n\nThey (go) for a walk.",
+    "options": [
+      "They gone for a walk.",
+      "They went for a walk.",
+      "They go for a walk.",
+      "They going for a walk."
+    ],
+    "answer": "a",
+    "explanation": "Present: Go. Past: Went. Past participle: Gone."
+  },
+  {
+    "question": "Change the verb to past form:\n\nWe (do) some training with our dogs yesterday.",
+    "options": [
+      "We did some training with our dogs yesterday.",
+      "We do some training with our dogs yesterday.",
+      "We done some training with our dogs yesterday.",
+      "We doing some training with our dogs yesterday."
+    ],
+    "answer": "a",
+    "explanation": "Present: Do. Past: Did. Past participle: Done."
+  },
+  {
+    "question": "Change the verb to past participle form:\n\nThe dog (have) its fur groomed last week.",
+    "options": [
+      "The dog had its fur groomed last week.",
+      "The dog have its fur groomed last week.",
+      "The dog has its fur groomed last week.",
+      "The dog having its fur groomed last week."
+    ],
+    "answer": "a",
+    "explanation": "Present: Have. Past: Had. Past participle: Had."
+  },
+  {
+    "question": "Change the verb to past form:\n\nOur dog (be) very friendly.",
+    "options": [
+      "Our dog was very friendly.",
+      "Our dog is very friendly.",
+      "Our dog being very friendly.",
+      "Our dog were very friendly."
+    ],
+    "answer": "a",
+    "explanation": "Present: Be. Past: Was/Were. Past participle: Been."
+  },
+  {
+    "question": "Change the verb to past participle form:\n\nShe (have) her dog groomed last month.",
+    "options": [
+      "She had her dog groomed last month.",
+      "She have her dog groomed last month.",
+      "She has her dog groomed last month.",
+      "She having her dog groomed last month."
+    ],
+    "answer": "a",
+    "explanation": "Present: Have. Past: Had. Past participle: Had."
+  },
+  {
+    "question": "Change the verb to past form:\n\nThey (go) to the dog park yesterday.",
+    "options": [
+      "They went to the dog park yesterday.",
+      "They go to the dog park yesterday.",
+      "They gone to the dog park yesterday.",
+      "They going to the dog park yesterday."
+    ],
+    "answer": "a",
+    "explanation": "Present: Go. Past: Went. Past participle: Gone."
+  },
+  {
+    "question": "Change the verb to past form:\n\nWe (do) agility training with our dogs last weekend.",
+    "options": [
+      "We did agility training with our dogs last weekend.",
+      "We do agility training with our dogs last weekend.",
+      "We done agility training with our dogs last weekend.",
+      "We doing agility training with our dogs last weekend."
+    ],
+    "answer": "a",
+    "explanation": "Present: Do. Past: Did. Past participle: Done."
+  },
+  {
+    "question": "Change the verb to past participle form:\n\nThe dog (have) a new toy yesterday.",
+    "options": [
+      "The dog had a new toy yesterday.",
+      "The dog have a new toy yesterday.",
+      "The dog has a new toy yesterday.",
+      "The dog having a new toy yesterday."
+    ],
+    "answer": "a",
+    "explanation": "Present: Have. Past: Had. Past participle: Had."
+  },
+  {
+    "question": "Change the verb to past form:\n\nThe cat (make) a mess in the living room.",
+    "options": [
+      "The cat made a mess in the living room.",
+      "The cat make a mess in the living room.",
+      "The cat making a mess in the living room.",
+      "The cat makes a mess in the living room."
+    ],
+    "answer": "a",
+    "explanation": "Present: Make. Past: Made. Past participle: Made."
+  },
+  {
+    "question": "Change the verb to past participle form:\n\nShe (know) that her cat was hungry.",
+    "options": [
+      "She has knew that her cat was hungry.",
+      "She know that her cat was hungry.",
+      "She knows that her cat was hungry.",
+      "She knowing that her cat was hungry."
+    ],
+    "answer": "a",
+    "explanation": "Present: Know. Past: Knew. Past participle: Known."
+  },
+  {
+    "question": "Change the verb to past form:\n\nThey (take) their cat to the vet last week.",
+    "options": [
+      "They took their cat to the vet last week.",
+      "They take their cat to the vet last week.",
+      "They taking their cat to the vet last week.",
+      "They takes their cat to the vet last week."
+    ],
+    "answer": "a",
+    "explanation": "Present: Take. Past: Took. Past participle: Taken."
+  },
+  {
+    "question": "Change the verb to past form:\n\nThe cat (make) a strange noise last night.",
+    "options": [
+      "The cat made a strange noise last night.",
+      "The cat make a strange noise last night.",
+      "The cat making a strange noise last night.",
+      "The cat makes a strange noise last night."
+    ],
+    "answer": "a",
+    "explanation": "Present: Make. Past: Made. Past participle: Made."
+  },
+  {
+    "question": "Change the verb to past form:\n\nShe (know) her cat's favorite hiding spot.",
+    "options": [
+      "She knew her cat's favorite hiding spot.",
+      "She known her cat's favorite hiding spot.",
+      "She knows her cat's favorite hiding spot.",
+      "She knowing her cat's favorite hiding spot."
+    ],
+    "answer": "a",
+    "explanation": "Present: Know. Past: Knew. Past participle: Known."
   }
 ]
