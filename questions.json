@@ -1871,7 +1871,6 @@
     "answer": "b",
     "explanation": "This is the standard way to document acceptance criteria."
   },
-
   {
     "messages": [
       "Consider the following user story:\n\n\"_As an Editor\nI want to review content before it is published\nso that I can assure the grammar is correct\"_\n\nand its acceptance criteria:\n\n• The user can log in to the content management system with \"Editor\" role\n• The editor can view existing content pages\n• The editor can edit the page content\n• The editor can add markup comments\n• The editor can save changes\n• The editor can reassign to the \"content owner\" role to make updates"
@@ -1885,5 +1884,56 @@
     ],
     "answer": "a",
     "explanation": "This test covers two acceptance criteria: one about editing the document and one about saving changes."
+  },
+  {
+    "messages": [
+      "How do testers add value to iteration and release planning?",
+      "a) Testers determine the priority of the user stories to be developed\n\nb) Testers focus only on the functional aspects of the system to be tested\n\nc) Testers participate in the detailed risk identification and risk assessment of user stories\n\nd) Testers guarantee the release of high-quality software through early test design during the release planning"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answer": "c",
+    "explanation": "According to the syllabus, this is one of the ways testers add value to iteration and release planning"
+  },
+  {
+    "question": "Which of the following options is the exit criteria for testing a system?",
+    "options": [
+      "Estimated defect density is reached",
+      "Test environment readiness",
+      "The ability to log in to the test object by the tester",
+      "Requirements are translated into given/when/then format"
+    ],
+    "answer": "a",
+    "explanation": "Estimated defect density is a measure of diligence; hence it belongs to the exit criteria."
+  },
+  {
+    "question": "Which of the following options is the exit criteria for testing a system?",
+    "options": [
+      "Regression tests are automated",
+      "The ability to log in to the test object by the tester",
+      "Test environment readiness",
+      "Requirements are translated into given/when/then format"
+    ],
+    "answer": "a",
+    "explanation": "Automation of regression tests is a completion criterion; hence it belongs to the exit criteria."
+  },
+  {
+    "messages": [
+      "Your team uses the three-point estimation technique to estimate the test effort for a new high-risk feature.\n\nThe following estimates were made:\n• most optimistic estimation: 2 person-hours\n• most likely estimation: 11 person-hours\n• most pessimistic estimation: 14 person-hours\n\nWhat is the final estimate?"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "9 person-hours",
+      "14 person-hours",
+      "11 person-hours",
+      "10 person-hours"
+    ],
+    "answer": "d",
+    "explanation": "In the three-point estimation technique E = (optimistic + 4*most likely + pessimistic)/6,\nE = (2+(4*11)+14)/6 = 10."
   }
 ]
