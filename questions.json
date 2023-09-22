@@ -1045,6 +1045,9 @@
     "explanation": "The correct sentence is 'I don't like coffee' because we use 'do not' or 'don't' to make negative sentences in present simple."
   },
   {
+    "photos": [
+      "dog-eyebrows.png"
+    ],
     "question": "Change the verb to past form:\n\nThe dog (be) so cute.",
     "options": [
       "The dog was so cute.",
@@ -1056,6 +1059,9 @@
     "explanation": "Present: Be. Past: Was/Were. Past participle: Been."
   },
   {
+    "photos": [
+      "dog-max.png"
+    ],
     "question": "Change the verb to past form:\n\nShe (have) a dog named Max.",
     "options": [
       "She had a dog named Max.",
@@ -1078,6 +1084,9 @@
     "explanation": "Present: Go. Past: Went. Past participle: Gone."
   },
   {
+    "photos": [
+      "dog-train_2.png"
+    ],
     "question": "Change the verb to past form:\n\nWe (do) some training with our dogs yesterday.",
     "options": [
       "We did some training with our dogs yesterday.",
@@ -1089,6 +1098,9 @@
     "explanation": "Present: Do. Past: Did. Past participle: Done."
   },
   {
+    "photos": [
+      "dog-groomed_2.png"
+    ],
     "question": "Change the verb to past participle form:\n\nThe dog (have) its fur groomed last week.",
     "options": [
       "The dog had its fur groomed last week.",
@@ -1100,6 +1112,9 @@
     "explanation": "Present: Have. Past: Had. Past participle: Had."
   },
   {
+    "photos": [
+      "dog_friendly.png"
+    ],
     "question": "Change the verb to past form:\n\nOur dog (be) very friendly.",
     "options": [
       "Our dog was very friendly.",
@@ -1111,6 +1126,9 @@
     "explanation": "Present: Be. Past: Was/Were. Past participle: Been."
   },
   {
+    "photos": [
+      "dog_groomed.png"
+    ],
     "question": "Change the verb to past participle form:\n\nShe (have) her dog groomed last month.",
     "options": [
       "She had her dog groomed last month.",
@@ -1122,6 +1140,9 @@
     "explanation": "Present: Have. Past: Had. Past participle: Had."
   },
   {
+    "photos": [
+      "dog_park.png"
+    ],
     "question": "Change the verb to past form:\n\nThey (go) to the dog park yesterday.",
     "options": [
       "They went to the dog park yesterday.",
@@ -1133,6 +1154,9 @@
     "explanation": "Present: Go. Past: Went. Past participle: Gone."
   },
   {
+    "photos": [
+      "dog_train.png"
+    ],
     "question": "Change the verb to past form:\n\nWe (do) agility training with our dogs last weekend.",
     "options": [
       "We did agility training with our dogs last weekend.",
@@ -1144,6 +1168,9 @@
     "explanation": "Present: Do. Past: Did. Past participle: Done."
   },
   {
+    "photos": [
+      "dog_toy.png"
+    ],
     "question": "Change the verb to past participle form:\n\nThe dog (have) a new toy yesterday.",
     "options": [
       "The dog had a new toy yesterday.",
@@ -1155,6 +1182,9 @@
     "explanation": "Present: Have. Past: Had. Past participle: Had."
   },
   {
+    "photos": [
+      "cat_destroy.png"
+    ],
     "question": "Change the verb to past form:\n\nThe cat (make) a mess in the living room.",
     "options": [
       "The cat made a mess in the living room.",
@@ -1166,6 +1196,9 @@
     "explanation": "Present: Make. Past: Made. Past participle: Made."
   },
   {
+    "photos": [
+      "cat_hungry.png"
+    ],
     "question": "Change the verb to past participle form:\n\nShe (know) that her cat was hungry.",
     "options": [
       "She has knew that her cat was hungry.",
@@ -1188,6 +1221,9 @@
     "explanation": "Present: Take. Past: Took. Past participle: Taken."
   },
   {
+    "photos": [
+      "cat_night.png"
+    ],
     "question": "Change the verb to past form:\n\nThe cat (make) a strange noise last night.",
     "options": [
       "The cat made a strange noise last night.",
@@ -1199,6 +1235,9 @@
     "explanation": "Present: Make. Past: Made. Past participle: Made."
   },
   {
+    "photos": [
+      "cat_hidding.png"
+    ],
     "question": "Change the verb to past form:\n\nShe (know) her cat's favorite hiding spot.",
     "options": [
       "She knew her cat's favorite hiding spot.",
