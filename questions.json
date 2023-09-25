@@ -1247,5 +1247,128 @@
     ],
     "answer": "a",
     "explanation": "Present: Know. Past: Knew. Past participle: Known."
+  },
+  {
+    "photos": [
+      "cat-arise.png"
+    ],
+    "question": "Use the verb 'arise' in the present tense to describe what often happens with cats.",
+    "options": [
+      "Cats arises every morning.",
+      "Cats arising every morning.",
+      "Cats arose every morning.",
+      "Cats have arisen every morning."
+    ],
+    "answer": "a",
+    "explanation": "Present: Arise. Past: Arose. Past participle: Arisen."
+  },
+  {
+    "photos": [
+      "img-service_contract.png"
+    ],
+    "question": "Change the verb 'arise' to its past tense:",
+    "options": [
+      "This service arosen from the need  to have better distribution networks.",
+      "This service arose from the need  to have better distribution networks.",
+      "This service arisen from the need  to have better distribution networks.",
+      "This service aroses from the need  to have better distribution networks."
+    ],
+    "answer": "b",
+    "explanation": "Present: Arise. Past: Arose. Past participle: Arisen."
+  },
+  {
+    "photos": [
+      "img-country.png"
+    ],
+    "question": "Provide the past participle form of the verb 'arise':",
+    "options": [
+      "New difficulties have arose in some countries.",
+      "New difficulties have arise in some countries.",
+      "New difficulties have arisen in some countries.",
+      "New difficulties have arosen in some countries."
+    ],
+    "answer": "c",
+    "explanation": "Present: Arise. Past: Arose. Past participle: Arisen."
+  },
+  {
+    "photos": [
+      "sunrise.png"
+    ],
+    "question": "Change the verb to past participle form:\n\nI (awake) early to watch the sunrise.",
+    "options": [
+      "I have awoken early to watch the sunrise.",
+      "I have awake early to watch the sunrise.",
+      "I awaking early to watch the sunrise.",
+      "I has awoken early to watch the sunrise."
+    ],
+    "answer": "a",
+    "explanation": "Present: Awake. Past: Awoke. Past participle: Awoken."
+  },
+  {
+    "photos": [
+      "alarm-clock.png"
+    ],
+    "question": "Change the verb to past participle form:\n\nShe (awake) late because her alarm didn't go off.",
+    "options": [
+      "She has awoken late because her alarm didn't go off.",
+      "She has awake late because her alarm didn't go off.",
+      "She awaking late because her alarm didn't go off.",
+      "She has awaked late because her alarm didn't go off."
+    ],
+    "answer": "a",
+    "explanation": "Present: Awake. Past: Awoke. Past participle: Awoken."
+  },
+  {
+    "photos": [
+      "coffee-mug.png"
+    ],
+    "question": "Change the verb to past participle form:\n\nAfter she had (awake), she made a cup of coffee.",
+    "options": [
+      "After she had awoken, she made a cup of coffee.",
+      "After she had awake, she made a cup of coffee.",
+      "After she had awaking, she made a cup of coffee.",
+      "After she had awakes, she made a cup of coffee."
+    ],
+    "answer": "a",
+    "explanation": "Present: Awake. Past: Awoke. Past participle: Awoken."
+  },
+  {
+    "question": "Change the verb to singular form:\n\nThe project (begin) next month.",
+    "options": [
+      "The project begin next month.",
+      "The project begins next month.",
+      "The project began next month.",
+      "The project has begun next month."
+    ],
+    "answer": "b",
+    "explanation": "Present: Begin. Past: Began. Past participle: Begun."
+  },
+  {
+    "photos": [
+      "journey.png"
+    ],
+    "question": "Change the verb to past form:\n\nHe (begin) their journey at sunrise.",
+    "options": [
+      "He begin their journey at sunrise.",
+      "He began their journey at sunrise.",
+      "He begun their journey at sunrise.",
+      "He has begun their journey at sunrise."
+    ],
+    "answer": "b",
+    "explanation": "Present: Begin. Past: Began. Past participle: Begun."
+  },
+  {
+    "photos": [
+      "interrupt.png"
+    ],
+    "question": "Change the verb to past participle form:\n\nThe meeting had already (begin) when I arrived.",
+    "options": [
+      "The meeting had already begin when I arrived.",
+      "The meeting had already began when I arrived.",
+      "The meeting had already begun when I arrived.",
+      "The meeting had already begins when I arrived."
+    ],
+    "answer": "c",
+    "explanation": "Present: Begin. Past: Began. Past participle: Begun."
   }
 ]
