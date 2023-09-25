@@ -1370,5 +1370,47 @@
     ],
     "answer": "c",
     "explanation": "Present: Begin. Past: Began. Past participle: Begun."
+  },
+  {
+    "photos": [
+      "cat-mouse.png"
+    ],
+    "question": "Change the verb to singular form:\n\nThe cat (bite) the mouse.",
+    "options": [
+      "The cat bites the mouse.",
+      "The cat bit the mouse.",
+      "The cat bitten the mouse.",
+      "The cat has bitten the mouse."
+    ],
+    "answer": "a",
+    "explanation": "Present: Bite. Past: Bit. Past participle: Bitten."
+  },
+  {
+    "photos": [
+      "dog-bite.png"
+    ],
+    "question": "Change the verb to past form:\n\nTwo days ago, my dog (bite) the mailman.",
+    "options": [
+      "Two days ago, my dog bitten the mailman",
+      "Two days ago, my dog bit the mailman",
+      "Two days ago, my dog bited the mailman",
+      "Two days ago, my dog bite the mailman"
+    ],
+    "answer": "b",
+    "explanation": "Present: Bite. Past: Bit. Past participle: Bitten."
+  },
+  {
+    "photos": [
+      "dog-cake.png"
+    ],
+    "question": "Change the verb to past participle form:\n\nThe cake had already been (bite).",
+    "options": [
+      "The cake had already been bite.",
+      "The cake had already been bit.",
+      "The cake had already been bitten.",
+      "The cake had already been bites."
+    ],
+    "answer": "c",
+    "explanation": "Present: Bite. Past: Bit. Past participle: Bitten."
   }
 ]
