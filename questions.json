@@ -1,16 +1,5 @@
 [
   {
-    "question": "What does the word 'happy' mean?",
-    "options": [
-      "Sad",
-      "Joyful",
-      "Angry",
-      "Boring"
-    ],
-    "answer": "b",
-    "explanation": "'Happy' means feeling or expressing joy or pleasure."
-  },
-  {
     "question": "What is the opposite of the word 'hot'?",
     "options": [
       "Warm",
@@ -22,17 +11,6 @@
     "explanation": "'Cold' is the opposite of 'hot'."
   },
   {
-    "question": "What is the correct plural form of the word 'book'?",
-    "options": [
-      "Bookes",
-      "Books",
-      "Bookies",
-      "Bookees"
-    ],
-    "answer": "b",
-    "explanation": "'Books' is the correct plural form of 'book'."
-  },
-  {
     "question": "What is the meaning of the phrase 'big deal'?",
     "options": [
       "Something important or significant",
@@ -42,61 +20,6 @@
     ],
     "answer": "c",
     "explanation": "The phrase 'big deal' is used to express that something is not important or significant."
-  },
-  {
-    "question": "What is the correct form of the verb 'to be' in the present tense for 'he'?",
-    "options": [
-      "Am",
-      "Are",
-      "Is",
-      "Be"
-    ],
-    "answer": "c",
-    "explanation": "'Is' is the correct form of the verb 'to be' in the present tense for 'he'."
-  },
-  {
-    "question": "What is your name?",
-    "options": [
-      "My name am",
-      "My name is",
-      "My name be",
-      "My name are"
-    ],
-    "answer": "b",
-    "explanation": "The correct form of the sentence is 'My name is'."
-  },
-  {
-    "question": "What is your father's job?",
-    "options": [
-      "He is a teacher",
-      "He are a teacher",
-      "He be a teacher",
-      "He am a teacher"
-    ],
-    "answer": "a",
-    "explanation": "The correct form of the sentence is 'He is a teacher'."
-  },
-  {
-    "question": "Where are you from?",
-    "options": [
-      "I am from Spain",
-      "I is from Spain",
-      "I be from Spain",
-      "I are from Spain"
-    ],
-    "answer": "a",
-    "explanation": "The correct form of the sentence is 'I am from Spain'."
-  },
-  {
-    "question": "What time is it?",
-    "options": [
-      "It am 3 o'clock",
-      "It is 3 o'clock",
-      "It be 3 o'clock",
-      "It are 3 o'clock"
-    ],
-    "answer": "b",
-    "explanation": "The correct form of the sentence is 'It is 3 o'clock'."
   },
   {
     "question": "Where is the pencil?",
@@ -1412,5 +1335,89 @@
     ],
     "answer": "c",
     "explanation": "Present: Bite. Past: Bit. Past participle: Bitten."
+  },
+  {
+    "photos": [
+      "fish_cat.png"
+    ],
+    "question": "Change the verb to singular form:\n\nThe fish (eat) the cat.",
+    "options": [
+      "The fish eats the cat.",
+      "The fish ate the cat.",
+      "The fish ates the cat.",
+      "The fish eat the cat."
+    ],
+    "answer": "a",
+    "explanation": "Present: Eat. Past: Ate. Past participle: Eaten."
+  },
+  {
+    "photos": [
+      "she-pizza.png"
+    ],
+    "question": "Change the verb to past form:\n\nShe (eat) pizza for dinner.",
+    "options": [
+      "She eat pizza for dinner.",
+      "She ate pizza for dinner.",
+      "She eaten pizza for dinner.",
+      "She has eaten pizza for dinner."
+    ],
+    "answer": "b",
+    "explanation": "Present: Eat. Past: Ate. Past participle: Eaten."
+  },
+  {
+    "photos": [
+      "dog-cookies.png"
+    ],
+    "question": "Change the verb to past participle form:\n\nThe cookies had already been (eat).",
+    "options": [
+      "The cookies had already been eat.",
+      "The cookies had already been ate.",
+      "The cookies had already been eaten.",
+      "The cookies had already been eats."
+    ],
+    "answer": "c",
+    "explanation": "Present: Eat. Past: Ate. Past participle: Eaten."
+  },
+  {
+    "photos": [
+      "hidden_treasure.png"
+    ],
+    "question": "Change the verb to singular form:\n\nHe (find) a hidden treasure.",
+    "options": [
+      "He finds a hidden treasure.",
+      "He found a hidden treasure.",
+      "He founded a hidden treasure.",
+      "He has found a hidden treasure."
+    ],
+    "answer": "a",
+    "explanation": "Present: Find. Past: Found. Past participle: Found."
+  },
+  {
+    "photos": [
+      "dog_keys.png"
+    ],
+    "question": "Change the verb to past form:\n\nHe (find) his lost keys.",
+    "options": [
+      "He find his lost keys.",
+      "He found his lost keys.",
+      "He founded his lost keys.",
+      "He has found his lost keys."
+    ],
+    "answer": "b",
+    "explanation": "Present: Find. Past: Found. Past participle: Found."
+  },
+  {
+    "photos": [
+      "found_dog.png"
+    ],
+    "question": "Change the verb to past participle form:\n\nMy lost dog has already been (find).",
+    "options": [
+      "My lost dog has already been find.",
+      "My lost dog has already been found.",
+      "My lost dog has already been founded.",
+      "My lost dog has already been finds."
+    ],
+    "answer": "b",
+    "explanation": "Present: Find. Past: Found. Past participle: Found."
   }
 ]
