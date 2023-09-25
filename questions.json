@@ -1256,7 +1256,7 @@
     "explanation": "Present: Awake. Past: Awoke. Past participle: Awoken."
   },
   {
-    "question": "Change the verb to singular form:\n\nThe project (begin) next month.",
+    "question": "Change the verb to its present form:\n\nThe project (begin) next month.",
     "options": [
       "The project begin next month.",
       "The project begins next month.",
@@ -1298,7 +1298,7 @@
     "photos": [
       "cat-mouse.png"
     ],
-    "question": "Change the verb to singular form:\n\nThe cat (bite) the mouse.",
+    "question": "Change the verb to its present form:\n\nThe cat (bite) the mouse.",
     "options": [
       "The cat bites the mouse.",
       "The cat bit the mouse.",
@@ -1340,7 +1340,7 @@
     "photos": [
       "fish_cat.png"
     ],
-    "question": "Change the verb to singular form:\n\nThe fish (eat) the cat.",
+    "question": "Change the verb to its present form:\n\nThe fish (eat) the cat.",
     "options": [
       "The fish eats the cat.",
       "The fish ate the cat.",
@@ -1382,7 +1382,7 @@
     "photos": [
       "hidden_treasure.png"
     ],
-    "question": "Change the verb to singular form:\n\nHe (find) a hidden treasure.",
+    "question": "Change the verb to its present form:\n\nHe (find) a hidden treasure.",
     "options": [
       "He finds a hidden treasure.",
       "He found a hidden treasure.",
@@ -1419,5 +1419,89 @@
     ],
     "answer": "b",
     "explanation": "Present: Find. Past: Found. Past participle: Found."
+  },
+  {
+    "photos": [
+      "dog_leaves.png"
+    ],
+    "question": "Change the verb to its present form:\n\nThe leaves (fall) from the trees in autumn.",
+    "options": [
+      "The leaves fall from the trees in autumn.",
+      "The leaves fell from the trees in autumn.",
+      "The leaves fallen from the trees in autumn.",
+      "The leaves have fallen from the trees in autumn."
+    ],
+    "answer": "a",
+    "explanation": "Present: Fall. Past: Fell. Past participle: Fallen."
+  },
+  {
+    "photos": [
+      "ice_fall.png"
+    ],
+    "question": "Change the verb to past form:\n\nShe (fall) while ice skating.",
+    "options": [
+      "She fall while ice skating.",
+      "She fell while ice skating.",
+      "She fallen while ice skating.",
+      "She has fallen while ice skating."
+    ],
+    "answer": "b",
+    "explanation": "Present: Fall. Past: Fell. Past participle: Fallen."
+  },
+  {
+    "photos": [
+      "fallen_tree.png"
+    ],
+    "question": "Change the verb to past participle form:\n\nThe tree has been (fall).",
+    "options": [
+      "The tree has been fall.",
+      "The tree has been fell.",
+      "The tree has been fallen.",
+      "The tree has been falls."
+    ],
+    "answer": "c",
+    "explanation": "Present: Fall. Past: Fell. Past participle: Fallen."
+  },
+  {
+    "photos": [
+      "dog_glass.png"
+    ],
+    "question": "Change the verb to present form:\n\nShe (drink) a glass of water every morning.",
+    "options": [
+      "She drink a glass of water every morning.",
+      "She drank a glass of water every morning.",
+      "She drunk a glass of water every morning.",
+      "She drinks a glass of water every morning."
+    ],
+    "answer": "d",
+    "explanation": "Present: Drink. Past: Drank. Past participle: Drunk."
+  },
+  {
+    "photos": [
+      "dog_soda.png"
+    ],
+    "question": "Change the verb to past form:\n\nHe (drink) a soda at the party.",
+    "options": [
+      "He drink a soda at the party.",
+      "He drank a soda at the party.",
+      "He drunk a soda at the party.",
+      "He drinks a soda at the party."
+    ],
+    "answer": "b",
+    "explanation": "Present: Drink. Past: Drank. Past participle: Drunk."
+  },
+  {
+    "photos": [
+      "empty_coffee.png"
+    ],
+    "question": "Change the verb to past participle form:\n\nThe coffee had already been (drink).",
+    "options": [
+      "The coffee had already been drink.",
+      "The coffee had already been drank.",
+      "The coffee had already been drunk.",
+      "The coffee had already been drinks."
+    ],
+    "answer": "c",
+    "explanation": "Present: Drink. Past: Drank. Past participle: Drunk."
   }
 ]
