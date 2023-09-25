@@ -112,8 +112,9 @@
   {
     "question": "Which of the following options are roles in a formal review?",
     "options": [
-      "Developer, Moderator, Review leader, Reviewer, Tester",
+      "Author, Moderator, Review leader, Manager, Scribe",
       "Author, Moderator, Manager, Reviewer, Developer",
+      "Author, Manager, Review leader, Reviewer, Designer",
       "Author, Manager, Review leader, Reviewer, Designer",
       "Author, Moderator, Review leader, Reviewer, Scribe"
     ],
@@ -426,7 +427,10 @@
     "explanation": "Example: testing all requirements and fixing all defects found could still produce a system that is difficult to use, that does not fulfill the users’ needs and expectations."
   },
   {
-    "question": "Order these Test Process activities:\n\nA)Test analysis    B)Test planning    C)Test design    D)Test monitoring and control    E)Test execution    F)Test implementation    G)Test completion",
+    "messages": [
+      "Order correctly these Test Process activities:\n\nA)Test analysis\nB)Test planning\nC)Test design\nD)Test monitoring and control\nE)Test execution\nF)Test implementation\nG)Test completion"
+    ],
+    "question": "Select your answer",
     "options": [
       "B, D, A, C, F, E, G",
       "B, D, A, C, E, F, G",
@@ -1042,10 +1046,10 @@
     ],
     "question": "Select ONE option:",
     "options": [
-      "0, 1000, 2000, 3000, 4000",
-      "1000, 2001, 4000, 4001, 6000",
+      "0, 1000, 2000, 2973, 4000",
+      "1000, 1001, 1999, 2001, 6000",
       "298, 2345, 3456, 4567, 5678",
-      "598, 999, 2222, 5555, 6666"
+      "598, 999, 2222, 5555, 6219"
     ],
     "answer": "d",
     "explanation": "It covers 4 of 5 partitions:\n598 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5)"
