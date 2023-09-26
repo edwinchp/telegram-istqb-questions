@@ -1503,5 +1503,47 @@
     ],
     "answer": "c",
     "explanation": "Present: Drink. Past: Drank. Past participle: Drunk."
+  },
+  {
+    "photos": [
+      "dog_driving.png"
+    ],
+    "question": "Change the verb to present form:\n\nShe (drive) to work every day.",
+    "options": [
+      "She drive to work every day.",
+      "She drove to work every day.",
+      "She driven to work every day.",
+      "She drives to work every day."
+    ],
+    "answer": "d",
+    "explanation": "Present: Drive. Past: Drove. Past participle: Driven."
+  },
+  {
+    "photos": [
+      "car_park.png"
+    ],
+    "question": "Change the verb to past form:\n\nHe (drive) his family to the park yesterday.",
+    "options": [
+      "He drive his family to the park yesterday.",
+      "He drove his family to the park yesterday.",
+      "He driven his family to the park yesterday.",
+      "He drives his family to the park yesterday."
+    ],
+    "answer": "b",
+    "explanation": "Present: Drive. Past: Drove. Past participle: Driven."
+  },
+  {
+    "photos": [
+      "school.png"
+    ],
+    "question": "Change the verb to past participle form:\n\nThis change has been (drive) by technological innovation.",
+    "options": [
+      "This change has been drove by technological innovation.",
+      "This change has been drives by technological innovation.",
+      "This change has been driven by technological innovation.",
+      "This change has been droven by technological innovation."
+    ],
+    "answer": "c",
+    "explanation": "Present: Drive. Past: Drove. Past participle: Driven."
   }
 ]
