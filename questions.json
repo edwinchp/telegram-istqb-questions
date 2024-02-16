@@ -1292,7 +1292,10 @@
     ],
     "question": "Selecciona una opción",
     "options": [
-
+      "a",
+      "b",
+      "c",
+      "d"
     ],
     "answer": "d",
     "explanation": ""
