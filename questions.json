@@ -1063,5 +1063,481 @@
     ],
     "answer": "c",
     "explanation": ""
+  },
+  {
+    "messages": [
+      "Un arquitecto de la nube quiere que Amazon S3 supervise los patrones de acceso a objetos. ¿Qué clase de almacenamiento debe usar?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Amazon S3 Glacier Flexible Retrieval",
+      "Amazon S3 Standard-IA",
+      "Amazon S3 One Zone-IA",
+      "Amazon S3 Intelligent-Tiering"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "Un ingeniero de la nube está ejecutando una instancia de Amazon EC2 y desea almacenar datos en un recurso adjunto. Sus datos son temporales y no se conservarán a largo plazo. ¿Qué recurso debería usar?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Volumen de Amazon Elastic Block Store (Amazon EBS)",
+      "Bucket de Amazon S3",
+      "Subred",
+      "Almacén de instancias"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué opción de precios de Amazon EC2 reduce los costes cuando una empresa se compromete a un gasto por hora para una familia de instancias y región por un plazo de 1 o 3 años?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Instancias reservadas",
+      "Hosts dedicados",
+      "Savings Plans para instancias de EC2",
+      "Instancias de spot"
+    ],
+    "answer": "c",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué acciones puede realizar una persona en Amazon Route 53?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Conectar las solicitudes de los usuarios a la infraestructura de AWS y fuera de AWS.",
+      "Supervisar las aplicaciones y responder a los cambios de rendimiento de todo el sistema.",
+      "Acceder a los informes de seguridad y conformidad de AWS y a determinados acuerdos en línea.",
+      "Automatizar la implementación de cargas de trabajo en un entorno de AWS."
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué acciones puede realizar una persona en Amazon Route 53?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Administrar registros DNS de nombres de dominio.",
+      "Supervisar las aplicaciones y responder a los cambios de rendimiento de todo el sistema.",
+      "Acceder a los informes de seguridad y conformidad de AWS y a determinados acuerdos en línea.",
+      "Automatizar la implementación de cargas de trabajo en un entorno de AWS."
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué servicio proporciona la posibilidad de desplegar y escalar aplicaciones rápidamente en AWS?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "AWS Outposts",
+      "AWS Elastic Beanstalk",
+      "Amazon CloudFront",
+      "AWS Snowball"
+    ],
+    "answer": "b",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué afirmación describe mejor a Elastic Load Balancing?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Un servicio que supervisa las aplicaciones y añade o elimina automáticamente capacidad de los grupos de recursos en respuesta a una demanda cambiante",
+      "Servicio que distribuye el tráfico entrante entre varios destinos, como instancias de Amazon EC2",
+      "Un servicio que proporciona datos para supervisar aplicaciones, optimizar la utilización de los recursos y responder a los cambios en el rendimiento de todo el sistema",
+      "Un servicio que proporciona la capacidad de crear, administrar y escalar un entorno distribuido en memoria o caché en la nube"
+    ],
+    "answer": "b",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué servicio crea los flujos de trabajo necesarios para la revisión humana de las predicciones de machine learning?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Amazon Aurora",
+      "Amazon Textract",
+      "Amazon Lex",
+      "Amazon Augmented AI"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué afirmación es VERDADERA con respecto a AWS Lambda?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Las empresas pagan solo por el tiempo de computación mientras se ejecuta el código.",
+      "Para utilizar AWS Lambda, las empresas deben configurar los servidores que ejecutan el código.",
+      "Antes de utilizar AWS Lambda, una empresa debe pagar por adelantado el tiempo de computación estimado.",
+      "El primer paso para utilizar AWS Lambda consiste en aprovisionar un servidor."
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué afirmación describe mejor AWS Marketplace?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Herramienta en línea que inspecciona un entorno de AWS y proporciona orientación en tiempo real de acuerdo con las prácticas recomendadas de AWS",
+      "Catálogo digital que incluye miles de listings de software de proveedores de software independientes",
+      "Recurso que proporciona orientación, revisiones arquitectónicas y comunicación continua con empresas mientras planifican, implementan y optimizan sus aplicaciones",
+      "Recurso que puede responder preguntas sobre prácticas recomendadas y ayudar con la solución de problemas"
+    ],
+    "answer": "b",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué pilar de AWS Well-Architected Framework se centra en el uso de recursos de computación de manera que cumplan los requisitos del sistema?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Seguridad",
+      "Eficiencia de rendimiento",
+      "Excelencia operativa",
+      "Fiabilidad"
+    ],
+    "answer": "b",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué perspectiva de AWS Cloud Adoption Framework se centra en la recuperación de cargas de trabajo de TI para satisfacer los requisitos de las partes interesadas de su empresa?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Perspectiva de gobernanza",
+      "Perspectiva de personal",
+      "Perspectiva de negocio",
+      "Perspectiva de operaciones"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué componente o servicio establece una conexión privada dedicada entre un centro de datos en las instalaciones y una nube virtual privada (VPC)?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Puerta de enlace de internet",
+      "Amazon CloudFront",
+      "Puerta de enlace privada virtual",
+      "AWS Direct Connect"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué servicio ejecuta aplicaciones en contenedores en AWS?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Amazon SageMaker",
+      "Amazon Aurora",
+      "Amazon Redshift",
+      "Amazon Elastic Kubernetes Service (Amazon EKS)"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "Un desarrollador de aplicaciones desea enviar y recibir mensajes entre componentes de aplicación distribuidos. ¿Qué servicio debería usar?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Amazon ElastiCache",
+      "AWS Snowball",
+      "Amazon Route 53",
+      "Amazon Simple Queue Service (Amazon SQS)"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué afirmación describe mejor a Amazon GuardDuty?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Servicio que comprueba las vulnerabilidades de seguridad de las aplicaciones y las desviaciones de las prácticas recomendadas de seguridad",
+      "Servicio que ayuda a proteger las aplicaciones contra los ataques de denegación de servicio distribuidos (DDoS)",
+      "Un servicio que supervisa las solicitudes de red de las aplicaciones web",
+      "Servicio que proporciona detección inteligente de amenazas para la infraestructura y los recursos de AWS"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué tareas son responsabilidad de AWS?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Configuración de dispositivos de infraestructura de AWS",
+      "Formación de los empleados de la empresa sobre cómo utilizar los servicios de AWS",
+      "Creación de usuarios y grupos de IAM",
+      "Configuración de los grupos de seguridad en instancias de Amazon EC2"
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué tareas son responsabilidad de AWS?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Mantenimiento de la infraestructura de virtualización",
+      "Formación de los empleados de la empresa sobre cómo utilizar los servicios de AWS",
+      "Creación de usuarios y grupos de IAM",
+      "Configuración de los grupos de seguridad en instancias de Amazon EC2"
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué herramienta ofrece la posibilidad de visualizar, comprender y administrar los precios y el uso de AWS a lo largo del tiempo?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "AWS Cost Explorer",
+      "AWS Artifact",
+      "Calculadora de precios de AWS",
+      "AWS Budgets"
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué frase describe mejor lo que es una zona de disponibilidad?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "El servidor del que Amazon CloudFront obtiene los archivos",
+      "Una parte totalmente aislada de la infraestructura global de AWS",
+      "Una ubicación geográfica independiente con varias ubicaciones aisladas unas de otras",
+      "Un sitio que Amazon CloudFront utiliza para almacenar en caché copias del contenido para una entrega más rápida a los usuarios en cualquier ubicación"
+    ],
+    "answer": "b",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué estrategia de migración implica cambiar la forma en que se diseña y se desarrolla una aplicación, normalmente mediante el uso de funciones nativas de la nube?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Refactorizar",
+      "Redefinir la plataforma",
+      "Volver a comprar",
+      "Volver a alojar"
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué servicio consolida y administra varias cuentas de AWS desde una ubicación central?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "AWS Key Management Service (AWS KMS)",
+      "AWS Identity and Access Management (IAM)",
+      "AWS Artifact",
+      "AWS Organizations"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué servicio se utiliza para transferir hasta 100 PB de datos a AWS?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Amazon Neptune",
+      "AWS DeePracer",
+      "Amazon CloudFront",
+      "AWS Snowmobile"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué herramienta proporciona acciones de automatización de los servicios y aplicaciones de AWS mediante scripts?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Amazon Redshift",
+      "Amazon QLDB",
+      "AWS Snowball",
+      "AWS Command Line Interface"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué componente de Virtual Private Cloud (VPC) controla el tráfico entrante y saliente de las instancias de Amazon EC2?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Puerta de enlace de internet",
+      "Subred",
+      "Grupo de seguridad",
+      "Lista de control de acceso a redes"
+    ],
+    "answer": "c",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué planes de soporte incluyen el acceso a todas las comprobaciones de AWS Trusted Advisor?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Developer",
+      "Nivel gratuito de AWS",
+      "Basic",
+      "Business"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué planes de soporte incluyen el acceso a todas las comprobaciones de AWS Trusted Advisor?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Developer",
+      "Nivel gratuito de AWS",
+      "Basic",
+      "Enterprise"
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué servicio proporciona detalles de revisión de las actividades de los usuarios y las llamadas a la API que se han producido en un entorno de AWS?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Amazon CloudWatch",
+      "Amazon Inspector",
+      "AWS CloudTrail",
+      "AWS Trusted Advisor"
+    ],
+    "answer": "c",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué acción puede realizar una persona en Amazon CloudFront?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Aprovisionar una sección aislada de la nube de AWS para iniciar recursos en una red virtual que defina una persona.",
+      "Ejecutar la infraestructura con una estrategia de nube híbrida.",
+      "Aprovisionar recursos mediante lenguajes de programación o un archivo de texto.",
+      "Entregar contenido a los clientes a través de una red global de ubicaciones periféricas."
+    ],
+    "answer": "d",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "Un ingeniero de la nube desea almacenar datos en un volumen asociado a una instancia de Amazon EC2. ¿Qué servicio debería usar?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Amazon ElastiCache",
+      "Amazon Elastic Block Store (Amazon EBS)",
+      "AWS Lambda",
+      "Amazon Simple Storage Service (Amazon S3)"
+    ],
+    "answer": "b",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "Un desarrollador de aplicaciones quiere almacenar datos en una base de datos clave-valor. ¿Qué servicio debería usar?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Amazon DynamoDB",
+      "Amazon DocumentDB",
+      "Amazon Aurora",
+      "Amazon RDS"
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "En la clase de almacenamiento S3 Intelligent-Tiering, Amazon S3 traslada objetos entre un nivel de acceso frecuente y un nivel de acceso poco frecuente. ¿Qué clases de almacenamiento se utilizan para estos niveles?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "S3 Standard-IA",
+      "S3 Glacier Deep Archive",
+      "S3 Glacier Flexible Retrieval",
+      "S3 One Zone-IA"
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "En la clase de almacenamiento S3 Intelligent-Tiering, Amazon S3 traslada objetos entre un nivel de acceso frecuente y un nivel de acceso poco frecuente. ¿Qué clases de almacenamiento se utilizan para estos niveles?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "S3 Standard",
+      "S3 Glacier Deep Archive",
+      "S3 Glacier Flexible Retrieval",
+      "S3 One Zone-IA"
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "messages": [
+      "¿Qué categoría de AWS Trusted Advisor incluye comprobaciones para instancias EC2 de uso elevado?"
+    ],
+    "question": "Selecciona una opción",
+    "options": [
+      "Rendimiento",
+      "Optimización de costes",
+      "Tolerancia a fallos",
+      "Seguridad"
+    ],
+    "answer": "a",
+    "explanation": ""
   }
 ]
