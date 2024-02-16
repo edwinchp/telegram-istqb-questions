@@ -1150,14 +1150,18 @@
   },
   {
     "messages": [
-      "¿Qué afirmación describe mejor a Elastic Load Balancing?"
+      "¿Qué afirmación describe mejor a Elastic Load Balancing?",
+      "a) Un servicio que supervisa las aplicaciones y añade o elimina automáticamente capacidad de los grupos de recursos en respuesta a una demanda cambiante",
+      "b) Servicio que distribuye el tráfico entrante entre varios destinos, como instancias de Amazon EC2",
+      "c) Un servicio que proporciona datos para supervisar aplicaciones, optimizar la utilización de los recursos y responder a los cambios en el rendimiento de todo el sistema",
+      "d) Un servicio que proporciona la capacidad de crear, administrar y escalar un entorno distribuido en memoria o caché en la nube"
     ],
     "question": "Selecciona una opción",
     "options": [
-      "Un servicio que supervisa las aplicaciones y añade o elimina automáticamente capacidad de los grupos de recursos en respuesta a una demanda cambiante",
-      "Servicio que distribuye el tráfico entrante entre varios destinos, como instancias de Amazon EC2",
-      "Un servicio que proporciona datos para supervisar aplicaciones, optimizar la utilización de los recursos y responder a los cambios en el rendimiento de todo el sistema",
-      "Un servicio que proporciona la capacidad de crear, administrar y escalar un entorno distribuido en memoria o caché en la nube"
+      "a",
+      "b",
+      "c",
+      "d"
     ],
     "answer": "b",
     "explanation": ""
@@ -1184,7 +1188,7 @@
     "options": [
       "Las empresas pagan solo por el tiempo de computación mientras se ejecuta el código.",
       "Para utilizar AWS Lambda, las empresas deben configurar los servidores que ejecutan el código.",
-      "Antes de utilizar AWS Lambda, una empresa debe pagar por adelantado el tiempo de computación estimado.",
+      "Antes de utilizar AWS Lambda la empresa debe pagar por adelantado el tiempo de computación estimado.",
       "El primer paso para utilizar AWS Lambda consiste en aprovisionar un servidor."
     ],
     "answer": "a",
@@ -1192,14 +1196,18 @@
   },
   {
     "messages": [
-      "¿Qué afirmación describe mejor AWS Marketplace?"
+      "¿Qué afirmación describe mejor AWS Marketplace?",
+      "a) Herramienta en línea que inspecciona un entorno de AWS y proporciona orientación en tiempo real de acuerdo con las prácticas recomendadas de AWS",
+      "b) Catálogo digital que incluye miles de listings de software de proveedores de software independientes",
+      "c) Recurso que proporciona orientación, revisiones arquitectónicas y comunicación continua con empresas mientras planifican, implementan y optimizan sus aplicaciones",
+      "d) Recurso que puede responder preguntas sobre prácticas recomendadas y ayudar con la solución de problemas"
     ],
     "question": "Selecciona una opción",
     "options": [
-      "Herramienta en línea que inspecciona un entorno de AWS y proporciona orientación en tiempo real de acuerdo con las prácticas recomendadas de AWS",
-      "Catálogo digital que incluye miles de listings de software de proveedores de software independientes",
-      "Recurso que proporciona orientación, revisiones arquitectónicas y comunicación continua con empresas mientras planifican, implementan y optimizan sus aplicaciones",
-      "Recurso que puede responder preguntas sobre prácticas recomendadas y ayudar con la solución de problemas"
+      "a",
+      "b",
+      "c",
+      "d"
     ],
     "answer": "b",
     "explanation": ""
@@ -1276,14 +1284,15 @@
   },
   {
     "messages": [
-      "¿Qué afirmación describe mejor a Amazon GuardDuty?"
+      "¿Qué afirmación describe mejor a Amazon GuardDuty?",
+      "a) Servicio que comprueba las vulnerabilidades de seguridad de las aplicaciones y las desviaciones de las prácticas recomendadas de seguridad",
+      "b) Servicio que ayuda a proteger las aplicaciones contra los ataques de denegación de servicio distribuidos (DDoS)",
+      "c) Un servicio que supervisa las solicitudes de red de las aplicaciones web",
+      "d) Servicio que proporciona detección inteligente de amenazas para la infraestructura y los recursos de AWS"
     ],
     "question": "Selecciona una opción",
     "options": [
-      "Servicio que comprueba las vulnerabilidades de seguridad de las aplicaciones y las desviaciones de las prácticas recomendadas de seguridad",
-      "Servicio que ayuda a proteger las aplicaciones contra los ataques de denegación de servicio distribuidos (DDoS)",
-      "Un servicio que supervisa las solicitudes de red de las aplicaciones web",
-      "Servicio que proporciona detección inteligente de amenazas para la infraestructura y los recursos de AWS"
+
     ],
     "answer": "d",
     "explanation": ""
@@ -1339,7 +1348,7 @@
       "El servidor del que Amazon CloudFront obtiene los archivos",
       "Una parte totalmente aislada de la infraestructura global de AWS",
       "Una ubicación geográfica independiente con varias ubicaciones aisladas unas de otras",
-      "Un sitio que Amazon CloudFront utiliza para almacenar en caché copias del contenido para una entrega más rápida a los usuarios en cualquier ubicación"
+      "Amazon CloudFront almacena en caché para entregar rápido a los usuarios en cualquier ubicación"
     ],
     "answer": "b",
     "explanation": ""
@@ -1462,7 +1471,7 @@
     ],
     "question": "Selecciona una opción",
     "options": [
-      "Aprovisionar una sección aislada de la nube de AWS para iniciar recursos en una red virtual que defina una persona.",
+      "Crear una sección aislada de la nube de AWS para iniciar recursos en una red virtual",
       "Ejecutar la infraestructura con una estrategia de nube híbrida.",
       "Aprovisionar recursos mediante lenguajes de programación o un archivo de texto.",
       "Entregar contenido a los clientes a través de una red global de ubicaciones periféricas."
