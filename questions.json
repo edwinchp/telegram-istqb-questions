@@ -1298,7 +1298,7 @@
       "d"
     ],
     "answer": "d",
-    "explanation": ""
+    "explanation": "Amazon GuardDuty es un servicio inteligente de detección de amenazas que monitorea de manera continua las cuentas de AWS."
   },
   {
     "messages": [
