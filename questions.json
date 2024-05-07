@@ -1748,7 +1748,9 @@
   },
   {
     "messages": [
-      "You are testing a simplified apartment search form which has only two search criteria:\n• floor (with three possible options: ground floor; first floor; second or higher floor)\n• garden type (with three possible options: no garden; small garden; large garden)\nOnly apartments on the ground floor may have gardens. The form has a built-in validation mechanism that will not allow you to use the search criteria which violate this rule.\nEach test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each garden type in your tests."
+      "You are testing a simplified apartment search form which has only two search criteria:\n\n• floor (with three possible options: ground floor; first floor; second or higher floor)\n\n• garden type (with three possible options: no garden; small garden; large garden)",
+      "Only apartments on the ground floor have gardens. The form has a built-in validation mechanism that will not allow you to use the search criteria which violate this rule.",
+      "Each test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each garden type in your tests."
     ],
     "question": "What is the minimal number of test cases to achieve 100% EP coverage?",
     "options": [
@@ -2001,5 +2003,184 @@
     ],
     "answer": "d",
     "explanation": "Burndown charts are a graphical representation of work left to do versus time remaining. They are updated daily, so they can continuously show the work progress."
+  },
+  {
+    "question": "You need to update one of the automated test scripts to be in line with a new requirement. Which process indicates that you create a new version of the test script in the test repository?",
+    "options": [
+      "Traceability management",
+      "Maintenance testing",
+      "Configuration management",
+      "Requirements engineering"
+    ],
+    "answer": "c",
+    "explanation": "Maintenance testing is about testing changes; it is not related closely to versioning. To support testing, configuration management may involves the version control of all test items."
+  },
+  {
+    "messages": [
+      "You received the following defect report from the developers stating that the anomaly described in this test report is not reproducible."
+    ],
+    "photos": [
+      "istqb1_38.png"
+    ],
+    "question": "What critical information is MISSING from this test report that would have been useful for the developers?",
+    "options": [
+      "Expected result and actual result",
+      "References and defect status",
+      "Test environment and test item",
+      "Priority and severity"
+    ],
+    "answer": "c",
+    "explanation": "We do not know in which test environment the anomaly was detected, and we also do not know which application (and its version) is affected."
+  },
+  {
+    "question": "Which test activity does a data preparation tool support?",
+    "options": [
+      "Test monitoring and control",
+      "Test analysis and design",
+      "Test implementation and execution",
+      "Test completion"
+    ],
+    "answer": "c",
+    "explanation": "Test implementation includes creating or acquiring the testware necessary for test execution (e.g., test data)"
+  },
+  {
+    "question": "Which item correctly identifies a potential risk of performing test automation?",
+    "options": [
+      "It may introduce unknown regressions in production",
+      "Sufficient efforts to maintain testware may not be properly allocated",
+      "Testing tools and associated testware may not be sufficiently relied upon",
+      "It may reduce the time allocated for manual testing"
+    ],
+    "answer": "b",
+    "explanation": " Wrong allocation or distribution of effort to maintain testware is a risk."
+  },
+  {
+    "question": "You were given a task to analyze and fix causes of failures in a new system to be released.\nWhich activity are you performing?",
+    "options": [
+      "Debugging",
+      "Software testing",
+      "Requirement elicitation",
+      "Defect management"
+    ],
+    "answer": "a",
+    "explanation": "Debugging is the process of finding, analyzing, and removing the causes of failures in a component or system."
+  },
+  {
+    "messages": [
+      "In many software organizations the test department is called the Quality Assurance (QA) department. Is this sentence correct or not and why?"
+    ],
+    "photos": [
+      "istqb1_A2.png"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answer": "d",
+    "explanation": "Testing and quality assurance are not the same. Testing is the process consisting of all SDLC activities. Quality assurance is focused on introducing and adhering to the quality-related processes."
+  },
+  {
+    "messages": [
+      "A phone ringing in a neighboring cubicle distracts a programmer causing him to improperly program the logic that checks the upper boundary of an input variable. Later, during system testing, a tester notices that this input field accepts invalid input values."
+    ],
+    "question": "Which of the following correctly describes an incorrectly coded upper bound?",
+    "options": [
+      "The root cause",
+      "A failure",
+      "An error",
+      "A defect"
+    ],
+    "answer": "d",
+    "explanation": "The error is the mistaken thinking that resulted in putting the defect in the code.\nThe problem in the code is a defect."
+  },
+  {
+    "messages": [
+      "Consider the following testware."
+    ],
+    "photos": [
+      "istqb1_A4.png"
+    ],
+    "question": "Which test activity produces this testware as an output?",
+    "options": [
+      "Test planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design"
+    ],
+    "answer": "d",
+    "explanation": "The testware under consideration is a test charter.\nTest charters are the output from test design."
+  },
+  {
+    "messages": [
+      "Which of the following is the BEST example of how traceability supports testing?",
+      "a) Performing the impact analysis of a change will give information about the completion of the tests\n\nb) Analyzing the traceability between test cases and test results will give information about the estimated level of residual risk\n\nc) Performing the impact analysis of a change will help selecting the right test cases for regression testing\n\nd) Analyzing the traceability between the test basis, the test objects and the test cases will help in selecting test data to achieve the assumed coverage of the test object"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answer": "c",
+    "explanation": "b) Traceability alone doesn't reveal the estimated residual risk if test cases aren't linked to risks.\nd) Selecting test data is primarily tied to test analysis, rather than traceability."
+  },
+  {
+    "messages": [
+      "Which of the following BEST explains a benefit of independence of testing?",
+      "a) The use of an independent test team allows project management to assign responsibility for the quality of the final deliverable to the test team\n\nb) If a test team external to the organization can be afforded, then there are distinct benefits in terms of this external team not being so easily swayed by the delivery concerns of project management and the need to meet strict delivery deadlines\n\nc) An independent test team can work separately from the developers, need not be distracted with project requirement changes, and can restrict communication with the developers to\ndefect reporting through the defect management system\n\nd) When specifications contain ambiguities and inconsistencies, assumptions are made on their interpretation, and an independent tester can be useful in questioning those assumptions and the interpretation made by the developer"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answer": "d",
+    "explanation": "a) Quality should be the responsibility of everyone, not only for the test team\nb) External test teams missing delivery deadlines isn't beneficial\nc) Testing in complete isolation is a poor practice"
+  },
+  {
+    "question": "You are working as a tester in the team that follows the V-model. The choice of software development lifecycle (SDLC) model impacts the timing of testing, which of the following statement is NOT true?",
+    "options": [
+      "Dynamic testing can be performed early in the SDLC",
+      "Static testing can be performed early in the SDLC",
+      "Test planning can be performed early in the SDLC",
+      "Acceptance testing can be performed early in the SDLC"
+    ],
+    "answer": "a",
+    "explanation": "Acceptance testing can be performed when there is a working product. In sequential SDLC models the working product is usually delivered late in the SDLC"
+  },
+  {
+    "messages": [
+      "Which of the following are advantages of DevOps?",
+      "i. Faster product release and faster time to market\n\nii. Increases the need for repetitive manual testing\n\niii. Constant availability of executable software\n\niv. Reduction in the number of regression tests associated with code refactoring\n\nv. Setting up the test automation framework is inexpensive since everything is automated"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "i, ii, iv are advantages",
+      "iii, v are advantages",
+      "i, iii are advantages",
+      "ii, iv, v are advantages"
+    ],
+    "answer": "c",
+    "explanation": "iv. Is false. More regression tests are needed.\nv. Is false. Not everything is automated and setting up a test automation framework is expensive."
+  },
+  {
+    "messages": [
+      "You work as a tester in a project on a mobile application for food ordering for one of your clients.\nThe client sent you a list of requirements. One of them, with high priority, says:\n\n\n___“The order must be processed in less than 10 seconds in 95% of the cases.”___\n\n\nYou created a set of test cases in which a number of random orders were made, the processing time measured, and the test results were checked against the requirements."
+    ],
+    "question": "What test type did you perform?",
+    "options": [
+      "Functional, because the test cases cover the user’s business requirement for the system",
+      "Non-functional, because the measure the system’s performance",
+      "Functional, because the test cases interact with the user interface",
+      "Structural; we need to know the internal structure of the program to measure the order time"
+    ],
+    "answer": "b",
+    "explanation": "They focus on \"how\" the system operates, specifically regarding speed of order processing, rather than \"what\" it accomplishes.\nAnd there is no need to know the internal structure for such activity."
   }
 ]
