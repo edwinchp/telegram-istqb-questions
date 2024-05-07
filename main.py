@@ -91,7 +91,8 @@ def send_telegram_poll(token, chat_id):
     option_text = options[get_answer_index(answer)][:100]
 
     # Shuffle the options
-    random.shuffle(options)
+    if not options[0].startswith("a)"):
+        random.shuffle(options)
 
     # Update answer to the shuffled option index
     # And also trim all the options to 100 characters

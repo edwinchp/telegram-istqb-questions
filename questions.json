@@ -1841,10 +1841,10 @@
     ],
     "question": "Select ONE option:",
     "options": [
-      "a",
-      "b",
-      "c",
-      "d"
+      "a)",
+      "b)",
+      "c)",
+      "d)"
     ],
     "answer": "a",
     "explanation": "The basic concept behind error guessing is that the tester tries to guess what errors may have been made by the developer and what defects may be in the test object based on past experience."
@@ -1869,10 +1869,10 @@
     ],
     "question": "Select ONE option:",
     "options": [
-      "a",
-      "b",
-      "c",
-      "d"
+      "a)",
+      "b)",
+      "c)",
+      "d)"
     ],
     "answer": "b",
     "explanation": "This is the standard way to document acceptance criteria."
@@ -1898,10 +1898,10 @@
     ],
     "question": "Select ONE option:",
     "options": [
-      "a",
-      "b",
-      "c",
-      "d"
+      "a)",
+      "b)",
+      "c)",
+      "d)"
     ],
     "answer": "c",
     "explanation": "According to the syllabus, this is one of the ways testers add value to iteration and release planning"
@@ -2074,10 +2074,10 @@
     ],
     "question": "Select ONE option:",
     "options": [
-      "a",
-      "b",
-      "c",
-      "d"
+      "a)",
+      "b)",
+      "c)",
+      "d)"
     ],
     "answer": "d",
     "explanation": "Testing and quality assurance are not the same. Testing is the process consisting of all SDLC activities. Quality assurance is focused on introducing and adhering to the quality-related processes."
@@ -2120,10 +2120,10 @@
     ],
     "question": "Select ONE option:",
     "options": [
-      "a",
-      "b",
-      "c",
-      "d"
+      "a)",
+      "b)",
+      "c)",
+      "d)"
     ],
     "answer": "c",
     "explanation": "b) Traceability alone doesn't reveal the estimated residual risk if test cases aren't linked to risks.\nd) Selecting test data is primarily tied to test analysis, rather than traceability."
@@ -2135,10 +2135,10 @@
     ],
     "question": "Select ONE option:",
     "options": [
-      "a",
-      "b",
-      "c",
-      "d"
+      "a)",
+      "b)",
+      "c)",
+      "d)"
     ],
     "answer": "d",
     "explanation": "a) Quality should be the responsibility of everyone, not only for the test team\nb) External test teams missing delivery deadlines isn't beneficial\nc) Testing in complete isolation is a poor practice"
@@ -2221,5 +2221,128 @@
     ],
     "answer": "d",
     "explanation": "i. These behaviors are easily detectable while the software is running. Hence, dynamic testing shall be used to identify them.\niii. If the software is executed during the test, it is dynamic testing."
+  },
+  {
+    "question": "Which of the following statements about formal reviews is TRUE?",
+    "options": [
+      "Some reviews do not require more than one role",
+      "The review process has several activities",
+      "Documentation for review isn't distributed beforehand except for specific review types",
+      "Defects found during the review are not reported since they are not found by dynamic testing"
+    ],
+    "answer": "b",
+    "explanation": "All review types involve multiple roles, even informal ones.\nDistributing documentation for review as early as possible is crucial.\nAny defects identified during the review should be reported."
+  },
+  {
+    "question": "What task may management take on during a formal review?",
+    "options": [
+      "a) Taking overall responsibility for the review",
+      "b) Deciding what is to be reviewed",
+      "c) Ensuring the effective running of review meetings, and mediating, if necessary",
+      "d) Recording review information such as review decisions"
+    ],
+    "answer": "b",
+    "explanation": "a) This is the task of the review leader.\nc) This is the task of the moderator.\nd) This is the task of the scribe."
+  },
+  {
+    "messages": [
+      "A wine storage system uses a control device that measures the wine cell temperature T (measured in °C, rounded to the nearest degree) and alarms the user if it deviates from the optimal value of 12, according to the following rules:\n\n\n• if T = 12, the system says, “optimal temperature”\n• if T < 12, the system says, “temperature is too low!”\n• if T > 12, the system says, “temperature is too high!”\n\n\nYou want to use the 3-point boundary value analysis (BVA) to verify the behavior of the control device. A test input is a temperature in °C provided by the device."
+    ],
+    "question": "What is the MINIMAL set of test inputs that achieves 100% of the desired coverage?",
+    "options": [
+      "11, 12, 13",
+      "10, 12, 14",
+      "10, 11, 12, 13, 14",
+      "10, 11, 13, 14"
+    ],
+    "answer": "c",
+    "explanation": "Three equivalence partitions: {10, 11} {12} {13, 14}\nBoundary values: 11, 12, 13\nIn three-point boundary value analysis testing includes each boundary and its neighbors: 10, 11, 12, 13, 14"
+  },
+  {
+    "messages": [
+      "Which of the following statements about branch testing is CORRECT?\n\n\na) If a program includes only unconditional branches, then 100% branch coverage can be achieved without executing any test cases\n\nb) If the test cases exercise all unconditional branches in the code, then 100% branch coverage is achieved\n\nc) If 100% statement coverage is achieved, then 100% branch coverage is also achieved\n\nd) If 100% branch coverage is achieved, then all decision outcomes in each decision statement in the code are exercised"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)"
+    ],
+    "answer": "d",
+    "explanation": "a) Is incorrect. Still one test case is needed since there is at least one (unconditional) branch to be covered\nc) Is wrong. 100% branch coverage implies 100% statement coverage, not otherwise."
+  },
+  {
+    "messages": [
+      "You are testing a mobile application that allows customers to access and manage their bank accounts. You are running a test suite that involves evaluating each screen, and each field on each screen, against a general list of user interface best practices derived from a popular book on the topic that maximizes attractiveness, ease-of-use, and accessibility for such applications. Which of the following options BEST categorizes the test technique you are using?"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "Black-box",
+      "Exploratory",
+      "Checklist-based",
+      "Error guessing"
+    ],
+    "answer": "c",
+    "explanation": "The list of user interface best practices is the list of test conditions to be systematically checked."
+  },
+  {
+    "messages": [
+      "Which of the following BEST describe the collaborative approach to user story writing?\n\n\na) User stories are created by testers and developers and then accepted by business representatives\n\nb) User stories are created by business representatives, developers, and testers together\n\nc) User stories are created by business representatives and verified by developers and testers\n\nd) User stories are created in a way that they are independent, negotiable, valuable, estimable, small, and testable"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)"
+    ],
+    "answer": "b",
+    "explanation": "Collaborative user story writing means that all stakeholders create the user stories collaboratively, to obtain the shared vision."
+  },
+  {
+    "messages": [
+      "Consider the following part of a test plan.\n\n___Testing will be performed using component testing and component integration testing.\nThe regulations require to demonstrate that 100% branch coverage is achieved for each component classified as critical.___\n\nWhich part of the test plan does this part belong to?"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "Communication",
+      "Risk register",
+      "Context of testing",
+      "Test approach"
+    ],
+    "answer": "d",
+    "explanation": "The paragraph contains information on test levels and exit criteria, which are part of the test approach."
+  },
+  {
+    "messages": [
+      "Your team uses planning poker to estimate the test effort for a newly required feature. There is a rule in your team that if there is no time to reach full agreement and the variation in the results is small, applying rules like “accept the number with the most votes” can be applied.\n\nAfter two rounds, the consensus was not reached, so the third round was initiated. You can see the test estimation results in the table below."
+    ],
+    "photos": [
+      "istqb1_A20.png"
+    ],
+    "question": "Which of the following is the BEST example of the next step?",
+    "options": [
+      "The product owner has to step in and make a final decision",
+      "Accept 13 as the final test estimate as this has most of the votes",
+      "No further action is needed. Consensus has been reached",
+      "Remove the new feature from the current release because consensus has not been reached"
+    ],
+    "answer": "b",
+    "explanation": "If test estimates are not the same, but the variation in the results is small, applying rules like “accept the number with the most votes” can be applied."
+  },
+  {
+    "messages": [
+      "Which of the following is NOT true regarding the test pyramid?\n\n\na) The test pyramid emphasizes having a larger number of tests at the lower test levels\n\nb) The closer to the top of the pyramid, the more formal your test automation should be\n\nc) Usually, component testing and component integration testing are automated using APIbased tools\n\nd) For system testing and acceptance testing, the automated tests are typically created using GUI-based tools"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)"
+    ],
+    "answer": "a",
+    "explanation": "a) Is wrong. The test pyramid emphasizes having a larger number of tests at the lower test levels.\nb) Is correct. It is not true that near the top of pyramid, test automation should be more formal."
   }
 ]
