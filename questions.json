@@ -1047,12 +1047,12 @@
     "question": "Select ONE option:",
     "options": [
       "0, 1000, 2000, 2973, 4000",
-      "1000, 1001, 1999, 2001, 6000",
+      "1000, 1001, 1999, 2000, 6000",
       "298, 2345, 3456, 4567, 5678",
-      "598, 999, 2222, 5555, 6219"
+      "598, 978, 2352, 5136, 6219"
     ],
     "answer": "d",
-    "explanation": "It covers 4 of 5 partitions:\n598 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5)"
+    "explanation": "It covers 4 of 5 partitions:\n598 (1), 978 (1), 2352 (3), 5136 (4), 6219 (5)"
   },
   {
     "messages": [
@@ -1939,5 +1939,67 @@
     ],
     "answer": "d",
     "explanation": "In the three-point estimation technique E = (optimistic + 4*most likely + pessimistic)/6,\nE = (2+(4*11)+14)/6 = 10."
+  },
+  {
+    "messages": [
+      "You are testing a mobile application that allows users to find a nearby restaurant based on the type of food they want to eat.\n\nConsider the following list of test cases, priorities (i.e., a smaller number means a higher priority), and dependencies:"
+    ],
+    "photos": [
+      "istqb1_33.png"
+    ],
+    "question": "Which of the following test cases should be executed as the third one?",
+    "options": [
+      "TC 003",
+      "TC 005",
+      "TC 002",
+      "TC 001"
+    ],
+    "answer": "a",
+    "explanation": "Test TC 001 must come first, followed by TC 002, to satisfy dependencies. Afterwards, TC 003 to satisfy priority and then TC 004, followed by TC 005."
+  },
+  {
+    "messages": [
+      "Consider the following test categories (1-4) and agile testing quadrants (A-D):"
+    ],
+    "photos": [
+      "istqb1_34.png"
+    ],
+    "question": "How do the following test categories map onto the agile testing quadrants?",
+    "options": [
+      "1C, 2A, 3B, 4D",
+      "1D, 2A, 3C, 4B",
+      "1C, 2B, 3D, 4A",
+      "1D, 2B, 3C, 4A"
+    ],
+    "answer": "a",
+    "explanation": "Usability testing is in Q3. Component testing is in Q1. Functional testing is in Q2. Reliability testing is in Q4."
+  },
+  {
+    "messages": [
+      "During a risk analysis the following risk was identified and assessed:"
+    ],
+    "photos": [
+      "istqb1_35.png"
+    ],
+    "question": "",
+    "options": [
+      "Risk acceptance",
+      "Contingency plan",
+      "Risk mitigation",
+      "Risk transfer"
+    ],
+    "answer": "c",
+    "explanation": "The proposed actions are related to testing, which is a form of risk mitigation."
+  },
+  {
+    "question": "Which work product can be used by an agile team to show the amount of work that has been completed and the amount of total work remaining for a given iteration?",
+    "options": [
+      "Acceptance criteria",
+      "Defect report",
+      "Test completion report",
+      "Burndown char"
+    ],
+    "answer": "d",
+    "explanation": "Burndown charts are a graphical representation of work left to do versus time remaining. They are updated daily, so they can continuously show the work progress."
   }
 ]
