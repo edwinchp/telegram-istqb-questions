@@ -2182,5 +2182,44 @@
     ],
     "answer": "b",
     "explanation": "They focus on \"how\" the system operates, specifically regarding speed of order processing, rather than \"what\" it accomplishes.\nAnd there is no need to know the internal structure for such activity."
+  },
+  {
+    "question": "Your organization’s test strategy suggests that once a system is going to be retired, data migration shall be tested.\nAs part of what test type is this testing MOST likely to be performed?",
+    "options": [
+      "Maintenance testing",
+      "Regression testing",
+      "Component testing",
+      "Integration testing"
+    ],
+    "answer": "a",
+    "explanation": "When a system is retired, this can require testing of data migration, which is a form of maintenance testing."
+  },
+  {
+    "messages": [
+      "The following is a list of the work products produced in the SDLC.\n\ni. Business requirements\nii. Schedule\niii. Test budget\niv. Third-party executable code\nv. User stories and their acceptance criteria"
+    ],
+    "question": "Which of them can be reviewed?",
+    "options": [
+      "i and iv can be reviewed",
+      "i, ii, iii and iv can be reviewed",
+      "i, ii, iii, and v can be reviewed",
+      "iii, iv, v can be reviewed"
+    ],
+    "answer": "c",
+    "explanation": "Only third-party executable code cannot be reviewed."
+  },
+  {
+    "messages": [
+      "Decide which of the following statements (i-v) are true for static testing.\n\ni. Abnormal external behaviors are easier to identify with this testing\nii. Discrepancies from a coding standard are easier to find with this testing\niii. It identifies failures caused by defects when the software is run\niv. Its test objective is to identify defects as early as possible\nv. Missing coverage for critical security requirements is easier to find and fix"
+    ],
+    "question": "Select ONE option:",
+    "options": [
+      "i, iv, v are true for static testing",
+      "i, iii, iv are true for static testing",
+      "ii, iii are true for static testing",
+      "ii, iv, v are true for static testing"
+    ],
+    "answer": "d",
+    "explanation": "i. These behaviors are easily detectable while the software is running. Hence, dynamic testing shall be used to identify them.\niii. If the software is executed during the test, it is dynamic testing."
   }
 ]
