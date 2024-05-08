@@ -1326,6 +1326,11 @@
   },
   {
     "question": "Which of these statements best describes the testing quadrant Q1 (technology facing, support the team)?",
+    "picture": {
+      "filename": "istqb_testing_quadrants.png",
+      "has_spoiler": "true",
+      "caption": "First answer the question."
+    },
     "options": [
       "It contains component tests. Tests should be automated and included in the CI process.",
       "It contains functional tests, user story tests, user experience prototypes and API testing.",
@@ -1370,6 +1375,11 @@
   },
   {
     "question": "Which of the following sentences is most TRUE about the Test Pyramid model?",
+    "picture": {
+      "filename": "istqb_test_pyramid.png",
+      "has_spoiler": "true",
+      "caption": "First answer the question."
+    },
     "options": [
       "The higher layer, lower granularity. Bottom layer: small, isolated, fast tests.",
       "The higher layer, higher granularity. Bottom layer: large, isolated, slow tests.",
@@ -1659,7 +1669,7 @@
   },
   {
     "messages": [
-      "Which types of failures (1-4) fit which test levels (A-D) BEST?\n1. Failures in system behavior\n2. Failures in communication between components\n3. Failures in logic in a module\n4. Failures in not implemented business rules\nA. Component testing\nB. Component integration testing\nC. System testing\nD. Acceptance testing"
+      "Which types of failures (1-4) fit which test levels (A-D) BEST?\n\n\n1. Failures in system behavior\n2. Failures in communication between components\n3. Failures in logic in a module\n4. Failures in not implemented business rules\n\nA. Component testing\nB. Component integration testing\nC. System testing\nD. Acceptance testing"
     ],
     "question": "Select your answer:",
     "options": [
@@ -1669,7 +1679,7 @@
       "1C, 2B, 3A, 4D"
     ],
     "answer": "a",
-    "explanation": "Component communication is tested during component integration testing (2B). Failures in logic can be found during component testing (3A).\nBusiness rules are the test basis for system testing (4C)."
+    "explanation": "2B. Component communication is tested during component integration testing.\n3A. Failures in logic can be found during component testing.\n4C. Business rules are the test basis for system testing."
   },
   {
     "messages": [
@@ -1748,9 +1758,7 @@
   },
   {
     "messages": [
-      "You are testing a simplified apartment search form which has only two search criteria:\n\n• floor (with three possible options: ground floor; first floor; second or higher floor)\n\n• garden type (with three possible options: no garden; small garden; large garden)",
-      "Only apartments on the ground floor have gardens. The form has a built-in validation mechanism that will not allow you to use the search criteria which violate this rule.",
-      "Each test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each garden type in your tests."
+      "You are testing a simplified apartment search form which has only two search criteria:\n\n• floor (with three possible options: ground floor; first floor; second or higher floor)\n• garden type (with three possible options: no garden; small garden; large garden)\n\nOnly apartments on the ground floor have gardens. The form has a built-in validation mechanism that will not allow you to use the search criteria which violate this rule.\nEach test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each garden type in your tests."
     ],
     "question": "What is the minimal number of test cases to achieve 100% EP coverage?",
     "options": [
@@ -1760,7 +1768,7 @@
       "6"
     ],
     "answer": "b",
-    "explanation": "”Small garden” and “large garden” can go only with “ground floor”, so 2 test cases with “ground floor” which cover these 2 “garden type” partitions. 2 more test cases to cover “floor” and ”no garden”."
+    "explanation": "To achieve 100% test cases must exercise ALL partitions:\n\n*TC1 (ground floor, small garden) *TC2 (ground floor, large garden) *TC3 (first floor, no garden) *TC4 (second or higher floor, no garden)"
   },
   {
     "messages": [
@@ -2335,6 +2343,11 @@
     "messages": [
       "Which of the following is NOT true regarding the test pyramid?\n\n\na) The test pyramid emphasizes having a larger number of tests at the lower test levels\n\nb) The closer to the top of the pyramid, the more formal your test automation should be\n\nc) Usually, component testing and component integration testing are automated using APIbased tools\n\nd) For system testing and acceptance testing, the automated tests are typically created using GUI-based tools"
     ],
+    "picture": {
+      "filename": "istqb_test_pyramid.png",
+      "has_spoiler": "true",
+      "caption": "First answer the question."
+    },
     "question": "Select ONE option:",
     "options": [
       "a)",

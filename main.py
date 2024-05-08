@@ -127,16 +127,15 @@ def send_telegram_poll(token, chat_id):
         raise Exception(f'Error sending poll: {response.status_code} - {response.text} - {question}')
 
 
-def send_photo(token, chat_id, picture_path):
-    url = f"https://api.telegram.org/bot{token}/sendPhoto"
-    files = {'photo': open(picture_path, 'rb')}
-    params = {'chat_id': chat_id}
+def send_photo(filename, params):
+    url = f"https://api.telegram.org/bot{bot_token}/sendPhoto"
+    files = {'photo': open('photos/' + filename, 'rb')}
     response = requests.post(url, files=files, data=params)
 
     if response.status_code == 200:
         print('Photo sent successfully!')
     else:
-        raise Exception(f'Error sending photo: {response.status_code} - {response.text} - {picture_path}')
+        raise Exception(f'Error sending photo: {response.status_code} - {response.text} - {filename}')
 
 
 # Send all messages if any
@@ -147,7 +146,14 @@ if 'messages' in random_question:
 # Send all photos if any
 if 'photos' in random_question:
     for photo in random_question["photos"]:
-        send_photo(bot_token, target_chat_id, f"photos/{photo}")
+        send_photo(photo, {'chat_id': target_chat_id})
+
+# Send picture if any
+if 'picture' in random_question:
+    filename = random_question["picture"]["filename"]
+    has_spoiler = random_question["picture"]["has_spoiler"]
+    caption = random_question["picture"]["caption"]
+    send_photo(filename, {'chat_id': target_chat_id, "has_spoiler": has_spoiler, "caption": caption})
 
 # Send the poll
 send_telegram_poll(bot_token, target_chat_id)
