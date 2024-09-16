@@ -5,20 +5,37 @@ I believe that taking notes is important when you want to retain information, bu
 
 
 ## 🚀 Getting Started:
-Clone the repository
-`git clone https://github.com/edwinchp/telegram-poll-sender`
-
-Enter project folder using `cd telegram-poll-sender/`
-
 Create a bot in Telegram using BotFather.
 
-Create a setup.json file and add your token and chat_id there. (See setup-example.json)
+Create a Telegram Channel or Group.
 
-Run the script using `python3 main.py`.
+Clone the repository:
+```bash
+git clone https://github.com/edwinchp/telegram-poll-sender
+```
+
+Enter project folder using:
+```bash
+cd telegram-poll-sender/
+```
+
+Create a .env file and add bot token and channel/group chat id:
+```bash
+cp .env-example .env
+```
+
+Install requirements:
+```bash
+python -m pip install -r requirements.txt
+```
+
+Run script:
+```bash
+python main.py
+```
 
 
-## 📝 Usage:
-Create a new Telegram channel or group and add the bot you created there.
+## 📝 Jenkins usage:
 
 Create a Jenkins job that runs automatically.
 
