@@ -31,7 +31,7 @@ if not bot_token or not target_chat_id:
     raise Exception("Please add your environment variables on .env file")
 
 # Read the questions and answers from the JSON file
-with open('questions.json', encoding="utf8") as f:
+with open('data/questions.json', encoding="utf8") as f:
     questions = json.load(f)
 
 # Generate a unique seed value based on current time
