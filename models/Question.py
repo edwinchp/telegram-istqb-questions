@@ -1,6 +1,3 @@
-import json
-
-
 class Question:
     def __init__(self):
         self.id = None

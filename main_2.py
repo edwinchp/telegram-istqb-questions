@@ -6,7 +6,7 @@ import re
 from dotenv import load_dotenv
 
 from services.TelegramService import TelegramService
-from utils.Question import Question
+from models.Question import Question
 
 # Load environment variables from .env file
 load_dotenv()
