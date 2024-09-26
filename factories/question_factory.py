@@ -29,6 +29,10 @@ class QuestionFactory:
         question.correct_option_id = QuestionFactory.get_answer_index(question.answer)
         question.explanation = data["explanation"]
         question.question = data["question"]
+        if 'messages' in data:
+            question.messages = data["messages"]
+        if 'photos' in data:
+            question.photos = data['photos']
         return question
 
     @staticmethod
