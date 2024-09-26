@@ -16,7 +16,7 @@ class TelegramService:
             'is_anonymous': True,
             'allows_multiple_answers': False,
             'type': 'quiz',
-            'correct_option_id': question.answer,
+            'correct_option_id': question.correct_option_id,
             'explanation': question.explanation,
         }
 

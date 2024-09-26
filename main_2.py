@@ -5,8 +5,10 @@ import time
 import re
 from dotenv import load_dotenv
 
+from factories.data_factory import DataFactory
+from factories.question_factory import QuestionFactory
 from services.TelegramService import TelegramService
-from models.Question import Question
+from models.question import Question
 
 # Load environment variables from .env file
 load_dotenv()
@@ -31,7 +33,7 @@ if not BOT_TOKEN or not CHAT_ID:
     raise Exception("Please add your environment variables on .env file")
 
 # Read the questions and answers from the JSON file
-with open('data/questions.json', encoding="utf8") as f:
+with open('data/data.json', encoding="utf8") as f:
     questions = json.load(f)
 
 # Generate a unique seed value based on current time
@@ -43,7 +45,7 @@ time.sleep(2)
 # Set the seed value
 random.seed(seed_value)
 
-# Get a random question object from the questions.json file
+# Get a random question object from the data.json file
 random_question = random.choice(questions)
 
 
@@ -64,35 +66,9 @@ def find_key_by_value(dictionary, index):
 
 def main():
     telegram_service = TelegramService(BOT_TOKEN)
-    # Get original information before shuffling and trimming
-    question_text = random_question["question"][:300]
-    options = random_question["options"]
-    answer = random_question["answer"]
-    explanation = random_question["explanation"][:200]
 
-    question = Question()
-    question.id = random_question["id"]
-    question.options = options
-    question.answer = answer
-    question.explanation = explanation
-    question.question = question_text
-
-
-    # Get the correct option text at the moment based on the original answer
-    option_text = options[get_answer_index(answer)][:100]
-
-    # Shuffle the options
-    random.shuffle(options)
-
-    # Update answer to the shuffled option index
-    # And also trim all the options to 100 characters
-    for i in range(len(options)):
-        options[i] = options[i][:100]
-        if options[i] == option_text:
-            answer = find_key_by_value(answer_index, i)
-
-    # Parse the options into a JSON object
-    options_json = json.dumps(options)
+    data = DataFactory.get_data_by_position(0)
+    question = QuestionFactory.create_question(data)
 
     telegram_service.send_poll(CHAT_ID, question)
 

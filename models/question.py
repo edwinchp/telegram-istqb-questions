@@ -7,6 +7,7 @@ class Question:
         self.options = []
         self.answer = None
         self.explanation = None
+        self.correct_option_id = None
 
     def serialize(self):
         if isinstance(self, Question):
@@ -20,4 +21,3 @@ class Question:
                 "explanation": self.explanation
             }
         raise TypeError("Object of type {} is not json serializable".format(type(self)))
-
