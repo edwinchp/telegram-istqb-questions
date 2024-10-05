@@ -17,3 +17,8 @@ class DataFactory:
     def get_data_by_position(position):
         data = JsonReader.get_results('data/data.json')
         return data[position]
+
+    @staticmethod
+    def get_all_data():
+        data = JsonReader.get_results('data/data.json')
+        return data

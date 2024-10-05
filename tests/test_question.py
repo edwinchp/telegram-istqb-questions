@@ -12,4 +12,3 @@ def sample_question():
 class TestQuestion:
     def test_question_has_id(self, sample_question):
         assert sample_question is not None
-
