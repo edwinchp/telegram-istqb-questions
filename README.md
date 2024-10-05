@@ -19,14 +19,14 @@ Enter project folder using:
 cd telegram-poll-sender/
 ```
 
-Create a .env file and add bot token and channel/group chat id:
-```bash
-cp .env-example .env
-```
-
 Install requirements:
 ```bash
 python -m pip install -r requirements.txt
+```
+
+Create a .env file and add bot token and channel/group chat id:
+```bash
+cp .env-example .env
 ```
 
 Run script:
@@ -35,34 +35,14 @@ python main.py
 ```
 
 
-## 📝 Jenkins usage:
+## 🧪 Run tests
 
-Create a Jenkins job that runs automatically.
-
-Schedule example (10:00AM and 7:00PM):
+Testing is crucial as you go adding more and more new questions.
+To make sure you didn't break anything, run this command:
 
 ```bash
-0 10,19 * * *
+pytest -s --html=reports/test_report.html
 ```
-
-Pipeline script example:
-```bash
-pipeline {
-    agent any
-
-    stages {
-        stage('Clone and pull') {
-            steps {
-                git branch: 'istqb-ctfl', url: 'https://github.com/edwinchp/telegram-poll-sender.git'
-                sh 'python3.8 main.py'
-                sh 'python3.8 main.py'
-                sh 'python3.8 main.py'
-            }
-        }
-    }
-}
-```
-
 
 
 👏 Thank you! I hope you find it useful.

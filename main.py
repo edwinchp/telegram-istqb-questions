@@ -1,6 +1,6 @@
 from factories.data_factory import DataFactory
 from factories.question_factory import QuestionFactory
-from services.TelegramService import TelegramService
+from services.telegram_service import TelegramService
 from utils.environment_loader import EnvironmentLoader
 
 def main():

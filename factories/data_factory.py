@@ -22,3 +22,11 @@ class DataFactory:
     def get_all_data():
         data = JsonReader.get_results('data/data.json')
         return data
+
+    @staticmethod
+    def get_data_by_id(data_id):
+        data = JsonReader.get_results('data/data.json')
+        for single_data in data:
+            if single_data['id'] == data_id:
+                return single_data
+        raise Exception(f'Data with id {data_id} does not exist')

@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "question": "What is the capital city of Japan?",
     "options": [
       "Osaka",
@@ -12,7 +12,7 @@
     "explanation": ""
   },
   {
-    "id": "2",
+    "id": 2,
     "question": "Who invented the telephone?",
     "options": [
       "Thomas Edison",
@@ -24,7 +24,7 @@
     "explanation": "Alexander Graham Bell invented the telephone in 1876."
   },
   {
-    "id": "3",
+    "id": 3,
     "question": "Which country is the largest producer of coffee in the world?",
     "options": [
       "Colombia",
@@ -36,7 +36,7 @@
     "explanation": "Brazil is the largest producer of coffee in the world."
   },
   {
-    "id": "4",
+    "id": 4,
     "question": "Who painted the Mona Lisa?",
     "options": [
       "Vincent van Gogh",
@@ -48,7 +48,7 @@
     "explanation": "Leonardo da Vinci painted the Mona Lisa."
   },
   {
-    "id": "5",
+    "id": 5,
     "messages": [
       "The reddish color of its surface is due to finely grained iron(III) oxide dust in the soil, giving it the nickname _\"the Red Planet\"_. It has a second smallest radius among the planets in the Solar System at 3,389.5 km (2,106 mi) and has a surface gravity of 3.72 m/s2 (12.2 ft/s2), which is 38% of Earth's gravity.\nOf all the planets in the Solar System, the seasons are the most Earth-like, due to the similar tilts of the two planets' rotational axes."
     ],
@@ -63,13 +63,13 @@
     "explanation": "Mars is known as the 'Red Planet' due to its reddish appearance in the night sky."
   },
   {
-    "id": "6",
+    "id": 6,
     "messages": [
       "It is a country in the southern portion of *North America*. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea.",
       "Here is a picture of its flag:"
     ],
     "photos": [
-      "México.webp"
+      "https://iili.io/dm2pMMP.webp"
     ],
     "question": "Which country is the text above referring to?",
     "options": [

@@ -45,9 +45,8 @@ class TelegramService:
     def send_photo(self, chat_id, photo_path):
         url = f"https://api.telegram.org/bot{self.bot_token}/sendPhoto"
 
-        files = {'photo': open('photos/' + photo_path, 'rb')}
-        payload = {'chat_id': chat_id}
-        response = requests.post(url, files=files, data=payload)
+        payload = {'chat_id': chat_id, 'photo': photo_path}
+        response = requests.post(url, data=payload)
 
         if response.status_code != 200:
             raise Exception(f'Error sending photo: {response.status_code} - {response.text} - {photo_path}')
